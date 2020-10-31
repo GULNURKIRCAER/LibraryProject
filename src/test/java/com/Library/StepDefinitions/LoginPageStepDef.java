@@ -10,7 +10,7 @@ import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.junit.Ignore;
 
-public class LoginStepDefs {
+public class LoginPageStepDef {
     @Given("the user is on the login page")
     public void the_user_is_on_the_login_page() throws InterruptedException {
 
