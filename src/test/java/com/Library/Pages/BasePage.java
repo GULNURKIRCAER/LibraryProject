@@ -15,24 +15,22 @@ import java.util.List;
 
 public abstract class BasePage {
 
-    @FindBy(css = "span.title-level-1")
+    @FindBy(xpath = "//span[@class='title']")
     public List<WebElement> menuOptions;
 
     @FindBy(css = "div[class='loader-mask shown']")
     @CacheLookup
     protected WebElement loaderMask;
 
-    @FindBy(css = "h1[class='oro-subtitle']")
+    @FindBy(xpath = "//div[@class='portlet-title']")
     public WebElement pageSubTitle;
 
-    @FindBy(css = "#user-menu > a")
+    @FindBy(id = "navbarDropdown")
     public WebElement userName;
 
-    @FindBy(linkText = "Logout")
+    @FindBy(linkText = "Log out")
     public WebElement logOutLink;
 
-    @FindBy(linkText = "My User")
-    public WebElement myUser;
 
     public BasePage() {
         PageFactory.initElements(Driver.get(), this);
@@ -77,12 +75,6 @@ public abstract class BasePage {
         BrowserUtils.waitFor(2);
         BrowserUtils.clickWithJS(userName);
         BrowserUtils.clickWithJS(logOutLink);
-    }
-    public void goToMyUser(){
-        waitUntilLoaderScreenDisappear();
-        BrowserUtils.waitForClickablility(userName, 5).click();
-        BrowserUtils.waitForClickablility(myUser, 5).click();
-
     }
 
     /**
