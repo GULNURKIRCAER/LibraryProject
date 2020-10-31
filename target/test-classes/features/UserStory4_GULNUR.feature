@@ -7,7 +7,7 @@
 
 Feature: A librarian should be able to add users from users page.
   @login
-  Background:
+  Scenario:A librarian should be able to add users with all valid info.
     Given the user is on the login page
     When  the user enters the "Librarian" information
     Then  the Library page should be displayed
@@ -18,17 +18,17 @@ Feature: A librarian should be able to add users from users page.
 #    When  the user clicks on "Users" module on the Dashboard page
 #    Then  the Users page should be displayed
 #
-Scenario:A librarian should be able to add users with all valid info.
+#Scenario:A librarian should be able to add users with all valid info.
 #    When  the user clicks on "Add User" module on the Dashboard page
 #    And   creates User using following information
-#      |Full Name |XYZ Student|
-#      |Password  |xyzABC     |
-#      |Email     |xyzABC@yahoo.com                               |
-#      |User Group|Students                          |
-#      |Status    |Active                                       |
-#      |Start Date|2020-11-01|
-#      |End Date  |2020-11-29|
-#      |Address   |100 November Road,Liverpool,England,L62SH       |
+#      |Full Name |XYZ Student                              |
+#      |Password  |xyzABC                                   |
+#      |Email     |xyzABC@yahoo.com                         |
+#      |User Group|Students                                 |
+#      |Status    |Active                                   |
+#      |Start Date|2020-11-01                               |
+#      |End Date  |2020-11-29                               |
+#      |Address   |100 November Road,Liverpool,England,L62SH|
 #
 #    Then  message The user has been created. should be displayed
 #
