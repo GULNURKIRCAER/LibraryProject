@@ -10,6 +10,7 @@ import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 
 public class LoginPageStepDef {
 
@@ -20,16 +21,19 @@ public class LoginPageStepDef {
 
     }
     @When("the user enters the Librarian information")
-    public void the_user_enters_the_Librarian_information()  {
+    public void the_user_enters_the_Librarian_information() {
 
         String username = ConfigurationReader.get("library_username");
         String password = ConfigurationReader.get("library_password");
 
         LoginPage loginPage = new LoginPage();
+        loginPage.inputEmail.sendKeys(username);
+        loginPage.password.sendKeys(password + Keys.ENTER);
 
-        loginPage.login(username,password);
+        BrowserUtils.waitFor(1);
 
     }
+
     @Then("the Library page should be displayed")
     public void the_Library_page_should_be_displayed() {
 
@@ -60,18 +64,18 @@ public class LoginPageStepDef {
     @When("the user enters the {string} information")
     public void the_user_enters_the_information(String userType) {
 
-        Driver.get().get(ConfigurationReader.get("url"));
-
-        switch (userType.toLowerCase()){
-            case "Librarian":
-                the_user_enters_the_Librarian_information();
-                break;
-            case "Student":
-                the_user_enters_the_Student_information();
-                break;
-            default:
-                System.out.println("There is not any user in system such as "+userType);
-
+        String userName=null;
+        String password=null;
+        if (userType.equals("Student")){
+            userName = ConfigurationReader.get("student1_username");
+            password = ConfigurationReader.get("student1_password");
+        } else {
+            userName = ConfigurationReader.get("library_username");
+            password = ConfigurationReader.get("library_password");
         }
+        LoginPage loginPage = new LoginPage();
+        loginPage.inputEmail.sendKeys(userName);
+        loginPage.password.sendKeys(password + Keys.ENTER);
+        BrowserUtils.waitFor(1);
     }
 }
