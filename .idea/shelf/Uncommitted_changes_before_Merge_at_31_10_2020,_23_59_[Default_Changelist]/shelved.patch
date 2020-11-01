@@ -1,0 +1,16 @@
+Index: src/test/resources/features/UserStory6_MUSTAFA.feature
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\nAs a students, I should be able to see tables with default info\n\n\n#Scenario: Table columns names\n#Then table should have following column names:\n#| Actions     |\n#| ISBN        |\n#| Name       |\n#| Author      |\n#| Category  |\n#|Year          |\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/test/resources/features/UserStory6_MUSTAFA.feature	(revision 8ff9e01ac488b84080c9abf7924b2a2b7cf72a5b)
++++ src/test/resources/features/UserStory6_MUSTAFA.feature	(date 1604188785862)
+@@ -1,5 +1,5 @@
+ 
+-As a students, I should be able to see tables with default info
++#As a students, I should be able to see tables with default info
+ 
+ 
+ #Scenario: Table columns names

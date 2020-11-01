@@ -16,18 +16,19 @@ public class LoginPageStepDef {
     @Given("the user is on the login page")
     public void the_user_is_on_the_login_page() {
 
-        String url = ConfigurationReader.get("url");
-
-        Driver.get().get(url);
+        Driver.get().get(ConfigurationReader.get("url"));
 
     }
     @When("the user enters the Librarian information")
     public void the_user_enters_the_Librarian_information()  {
 
-        Driver.get().findElement(By.xpath("//label[@for='inputEmail']")).sendKeys("librarian22@library");
-        Driver.get().findElement(By.xpath("//label[@for='inputPassword']")).sendKeys("bJRnAAyp");
+        String username = ConfigurationReader.get("library_username");
+        String password = ConfigurationReader.get("library_password");
 
-        Driver.get().findElement(By.name("submit")).click();
+        LoginPage loginPage = new LoginPage();
+
+        loginPage.login(username,password);
+
     }
     @Then("the Library page should be displayed")
     public void the_Library_page_should_be_displayed() {
