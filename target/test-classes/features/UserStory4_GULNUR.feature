@@ -17,11 +17,11 @@ Feature: A librarian should be able to add users from users page.
       |Users|
       |Books|
       |Borrowed Books|
-    When  the user clicks on "Users" module on the Library page
+    When  the user clicks on "Users" module on the Dashboard page
     Then  the Users page should be displayed
 
   Scenario:A librarian should be able to add users with all valid info.
-    When  the user clicks on "Add User" module on the User page
+    When  the user clicks on "Add User" module on the Dashboard page
     And   creates User using following information
       |Full Name |XYZ Student                              |
       |Password  |xyzABC                                   |
@@ -35,7 +35,7 @@ Feature: A librarian should be able to add users from users page.
     Then  message The user has been created. should be displayed
 
   Scenario:A librarian should be able to close the add user window with "close" button
-    When  the user clicks on "Add User" module on the User page
+    When  the user clicks on "Add User" module on the Dashboard page
     And   the user should be able to close the add user window with "close" button
 
   Scenario:A librarian should be able to edit user info
