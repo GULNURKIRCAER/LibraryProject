@@ -19,12 +19,21 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f2e034f-0ff2-4c76-96c8-7f1769a271a7" name="Default Changelist" comment="new Proje">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Library/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Library/Pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/LoginPageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/LoginPageStepDef.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/UserStory4_GULNUR.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UserStory4_GULNUR.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/UserStory6_MUSTAFA.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/UserStory6_MUSTAFA.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +48,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -87,6 +101,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="JUnit.CukesRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +152,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604188304689</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="new Proje">
+      <created>1604188521601</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604188521601</updated>
+    </task>
+    <task id="LOCAL-00007" summary="new Proje">
+      <created>1604188745398</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604188745398</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,7 +174,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -161,33 +205,37 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="494" y="308" key="Github.ShareDialog/0.0.1280.800@0.0.1280.800" timestamp="1604185452953" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1604185127864">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1604189412176">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1604185127864" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1604185127863">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1604189412176" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1604189412172">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1604185127863" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1604185127862">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1604189412172" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1604189412171">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1604185127862" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1604185127863">
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1604189412171" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1604189412174">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1604185127863" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1604189412174" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1604185164763">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1604185164763" />
-    <state x="240" y="127" key="Vcs.Push.Dialog.v2" timestamp="1604188306538">
+    <state x="240" y="127" key="Vcs.Push.Dialog.v2" timestamp="1604188748822">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="127" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1604188306538" />
+    <state x="240" y="127" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1604188748822" />
     <state x="339" y="163" width="602" height="474" key="find.popup" timestamp="1604183394410">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="339" y="163" width="602" height="474" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1604183394410" />
+    <state x="393" y="121" key="git4idea.branch.GitSmartOperationDialog" timestamp="1604188787850">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="393" y="121" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.800@0.0.1280.800" timestamp="1604188787850" />
   </component>
 </project>

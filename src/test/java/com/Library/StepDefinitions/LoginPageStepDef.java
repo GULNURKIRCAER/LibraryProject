@@ -9,10 +9,12 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.junit.Ignore;
+import org.openqa.selenium.By;
 
 public class LoginPageStepDef {
+
     @Given("the user is on the login page")
-    public void the_user_is_on_the_login_page() throws InterruptedException {
+    public void the_user_is_on_the_login_page() {
 
         String url = ConfigurationReader.get("url");
 
@@ -20,16 +22,15 @@ public class LoginPageStepDef {
 
     }
     @When("the user enters the Librarian information")
-    public void the_user_enters_the_Librarian_information() throws InterruptedException {
+    public void the_user_enters_the_Librarian_information()  {
 
-        String username = ConfigurationReader.get("library_username");
-        String password = ConfigurationReader.get("library_password");
+        Driver.get().findElement(By.xpath("//label[@for='inputEmail']")).sendKeys("librarian22@library");
+        Driver.get().findElement(By.xpath("//label[@for='inputPassword']")).sendKeys("bJRnAAyp");
 
-        LoginPage loginPage = new LoginPage();
-        loginPage.login(username,password);
+        Driver.get().findElement(By.name("submit")).click();
     }
     @Then("the Library page should be displayed")
-    public void the_Library_page_should_be_able_displayed() throws InterruptedException {
+    public void the_Library_page_should_be_displayed() {
 
         BrowserUtils.waitFor(3);
 
@@ -39,7 +40,7 @@ public class LoginPageStepDef {
 
     }
     @When("the user enters the Student information")
-    public void the_user_enters_the_Student_information() throws InterruptedException {
+    public void the_user_enters_the_Student_information()  {
 
         String username = ConfigurationReader.get("student1_username");
         String password = ConfigurationReader.get("student1_password");
@@ -55,11 +56,9 @@ public class LoginPageStepDef {
         loginPage.login(username,password);
 
     }
-
-
     @When("the user enters the {string} information")
-    public void the_user_enters_the_information(String userType) throws InterruptedException {
-        // Write code here that turns the phrase above into concrete actions
+    public void the_user_enters_the_information(String userType) {
+
         Driver.get().get(ConfigurationReader.get("url"));
 
         switch (userType.toLowerCase()){
