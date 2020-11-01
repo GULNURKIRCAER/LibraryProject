@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
                  "html:target/default-html-reports",
                 "rerun:target/rerun.txt"},
         features = "src/test/resources/features",
-        glue = "com/Library/step_definitions",
+        glue = "com/Library/StepDefinitions",
         dryRun = false,
         tags="@login"
 )
