@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3605252000,
+              "duration": 3073434000,
               "status": "passed"
             },
             "line": 11,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 1324523000,
+              "duration": 2349846000,
               "status": "passed"
             },
             "line": 12,
@@ -41,7 +41,7 @@
           },
           {
             "result": {
-              "duration": 3017290000,
+              "duration": 3012027000,
               "status": "passed"
             },
             "line": 13,
@@ -54,11 +54,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-01T01:46:12.567Z",
+        "start_timestamp": "2020-11-02T09:57:52.742Z",
         "before": [
           {
             "result": {
-              "duration": 1380000,
+              "duration": 1576000,
               "status": "passed"
             },
             "match": {
@@ -73,7 +73,7 @@
         "after": [
           {
             "result": {
-              "duration": 104750000,
+              "duration": 122161000,
               "status": "passed"
             },
             "match": {
@@ -115,7 +115,7 @@
               "status": "undefined"
             },
             "line": 20,
-            "name": "the user clicks on \"Users\" module on the Dashboard page",
+            "name": "the user clicks on \"Users\" module on the Library page",
             "match": {},
             "keyword": "When "
           },
@@ -144,7 +144,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2114022000,
+              "duration": 2005273000,
               "status": "passed"
             },
             "line": 11,
@@ -156,8 +156,9 @@
           },
           {
             "result": {
-              "duration": 1249097000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: window was already closed\n  (Session info: chrome\u003d86.0.4240.111)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Macbooks-MacBook-Pro.local\u0027, ip: \u0027fe80:0:0:0:18bb:8045:4316:f389%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.7\u0027, java.version: \u002712.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/rv/bcv8j7l94yq...}, goog:chromeOptions: {debuggerAddress: localhost:64046}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 917889c8b6b29e068f91ad250d7d4bc2\n*** Element info: {Using\u003did, value\u003dinputEmail}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy19.getAttribute(Unknown Source)\n\tat com.Library.StepDefinitions.LoginPageStepDef.the_user_enters_the_information(LoginPageStepDef.java:52)\n\tat ✽.the user enters the \"Librarian\" information(file:///Users/macbookpro/idealProjects/LibraryProject/src/test/resources/features/UserStory4_GULNUR.feature:12)\n",
+              "duration": 2277278000,
+              "status": "failed"
             },
             "line": 12,
             "name": "the user enters the \"Librarian\" information",
@@ -174,8 +175,8 @@
           },
           {
             "result": {
-              "duration": 3013162000,
-              "status": "passed"
+              "duration": 563000,
+              "status": "skipped"
             },
             "line": 13,
             "name": "the Library page should be displayed",
@@ -187,11 +188,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-01T01:46:20.740Z",
+        "start_timestamp": "2020-11-02T09:58:01.418Z",
         "before": [
           {
             "result": {
-              "duration": 87000,
+              "duration": 892000,
               "status": "passed"
             },
             "match": {
@@ -206,8 +207,9 @@
         "after": [
           {
             "result": {
-              "duration": 107627000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: window was already closed\n  (Session info: chrome\u003d86.0.4240.111)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Macbooks-MacBook-Pro.local\u0027, ip: \u0027fe80:0:0:0:18bb:8045:4316:f389%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.7\u0027, java.version: \u002712.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/rv/bcv8j7l94yq...}, goog:chromeOptions: {debuggerAddress: localhost:64046}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 917889c8b6b29e068f91ad250d7d4bc2\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\n\tat com.Library.StepDefinitions.Hooks.tearDown(Hooks.java:20)\n",
+              "duration": 6511000,
+              "status": "failed"
             },
             "match": {
               "location": "com.Library.StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -219,20 +221,32 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 848000,
+              "status": "skipped"
             },
             "line": 24,
-            "name": "the user clicks on \"Add User\" module on the Dashboard page",
-            "match": {},
+            "name": "the user clicks on \"Add User\" module on the User page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Add User\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.Library.StepDefinitions.UsersPageStepDef.the_user_clicks_on_module_on_the_Dashboard_page(java.lang.String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 924000,
+              "status": "skipped"
             },
             "line": 25,
             "name": "creates User using following information",
-            "match": {},
+            "match": {
+              "location": "com.Library.StepDefinitions.UsersPageStepDef.creates_User_using_following_information(io.cucumber.datatable.DataTable)"
+            },
             "rows": [
               {
                 "cells": [
@@ -287,11 +301,14 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 540000,
+              "status": "skipped"
             },
             "line": 35,
             "name": "message The user has been created. should be displayed",
-            "match": {},
+            "match": {
+              "location": "com.Library.StepDefinitions.UsersPageStepDef.message_The_user_has_been_created_should_be_displayed()"
+            },
             "keyword": "Then "
           }
         ],
@@ -310,8 +327,9 @@
         "steps": [
           {
             "result": {
-              "duration": 1948475000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: window was already closed\n  (Session info: chrome\u003d86.0.4240.111)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Macbooks-MacBook-Pro.local\u0027, ip: \u0027fe80:0:0:0:18bb:8045:4316:f389%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.7\u0027, java.version: \u002712.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/rv/bcv8j7l94yq...}, goog:chromeOptions: {debuggerAddress: localhost:64046}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 917889c8b6b29e068f91ad250d7d4bc2\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat com.Library.StepDefinitions.LoginPageStepDef.the_user_is_on_the_login_page(LoginPageStepDef.java:20)\n\tat ✽.the user is on the login page(file:///Users/macbookpro/idealProjects/LibraryProject/src/test/resources/features/UserStory4_GULNUR.feature:11)\n",
+              "duration": 13794000,
+              "status": "failed"
             },
             "line": 11,
             "name": "the user is on the login page",
@@ -322,8 +340,8 @@
           },
           {
             "result": {
-              "duration": 1245706000,
-              "status": "passed"
+              "duration": 679000,
+              "status": "skipped"
             },
             "line": 12,
             "name": "the user enters the \"Librarian\" information",
@@ -340,8 +358,8 @@
           },
           {
             "result": {
-              "duration": 3012271000,
-              "status": "passed"
+              "duration": 598000,
+              "status": "skipped"
             },
             "line": 13,
             "name": "the Library page should be displayed",
@@ -353,11 +371,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-01T01:46:27.236Z",
+        "start_timestamp": "2020-11-02T09:58:05.731Z",
         "before": [
           {
             "result": {
-              "duration": 138000,
+              "duration": 904000,
               "status": "passed"
             },
             "match": {
@@ -372,8 +390,9 @@
         "after": [
           {
             "result": {
-              "duration": 113687000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: window was already closed\n  (Session info: chrome\u003d86.0.4240.111)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Macbooks-MacBook-Pro.local\u0027, ip: \u0027fe80:0:0:0:18bb:8045:4316:f389%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.7\u0027, java.version: \u002712.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/rv/bcv8j7l94yq...}, goog:chromeOptions: {debuggerAddress: localhost:64046}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 917889c8b6b29e068f91ad250d7d4bc2\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\n\tat com.Library.StepDefinitions.Hooks.tearDown(Hooks.java:20)\n",
+              "duration": 5564000,
+              "status": "failed"
             },
             "match": {
               "location": "com.Library.StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -385,20 +404,38 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 723000,
+              "status": "skipped"
             },
             "line": 38,
-            "name": "the user clicks on \"Add User\" module on the Dashboard page",
-            "match": {},
+            "name": "the user clicks on \"Add User\" module on the User page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Add User\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.Library.StepDefinitions.UsersPageStepDef.the_user_clicks_on_module_on_the_Dashboard_page(java.lang.String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 301000,
+              "status": "skipped"
             },
             "line": 39,
             "name": "the user should be able to close the add user window with \"close\" button",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"close\"",
+                  "offset": 58
+                }
+              ],
+              "location": "com.Library.StepDefinitions.UsersPageStepDef.the_user_should_be_able_to_close_the_add_user_window_with_button(java.lang.String)"
+            },
             "keyword": "And "
           }
         ],
@@ -417,8 +454,9 @@
         "steps": [
           {
             "result": {
-              "duration": 2064511000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: window was already closed\n  (Session info: chrome\u003d86.0.4240.111)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Macbooks-MacBook-Pro.local\u0027, ip: \u0027fe80:0:0:0:18bb:8045:4316:f389%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.7\u0027, java.version: \u002712.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/rv/bcv8j7l94yq...}, goog:chromeOptions: {debuggerAddress: localhost:64046}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 917889c8b6b29e068f91ad250d7d4bc2\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat com.Library.StepDefinitions.LoginPageStepDef.the_user_is_on_the_login_page(LoginPageStepDef.java:20)\n\tat ✽.the user is on the login page(file:///Users/macbookpro/idealProjects/LibraryProject/src/test/resources/features/UserStory4_GULNUR.feature:11)\n",
+              "duration": 28618000,
+              "status": "failed"
             },
             "line": 11,
             "name": "the user is on the login page",
@@ -429,8 +467,8 @@
           },
           {
             "result": {
-              "duration": 1235360000,
-              "status": "passed"
+              "duration": 1692000,
+              "status": "skipped"
             },
             "line": 12,
             "name": "the user enters the \"Librarian\" information",
@@ -447,8 +485,8 @@
           },
           {
             "result": {
-              "duration": 3010584000,
-              "status": "passed"
+              "duration": 547000,
+              "status": "skipped"
             },
             "line": 13,
             "name": "the Library page should be displayed",
@@ -460,11 +498,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-01T01:46:33.568Z",
+        "start_timestamp": "2020-11-02T09:58:05.777Z",
         "before": [
           {
             "result": {
-              "duration": 109000,
+              "duration": 125000,
               "status": "passed"
             },
             "match": {
@@ -479,8 +517,9 @@
         "after": [
           {
             "result": {
-              "duration": 116623000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: window was already closed\n  (Session info: chrome\u003d86.0.4240.111)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Macbooks-MacBook-Pro.local\u0027, ip: \u0027fe80:0:0:0:18bb:8045:4316:f389%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.7\u0027, java.version: \u002712.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/rv/bcv8j7l94yq...}, goog:chromeOptions: {debuggerAddress: localhost:64046}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 917889c8b6b29e068f91ad250d7d4bc2\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\n\tat com.Library.StepDefinitions.Hooks.tearDown(Hooks.java:20)\n",
+              "duration": 11147000,
+              "status": "failed"
             },
             "match": {
               "location": "com.Library.StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -492,38 +531,50 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 1218000,
+              "status": "skipped"
             },
             "line": 42,
             "name": "the user should be able to click an user info in Users Page",
-            "match": {},
+            "match": {
+              "location": "com.Library.StepDefinitions.UsersPageStepDef.the_user_should_be_able_to_click_an_user_info_in_Users_Page()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 482000,
+              "status": "skipped"
             },
             "line": 43,
             "name": "the user should be able to edit info in new window",
-            "match": {},
+            "match": {
+              "location": "com.Library.StepDefinitions.UsersPageStepDef.the_user_should_be_able_to_edit_info_in_new_window()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 495000,
+              "status": "skipped"
             },
             "line": 44,
             "name": "the user should be able to click Save changes button",
-            "match": {},
+            "match": {
+              "location": "com.Library.StepDefinitions.UsersPageStepDef.the_user_should_be_able_to_click_Save_changes_button()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 512000,
+              "status": "skipped"
             },
             "line": 45,
             "name": "message The user updated. should be displayed",
-            "match": {},
+            "match": {
+              "location": "com.Library.StepDefinitions.UsersPageStepDef.message_The_user_updated_should_be_displayed()"
+            },
             "keyword": "Then "
           }
         ],

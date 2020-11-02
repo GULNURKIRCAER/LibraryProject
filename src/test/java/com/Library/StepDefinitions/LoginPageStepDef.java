@@ -20,25 +20,6 @@ public class LoginPageStepDef {
         Driver.get().get(ConfigurationReader.get("url"));
 
     }
-    @When("the user enters the Librarian information")
-    public void the_user_enters_the_Librarian_information() {
-
-        String username = ConfigurationReader.get("library_username");
-        String password = ConfigurationReader.get("library_password");
-
-        LoginPage loginPage = new LoginPage();
-        loginPage.inputEmail.sendKeys(username);
-        loginPage.password.sendKeys(password);
-
-        if(loginPage.inputEmail.getAttribute("value").equals(username) || loginPage.password.getAttribute("value").equals(password)) {
-            Driver.get().findElement(By.name("submit")).click();
-        }else  if(!loginPage.inputEmail.getAttribute("value").equals(username) || !loginPage.password.getAttribute("value").equals(password)){
-            Assert.assertTrue(loginPage.alert.isDisplayed());
-        }
-
-        BrowserUtils.waitFor(1);
-
-    }
 
     @Then("the Library page should be displayed")
     public void the_Library_page_should_be_displayed() {
@@ -50,29 +31,13 @@ public class LoginPageStepDef {
         Assert.assertEquals("Library",actualTitle);
 
     }
-    @When("the user enters the Student information")
-    public void the_user_enters_the_Student_information()  {
 
-        String username = ConfigurationReader.get("student1_username");
-        String password = ConfigurationReader.get("student1_password");
-
-//        String username = ConfigurationReader.get("student2_username");
-//        String password = ConfigurationReader.get("student2_password");
-
-//        String username = ConfigurationReader.get("student3_username");
-//        String password = ConfigurationReader.get("student3_password");
-
-        LoginPage loginPage = new LoginPage();
-
-        loginPage.login(username,password);
-
-    }
     @When("the user enters the {string} information")
     public void the_user_enters_the_information(String userType) {
 
-        String userName=null;
-        String password=null;
-        if (userType.equals("Student")){
+        String userName = null;
+        String password = null;
+        if (userType.equals("Student")) {
             userName = ConfigurationReader.get("student1_username");
             password = ConfigurationReader.get("student1_password");
         } else {
@@ -81,7 +46,13 @@ public class LoginPageStepDef {
         }
         LoginPage loginPage = new LoginPage();
         loginPage.inputEmail.sendKeys(userName);
-        loginPage.password.sendKeys(password + Keys.ENTER);
-        BrowserUtils.waitFor(1);
+        loginPage.password.sendKeys(password);
+        BrowserUtils.waitFor(2);
+
+        if(loginPage.inputEmail.getAttribute("value").equals(userName) || loginPage.password.getAttribute("value").equals(password)) {
+            loginPage.submit.click();
+        }else  if(!loginPage.inputEmail.getAttribute("value").equals(userName) || !loginPage.password.getAttribute("value").equals(password)){
+            Assert.assertTrue(loginPage.alert.isDisplayed());
+        }
     }
 }

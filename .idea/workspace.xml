@@ -30,8 +30,11 @@
   <component name="ChangeListManager">
     <list default="true" id="1f2e034f-0ff2-4c76-96c8-7f1769a271a7" name="Default Changelist" comment="master">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Library/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Library/Pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Library/Pages/UsersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Library/Pages/UsersPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/LoginPageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/LoginPageStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/UsersPageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/UsersPageStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/rerun.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604195642171</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="gulnur new">
+      <created>1604310072628</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604310072628</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,7 +235,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new Proje" />
     <MESSAGE value="my codes" />
-    <option name="LAST_COMMIT_MESSAGE" value="my codes" />
+    <MESSAGE value="gulnur new" />
+    <option name="LAST_COMMIT_MESSAGE" value="gulnur new" />
   </component>
   <component name="WindowStateProjectService">
     <state x="362" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604171552542">
@@ -256,10 +267,11 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1604185164763" />
-    <state x="240" y="127" key="Vcs.Push.Dialog.v2" timestamp="1604195643606">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="240" y="139" key="Vcs.Push.Dialog.v2" timestamp="1604310074323">
+      <screen x="0" y="23" width="1280" height="728" />
     </state>
     <state x="240" y="127" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1604195643606" />
+    <state x="240" y="139" key="Vcs.Push.Dialog.v2/0.23.1280.728@0.23.1280.728" timestamp="1604310074323" />
     <state x="339" y="163" width="602" height="474" key="find.popup" timestamp="1604183394410">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
