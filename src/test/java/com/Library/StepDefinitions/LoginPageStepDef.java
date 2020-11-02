@@ -28,7 +28,13 @@ public class LoginPageStepDef {
 
         LoginPage loginPage = new LoginPage();
         loginPage.inputEmail.sendKeys(username);
-        loginPage.password.sendKeys(password + Keys.ENTER);
+        loginPage.password.sendKeys(password);
+
+        if(loginPage.inputEmail.getAttribute("value").equals(username) || loginPage.password.getAttribute("value").equals(password)) {
+            Driver.get().findElement(By.name("submit")).click();
+        }else  if(!loginPage.inputEmail.getAttribute("value").equals(username) || !loginPage.password.getAttribute("value").equals(password)){
+            Assert.assertTrue(loginPage.alert.isDisplayed());
+        }
 
         BrowserUtils.waitFor(1);
 

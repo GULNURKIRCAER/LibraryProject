@@ -20,6 +20,9 @@ public class LoginPage {
     @FindBy(xpath= "//button[@type='submit']")
     public WebElement submit;
 
+    @FindBy(id = "inputEmail-error")
+    public WebElement alert;
+
     public void login(String userNameStr, String passwordStr) {
         this.inputEmail.sendKeys(userNameStr);
         this.password.sendKeys(passwordStr);
