@@ -8,6 +8,7 @@ public class UsersPageStepDef {
     @When("the user clicks on {string} module on the User page")
     public void the_user_clicks_on_module_on_the_Dashboard_page(String string) {
 
+
     }
 
     @When("creates User using following information")

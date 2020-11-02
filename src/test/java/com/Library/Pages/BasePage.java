@@ -15,8 +15,7 @@ import java.util.List;
 
 public abstract class BasePage {
 
-    @FindBy(xpath = "//span[@class='title']")
-    public List<WebElement> menuOptions;
+
 
     @FindBy(css = "div[class='loader-mask shown']")
     @CacheLookup
