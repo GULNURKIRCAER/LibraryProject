@@ -71,7 +71,7 @@ formatter.result({
   "status": "undefined"
 });
 formatter.step({
-  "name": "the user clicks on \"Users\" module on the Dashboard page",
+  "name": "the user clicks on \"Users\" module on the Library page",
   "keyword": "When "
 });
 formatter.match({});
@@ -138,7 +138,7 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user clicks on \"Add User\" module on the Dashboard page",
+  "name": "the user clicks on \"Add User\" module on the User page",
   "keyword": "When "
 });
 formatter.match({});
@@ -223,7 +223,7 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user clicks on \"Add User\" module on the Dashboard page",
+  "name": "the user clicks on \"Add User\" module on the User page",
   "keyword": "When "
 });
 formatter.match({});
