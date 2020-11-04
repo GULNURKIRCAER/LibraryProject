@@ -24,7 +24,6 @@ public class DashboardPageSepDef {
             columnsValues.add(actualOptions.get(i).getText());
         }
         Assert.assertEquals(info, columnsValues);
-
     }
     @Then("the user should see following options")
     public void the_user_should_see_following_options(List<String> menuOptions) {
@@ -37,18 +36,13 @@ public class DashboardPageSepDef {
         }
         Assert.assertEquals(menuOptions, columnsValues);
     }
-
     @When("the user clicks on {string} module on the Library page")
     public void the_user_clicks_on_module_on_the_Dashboard_page(String string) {
-
         new DashboardPage().usersBtn.click();
-
         BrowserUtils.waitFor(3);
     }
-
     @Then("the Users Management page should be displayed")
     public void the_Users_Management_page_should_be_displayed() {
-
         Assert.assertTrue(new DashboardPage().subTitle.getText().equals("User Management"));
     }
 

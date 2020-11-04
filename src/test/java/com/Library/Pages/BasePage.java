@@ -11,11 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.util.List;
-
 public abstract class BasePage {
-
-
 
     @FindBy(css = "div[class='loader-mask shown']")
     @CacheLookup
@@ -30,11 +26,9 @@ public abstract class BasePage {
     @FindBy(linkText = "Log out")
     public WebElement logOutLink;
 
-
     public BasePage() {
         PageFactory.initElements(Driver.get(), this);
     }
-
 
     /**
      * @return page name, for example: Dashboard
@@ -45,7 +39,6 @@ public abstract class BasePage {
 //        BrowserUtils.waitForStaleElement(pageSubTitle);
         return pageSubTitle.getText();
     }
-
 
     /**
      * Waits until loader screen present. If loader screen will not pop up at all,
@@ -59,20 +52,15 @@ public abstract class BasePage {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
     }
-
     public String getUserName(){
         waitUntilLoaderScreenDisappear();
         BrowserUtils.waitForVisibility(userName, 5);
         return userName.getText();
     }
-
     public void logOut(){
         BrowserUtils.waitFor(2);
         BrowserUtils.clickWithJS(userName);
         BrowserUtils.clickWithJS(logOutLink);
     }
-
-
 }

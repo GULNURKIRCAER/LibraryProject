@@ -20,11 +20,8 @@ public class Hooks {
             final byte[] screenshot = ((TakesScreenshot) Driver.get()).getScreenshotAs(OutputType.BYTES);
             scenario.attach(screenshot,"image/png","screenshot");
         }
-
         Driver.closeDriver();
-
     }
-
     @Before("@db")
     public void setUpdb(){
         System.out.println("\tconnecting to database...");
@@ -33,6 +30,5 @@ public class Hooks {
     @After("@db")
     public void closeDb(){
         System.out.println("\tdisconnecting to database...");
-
     }
 }
