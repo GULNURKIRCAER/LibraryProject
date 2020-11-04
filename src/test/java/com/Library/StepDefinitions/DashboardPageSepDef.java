@@ -42,12 +42,14 @@ public class DashboardPageSepDef {
     public void the_user_clicks_on_module_on_the_Dashboard_page(String string) {
 
         new DashboardPage().usersBtn.click();
+
+        BrowserUtils.waitFor(3);
     }
 
     @Then("the Users Management page should be displayed")
     public void the_Users_Management_page_should_be_displayed() {
 
-        Assert.assertTrue(new DashboardPage().subTitle.isDisplayed());
+        Assert.assertTrue(new DashboardPage().subTitle.getText().equals("User Management"));
     }
 
 }
