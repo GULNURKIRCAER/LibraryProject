@@ -18,20 +18,14 @@ public class LoginPageStepDef {
     public void the_user_is_on_the_login_page() {
 
         Driver.get().get(ConfigurationReader.get("url"));
-
     }
-
     @Then("the Library page should be displayed")
     public void the_Library_page_should_be_displayed() {
 
         BrowserUtils.waitFor(3);
-
         String actualTitle = Driver.get().getTitle();
-
         Assert.assertEquals("Library",actualTitle);
-
     }
-
     @When("the user enters the {string} information")
     public void the_user_enters_the_information(String userType) {
 
