@@ -29,16 +29,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f2e034f-0ff2-4c76-96c8-7f1769a271a7" name="Default Changelist" comment="gulnur done">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_11_2020,_01_10_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_11_2020,_01_11_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_11_2020__01_10__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_11_2020__01_11__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_31_10_2020,_23_59_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_31_10_2020__23_59__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-html-reports/embedded0.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/embedded0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-html-reports/embedded1.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/embedded1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UserStory4_GULNUR.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UserStory4_GULNUR.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/Pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Library/Pages/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/Pages/DashboardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Library/Pages/DashboardPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/Pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Library/Pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/Pages/UsersPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Library/Pages/UsersPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/StepDefinitions/DashboardPageSepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Library/StepDefinitions/DashboardPageSepDef.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/StepDefinitions/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Library/StepDefinitions/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/StepDefinitions/LoginPageStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Library/StepDefinitions/LoginPageStepDef.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/StepDefinitions/UsersPageStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Library/StepDefinitions/UsersPageStepDef.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/Utilities/ConfigurationReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Library/Utilities/ConfigurationReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/UserStory4_GULNUR.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/UserStory4_GULNUR.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,7 +275,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604531139966</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="last">
+      <created>1604855320244</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1604855320244</updated>
+    </task>
+    <task id="LOCAL-00023" summary="last">
+      <created>1604874217505</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1604874217505</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -305,7 +321,8 @@
     <MESSAGE value="my codes" />
     <MESSAGE value="gulnur new" />
     <MESSAGE value="gulnur done" />
-    <option name="LAST_COMMIT_MESSAGE" value="gulnur done" />
+    <MESSAGE value="last" />
+    <option name="LAST_COMMIT_MESSAGE" value="last" />
   </component>
   <component name="WindowStateProjectService">
     <state x="362" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604171552542">
@@ -352,11 +369,11 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1604185164763" />
-    <state x="240" y="139" key="Vcs.Push.Dialog.v2" timestamp="1604855322064">
+    <state x="240" y="139" key="Vcs.Push.Dialog.v2" timestamp="1604874223248">
       <screen x="0" y="23" width="1280" height="727" />
     </state>
     <state x="240" y="127" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1604195643606" />
-    <state x="240" y="139" key="Vcs.Push.Dialog.v2/0.23.1280.727@0.23.1280.727" timestamp="1604855322064" />
+    <state x="240" y="139" key="Vcs.Push.Dialog.v2/0.23.1280.727@0.23.1280.727" timestamp="1604874223248" />
     <state x="240" y="139" key="Vcs.Push.Dialog.v2/0.23.1280.728@0.23.1280.728" timestamp="1604310074323" />
     <state x="240" y="139" key="Vcs.Push.Dialog.v2/0.23.1280.729@0.23.1280.729" timestamp="1604498817549" />
     <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.23.1280.733@0.23.1280.733" timestamp="1604409889742" />
