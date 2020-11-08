@@ -19,18 +19,21 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </select>
+    <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f2e034f-0ff2-4c76-96c8-7f1769a271a7" name="Default Changelist" comment="gulnur new">
+    <list default="true" id="1f2e034f-0ff2-4c76-96c8-7f1769a271a7" name="Default Changelist" comment="new Proje">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ZuhalsStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_11_2020__01_10__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_11_2020__01_10__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_11_2020__01_11__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_11_2020__01_11__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_11_2020__13_16__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_11_2020__13_16__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_31_10_2020__23_59__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_31_10_2020__23_59__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Library/Runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Library/Runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/BooksPageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/BooksPageStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UserStory7_ZUHAL.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UserStory7_ZUHAL.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +72,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -79,6 +85,7 @@
       <recent name="com.Library.Utilities" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\IdeaProjects\LibraryProject\src\test\resources\features" />
       <recent name="$PROJECT_DIR$/src/test/resources/features" />
     </key>
   </component>
@@ -227,10 +234,19 @@
     <option name="LAST_COMMIT_MESSAGE" value="my codes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="362" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604171552542">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="163" y="0" key="#Project_Structure" timestamp="1604787088378">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604787088378" />
+    <state x="386" y="191" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604785726918">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="362" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1604171552542" />
+    <state x="386" y="191" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604785726918" />
+    <state x="310" y="106" key="FileChooserDialogImpl" timestamp="1604785803362">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="310" y="106" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604785803362" />
     <state x="494" y="308" key="Github.ShareDialog" timestamp="1604185452953">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -272,5 +288,9 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="393" y="121" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.800@0.0.1280.800" timestamp="1604193061997" />
+    <state x="426" y="285" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1604787805466">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="426" y="285" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604787805466" />
   </component>
 </project>
