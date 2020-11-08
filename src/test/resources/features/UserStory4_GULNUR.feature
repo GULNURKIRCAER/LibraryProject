@@ -28,7 +28,7 @@ Feature: A librarian should be able to add users from users page.
     And   creates User using following information
       | Full Name  | XYZ Student                               |
       | Password   | xyzABC                                    |
-      | Email      | xyzABC3@yahoo.com                         |
+      | Email      | xyzABC4@yahoo.com                         |
       | User Group | Students                                  |
       | Status     | Active                                    |
       | Start Date | 2020-11-09                                |
