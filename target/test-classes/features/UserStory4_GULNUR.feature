@@ -27,11 +27,11 @@ Feature: A librarian should be able to add users from users page.
     When  the user clicks on "Add User" module on the User page
     And   creates User using following information
       | Full Name  | XYZ Student                               |
-      | Password   | xyzABC                                    |
-      | Email      | xyzABC3@yahoo.com                         |
+      | Password   | xyzBC                                    |
+      | Email      | xyzAk5@yahoo.com                         |
       | User Group | Students                                  |
       | Status     | Active                                    |
-      | Start Date | 2020-11-09                                |
+      | Start Date | 2020-11-11                                |
       | End Date   | 2020-11-29                                |
       | Address    | 100 November Road,Liverpool,England,L62SH |
     Then  message The user has been created. should be displayed
