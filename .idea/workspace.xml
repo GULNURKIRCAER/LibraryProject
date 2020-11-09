@@ -19,20 +19,20 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f2e034f-0ff2-4c76-96c8-7f1769a271a7" name="Default Changelist" comment="new Proje">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ZuhalsStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_11_2020__01_10__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_11_2020__01_10__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_11_2020__01_11__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_11_2020__01_11__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_11_2020__13_16__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_11_2020__13_16__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_31_10_2020__23_59__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_31_10_2020__23_59__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibraryProject.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Library/Runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Library/Runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ZuhalsStepDefs.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/BooksPageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/BooksPageStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/LoginPageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/LoginPageStepDef.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/UserStory7_ZUHAL.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UserStory7_ZUHAL.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +78,9 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.Library.StepDefinitions" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.Library.Pages" />
       <recent name="com.Library.Runners" />
@@ -238,6 +241,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="#Project_Structure/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604787088378" />
+    <state x="100" y="123" width="1080" height="527" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1604932766130">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state x="100" y="123" width="1080" height="527" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1280.728@0.23.1280.728" timestamp="1604932766130" />
     <state x="386" y="191" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604785726918">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -251,26 +258,34 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="494" y="308" key="Github.ShareDialog/0.0.1280.800@0.0.1280.800" timestamp="1604185452953" />
-    <state width="1238" height="181" key="GridCell.Tab.0.bottom" timestamp="1604313662021">
+    <state width="1238" height="196" key="GridCell.Tab.0.bottom" timestamp="1604935487861">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1604195693025" />
-    <state width="1238" height="181" key="GridCell.Tab.0.bottom/0.23.1280.729@0.23.1280.729" timestamp="1604313662021" />
-    <state width="1238" height="181" key="GridCell.Tab.0.center" timestamp="1604313662019">
+    <state width="1238" height="196" key="GridCell.Tab.0.bottom/0.23.1280.727@0.23.1280.727" timestamp="1604924864911" />
+    <state width="1238" height="196" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1604933474446" />
+    <state width="1238" height="196" key="GridCell.Tab.0.bottom/0.23.1280.729@0.23.1280.729" timestamp="1604935487861" />
+    <state width="1238" height="196" key="GridCell.Tab.0.center" timestamp="1604935487860">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1604195693024" />
-    <state width="1238" height="181" key="GridCell.Tab.0.center/0.23.1280.729@0.23.1280.729" timestamp="1604313662019" />
-    <state width="1238" height="181" key="GridCell.Tab.0.left" timestamp="1604313662019">
+    <state width="1238" height="196" key="GridCell.Tab.0.center/0.23.1280.727@0.23.1280.727" timestamp="1604924864910" />
+    <state width="1238" height="196" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1604933474445" />
+    <state width="1238" height="196" key="GridCell.Tab.0.center/0.23.1280.729@0.23.1280.729" timestamp="1604935487860" />
+    <state width="1238" height="196" key="GridCell.Tab.0.left" timestamp="1604935487859">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1604195693024" />
-    <state width="1238" height="181" key="GridCell.Tab.0.left/0.23.1280.729@0.23.1280.729" timestamp="1604313662019" />
-    <state width="1238" height="181" key="GridCell.Tab.0.right" timestamp="1604313662020">
+    <state width="1238" height="196" key="GridCell.Tab.0.left/0.23.1280.727@0.23.1280.727" timestamp="1604924864910" />
+    <state width="1238" height="196" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1604933474445" />
+    <state width="1238" height="196" key="GridCell.Tab.0.left/0.23.1280.729@0.23.1280.729" timestamp="1604935487859" />
+    <state width="1238" height="196" key="GridCell.Tab.0.right" timestamp="1604935487860">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1604195693025" />
-    <state width="1238" height="181" key="GridCell.Tab.0.right/0.23.1280.729@0.23.1280.729" timestamp="1604313662020" />
+    <state width="1238" height="196" key="GridCell.Tab.0.right/0.23.1280.727@0.23.1280.727" timestamp="1604924864910" />
+    <state width="1238" height="196" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1604933474446" />
+    <state width="1238" height="196" key="GridCell.Tab.0.right/0.23.1280.729@0.23.1280.729" timestamp="1604935487860" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1604185164763">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -280,10 +295,11 @@
     </state>
     <state x="240" y="127" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1604195643606" />
     <state x="240" y="139" key="Vcs.Push.Dialog.v2/0.23.1280.733@0.23.1280.733" timestamp="1604405173212" />
-    <state x="339" y="163" width="602" height="474" key="find.popup" timestamp="1604183394410">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="339" y="171" width="602" height="474" key="find.popup" timestamp="1604928129267">
+      <screen x="0" y="23" width="1280" height="728" />
     </state>
     <state x="339" y="163" width="602" height="474" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1604183394410" />
+    <state x="339" y="171" width="602" height="474" key="find.popup/0.23.1280.728@0.23.1280.728" timestamp="1604928129267" />
     <state x="393" y="121" key="git4idea.branch.GitSmartOperationDialog" timestamp="1604193061997">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

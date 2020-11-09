@@ -76,6 +76,6 @@ public class LoginPageStepDef {
         LoginPage loginPage = new LoginPage();
         loginPage.inputEmail.sendKeys(userName);
         loginPage.password.sendKeys(password + Keys.ENTER);
-        BrowserUtils.waitFor(1);
+        BrowserUtils.waitFor(2);
     }
 }
