@@ -1,0 +1,254 @@
+[
+  {
+    "line": 15,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-09T17:00:34.321Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1246000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Library.StepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "A librarian should be able to see book records",
+        "description": "",
+        "id": "a-librarian-should-be-able-to-see-book-records-on-user-page;a-librarian-should-be-able-to-see-book-records",
+        "after": [
+          {
+            "result": {
+              "duration": 168441000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Library.StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4074618000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.Library.StepDefinitions.LoginPageStepDef.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1272633000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user enters the \"Librarian\" information",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Librarian\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.Library.StepDefinitions.LoginPageStepDef.the_user_enters_the_information(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3016698000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the Library page should be displayed",
+            "match": {
+              "location": "com.Library.StepDefinitions.LoginPageStepDef.the_Library_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3072282000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user clicks on \"Users\" module on the Library page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Users\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.Library.StepDefinitions.DashboardPageSepDef.the_user_clicks_on_module_on_the_Dashboard_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25792000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the Users Management page should be displayed",
+            "match": {
+              "location": "com.Library.StepDefinitions.DashboardPageSepDef.the_Users_Management_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25168000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user should see 10 records on page",
+            "match": {
+              "location": "com.Library.StepDefinitions.UsersPageStepDef.the_user_should_see_10_records_on_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71266000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user should click records button",
+            "match": {
+              "location": "com.Library.StepDefinitions.UsersPageStepDef.the_user_should_click_records_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111909000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user should see following options",
+            "match": {
+              "location": "com.Library.StepDefinitions.UsersPageStepDef.the_user_should_select_for_following_options(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "5"
+                ]
+              },
+              {
+                "cells": [
+                  "10"
+                ]
+              },
+              {
+                "cells": [
+                  "15"
+                ]
+              },
+              {
+                "cells": [
+                  "50"
+                ]
+              },
+              {
+                "cells": [
+                  "100"
+                ]
+              },
+              {
+                "cells": [
+                  "200"
+                ]
+              },
+              {
+                "cells": [
+                  "500"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30397801000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the user should choose records options and should see records",
+            "match": {
+              "location": "com.Library.StepDefinitions.UsersPageStepDef.the_user_should_choose_records_options_and_should_see_records(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "5"
+                ]
+              },
+              {
+                "cells": [
+                  "10"
+                ]
+              },
+              {
+                "cells": [
+                  "15"
+                ]
+              },
+              {
+                "cells": [
+                  "50"
+                ]
+              },
+              {
+                "cells": [
+                  "100"
+                ]
+              },
+              {
+                "cells": [
+                  "200"
+                ]
+              },
+              {
+                "cells": [
+                  "500"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "A librarian should be able to see book records on user page",
+    "description": "",
+    "id": "a-librarian-should-be-able-to-see-book-records-on-user-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/UserStory5_YAVUZ.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 14,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
