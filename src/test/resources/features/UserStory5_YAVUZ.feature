@@ -31,3 +31,10 @@ Feature: A librarian should be able to see book records on user page
       | 200 |
       | 500 |
     Then the user should choose records options and should see records
+      | 5   |
+      | 10  |
+      | 15  |
+      | 50  |
+      | 100 |
+      | 200 |
+      | 500 |

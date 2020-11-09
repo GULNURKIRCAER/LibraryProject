@@ -11,6 +11,7 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -85,9 +86,19 @@ public class UsersPageStepDef {
     }
     int counter = 0;
     @And("the user should see following options")
-    public void the_user_should_select_for_following_options(List<String> categories) {
+    public void the_user_should_select_for_following_options(List<String> records) {
+        List<WebElement> actualrecords=Driver.get().findElements(By.xpath("//select[@name='tbl_users_length']/option"));
+        List<String> actualrecordsCategories = new ArrayList<>();
+        for (WebElement option : actualrecords) {
+            actualrecordsCategories.add(option.getText());
+        }
+        Assert.assertEquals(records,actualrecordsCategories);
 
-        for (int i = 1; i <= categories.size(); i++) {
+        }
+    @Then("the user should choose records options and should see records")
+    public void the_user_should_choose_records_options_and_should_see_records(List<String> records) {
+
+        for (int i = 1; i <= records.size(); i++) {
             Driver.get().findElement(By.xpath("//select[@name='tbl_users_length']/option["+i+"]")).click();
             BrowserUtils.waitFor(2);
 
@@ -97,11 +108,7 @@ public class UsersPageStepDef {
             List<WebElement> list1 = Driver.get().findElements(By.xpath("//tbody/tr"));
             String listsizeString = Integer.toString(list1.size());
             Assert.assertEquals(recordText,listsizeString);
-            }
         }
-    @Then("the user should choose records options and should see records")
-    public void the_user_should_choose_records_options_and_should_see_records() {
-
     }
 
 
