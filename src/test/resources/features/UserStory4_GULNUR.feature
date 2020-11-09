@@ -4,9 +4,9 @@
 #AC:  1. add users with all valid info.
 #     2. Librarians able to close the add user window with "close" button
 #     3. Librarians able to edit user info.
-@login
+
 Feature: A librarian should be able to add users from users page.
-  @login @wip
+
   Scenario:
     Given the user is on the login page
     When  the user enters the "Librarian" information

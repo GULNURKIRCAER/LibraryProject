@@ -4,11 +4,14 @@ import com.Library.Pages.LoginPage;
 import com.Library.Pages.UsersPage;
 import com.Library.Utilities.BrowserUtils;
 import com.Library.Utilities.Driver;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 
+import java.util.List;
 import java.util.Map;
 
 public class UsersPageStepDef {
@@ -71,4 +74,35 @@ public class UsersPageStepDef {
         Assert.assertTrue(new UsersPage().allert.getText().equals("The user updated."));
         BrowserUtils.waitFor(1);
     }
+
+    @Then("the user should see 10 records on page")
+    public void the_user_should_see_10_records_on_page() {
+        Assert.assertEquals(Driver.get().findElement(By.name("tbl_users_length")).getAttribute("value"),"10");
+    }
+    @Then("the user should click records button")
+    public void the_user_should_click_records_button() {
+        Driver.get().findElement(By.name("tbl_users_length")).click();
+    }
+    int counter = 0;
+    @And("the user should see following options")
+    public void the_user_should_select_for_following_options(List<String> categories) {
+
+        for (int i = 1; i <= categories.size(); i++) {
+            Driver.get().findElement(By.xpath("//select[@name='tbl_users_length']/option["+i+"]")).click();
+            BrowserUtils.waitFor(2);
+
+            String recordText = Driver.get().findElement(By.name("tbl_users_length")).getAttribute("value");
+
+            BrowserUtils.waitFor(2);
+            List<WebElement> list1 = Driver.get().findElements(By.xpath("//tbody/tr"));
+            String listsizeString = Integer.toString(list1.size());
+            Assert.assertEquals(recordText,listsizeString);
+            }
+        }
+    @Then("the user should choose records options and should see records")
+    public void the_user_should_choose_records_options_and_should_see_records() {
+
+    }
+
+
 }
