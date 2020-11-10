@@ -19,32 +19,44 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <change beforePath="$PROJECT_DIR$/LibraryProject.iml" beforeDir="false" />
-    <change beforePath="$PROJECT_DIR$/src/test/java/com/Library/Runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Library/Runners/CukesRunner.java" afterDir="false" />
-    <change beforePath="$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/BooksPageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/BooksPageStepDef.java" afterDir="false" />
-    <change beforePath="$PROJECT_DIR$/src/test/resources/features/UserStory7_ZUHAL.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UserStory7_ZUHAL.feature" afterDir="false" />
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
+    <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bef2325e-99e1-4d33-90b9-3f450238d5e6" name="Default Changelist" comment="">
+    <list default="true" id="bef2325e-99e1-4d33-90b9-3f450238d5e6" name="Default Changelist" comment="new Proje">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Library/Pages/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Library/Pages/DashboardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/BooksPageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/BooksPageStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/DashboardPageSepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/DashboardPageSepDef.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/UserStory4_GULNUR.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UserStory4_GULNUR.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-html-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/rerun.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/Pages/UsersPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Library/Pages/UsersPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/StepDefinitions/BooksPageStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Library/StepDefinitions/BooksPageStepDef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/StepDefinitions/DashboardPageSepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Library/StepDefinitions/DashboardPageSepDef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/UserStory4_GULNUR.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/UserStory4_GULNUR.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/UserStory5_YAVUZ.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/UserStory5_YAVUZ.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/UserStory7_ZUHAL.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/UserStory7_ZUHAL.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UserStory7_ZUHAL.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UserStory7_ZUHAL.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/embedded0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/formatter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/jquery-3.4.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rerun.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ZuhalsStepDefs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/Pages/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/Pages/BooksPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/Pages/BorrowingBooksPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/Pages/DashboardPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/Pages/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/Pages/UsersPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/Runners/CukesRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/Runners/FailedTestRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/StepDefinitions/BooksPageStepDef.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/StepDefinitions/BorrowingBooksPageStepDef.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/StepDefinitions/DashboardPageSepDef.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/StepDefinitions/Hooks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/StepDefinitions/LoginPageStepDef.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/StepDefinitions/UsersPageStepDef.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/Utilities/BrowserUtils$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/Utilities/BrowserUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/Utilities/ConfigurationReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/Utilities/Driver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/UserStory4_GULNUR.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/UserStory5_YAVUZ.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/UserStory7_ZUHAL.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +141,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1f2e034f-0ff2-4c76-96c8-7f1769a271a7" name="Default Changelist" comment="" />
+      <changelist id="bef2325e-99e1-4d33-90b9-3f450238d5e6" name="Default Changelist" comment="new Proje" />
       <created>1604171340474</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -198,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604193311902</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="new Proje">
+      <created>1605049622136</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605049622136</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,24 +264,36 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="494" y="308" key="Github.ShareDialog/0.0.1280.800@0.0.1280.800" timestamp="1604185452953" />
-    <state width="1238" height="307" key="GridCell.Tab.0.bottom" timestamp="1605049099394">
+    <state width="1238" height="196" key="GridCell.Tab.0.bottom" timestamp="1605050605419">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1238" height="307" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1605049099394" />
-    <state width="1238" height="307" key="GridCell.Tab.0.center" timestamp="1605049099393">
+    <state width="1238" height="196" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1605050605419" />
+    <state width="1238" height="186" key="GridCell.Tab.0.bottom/0.23.1280.730@0.23.1280.730" timestamp="1605050067149" />
+    <state width="1238" height="196" key="GridCell.Tab.0.center" timestamp="1605050605418">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1238" height="307" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1605049099393" />
-    <state width="1238" height="307" key="GridCell.Tab.0.left" timestamp="1605049099392">
+    <state width="1238" height="196" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1605050605418" />
+    <state width="1238" height="186" key="GridCell.Tab.0.center/0.23.1280.730@0.23.1280.730" timestamp="1605050067149" />
+    <state width="1238" height="196" key="GridCell.Tab.0.left" timestamp="1605050605418">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1238" height="307" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1605049099392" />
-    <state width="1238" height="307" key="GridCell.Tab.0.right" timestamp="1605049099394">
+    <state width="1238" height="196" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1605050605418" />
+    <state width="1238" height="186" key="GridCell.Tab.0.left/0.23.1280.730@0.23.1280.730" timestamp="1605050067148" />
+    <state width="1238" height="196" key="GridCell.Tab.0.right" timestamp="1605050605419">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1238" height="307" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1605049099394" />
+    <state width="1238" height="196" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1605050605419" />
+    <state width="1238" height="186" key="GridCell.Tab.0.right/0.23.1280.730@0.23.1280.730" timestamp="1605050067149" />
+    <state x="240" y="128" key="Vcs.Push.Dialog.v2" timestamp="1605049623646">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state x="240" y="128" key="Vcs.Push.Dialog.v2/0.23.1280.728@0.23.1280.728" timestamp="1605049623646" />
+    <state x="339" y="150" width="602" height="474" key="find.popup" timestamp="1605050092498">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
     <state x="339" y="163" width="602" height="474" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1604183394410" />
     <state x="339" y="171" width="602" height="474" key="find.popup/0.23.1280.727@0.23.1280.727" timestamp="1605014905437" />
+    <state x="339" y="150" width="602" height="474" key="find.popup/0.23.1280.728@0.23.1280.728" timestamp="1605050092498" />
     <state x="393" y="133" key="git4idea.branch.GitSmartOperationDialog" timestamp="1605014785589">
       <screen x="0" y="23" width="1280" height="727" />
     </state>
