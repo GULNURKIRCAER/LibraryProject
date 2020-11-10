@@ -1,0 +1,1277 @@
+Index: src/test/java/com/Library/Runners/CukesRunner.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.Library.Runners;\n\n\nimport io.cucumber.junit.Cucumber;\nimport io.cucumber.junit.CucumberOptions;\nimport org.junit.runner.RunWith;\n\n@RunWith(Cucumber.class)\n@CucumberOptions(\n        plugin = {\"json:target/cucumber.json\",\n                 \"html:target/default-html-reports\",\n                \"rerun:target/rerun.txt\"},\n        features = \"src/test/resources/features\",\n        glue = \"com/Library/StepDefinitions\",\n        dryRun = false,\n        tags=\"@wip\"\n)\npublic class CukesRunner {\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/test/java/com/Library/Runners/CukesRunner.java	(revision da7e245bf97628738e3f081abd0e3ee337956fce)
++++ src/test/java/com/Library/Runners/CukesRunner.java	(date 1605014644912)
+@@ -13,7 +13,7 @@
+         features = "src/test/resources/features",
+         glue = "com/Library/StepDefinitions",
+         dryRun = false,
+-        tags="@wip"
++        tags="@login"
+ )
+ public class CukesRunner {
+ }
+Index: src/test/resources/features/UserStory4_GULNUR.feature
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\n#As a librarian, I should be able to add users from users page.\n\n#AC:  1. add users with all valid info.\n#     2. Librarians able to close the add user window with \"close\" button\n#     3. Librarians able to edit user info.\n@login\nFeature: A librarian should be able to add users from users page.\n  @login\n  Background:\n    Given the user is on the login page\n    When  the user enters the \"Librarian\" information\n    Then  the Library page should be displayed\n\n  Scenario:A librarian should be able to add users with all valid info.\n    Then  the user should see following options\n      |Users|\n      |Books|\n      |Borrowed Books|\n    When  the user clicks on \"Users\" module on the Dashboard page\n    Then  the Users page should be displayed\n\n  Scenario:A librarian should be able to add users with all valid info.\n    When  the user clicks on \"Add User\" module on the Dashboard page\n    And   creates User using following information\n      |Full Name |XYZ Student                              |\n      |Password  |xyzABC                                   |\n      |Email     |xyzABC@yahoo.com                         |\n      |User Group|Students                                 |\n      |Status    |Active                                   |\n      |Start Date|2020-11-01                               |\n      |End Date  |2020-11-29                               |\n      |Address   |100 November Road,Liverpool,England,L62SH|\n\n    Then  message The user has been created. should be displayed\n\n  Scenario:A librarian should be able to close the add user window with \"close\" button\n    When  the user clicks on \"Add User\" module on the Dashboard page\n    And   the user should be able to close the add user window with \"close\" button\n\n  Scenario:A librarian should be able to edit user info\n    Then the user should be able to click an user info in Users Page\n    Then the user should be able to edit info in new window\n    Then the user should be able to click Save changes button\n    Then message The user updated. should be displayed\n\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/test/resources/features/UserStory4_GULNUR.feature	(revision da7e245bf97628738e3f081abd0e3ee337956fce)
++++ src/test/resources/features/UserStory4_GULNUR.feature	(date 1605014644918)
+@@ -4,9 +4,9 @@
+ #AC:  1. add users with all valid info.
+ #     2. Librarians able to close the add user window with "close" button
+ #     3. Librarians able to edit user info.
+-@login
++
+ Feature: A librarian should be able to add users from users page.
+-  @login
++
+   Background:
+     Given the user is on the login page
+     When  the user enters the "Librarian" information
+Index: target/default-html-reports/report.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><<<<<<< HEAD\n$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri(\"file:src/test/resources/features/UserStory5_YAVUZ.feature\");\nformatter.feature({\n  \"name\": \"A librarian should be able to see book records on user page\",\n=======\n$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri(\"file:src/test/resources/features/UserStory4_GULNUR.feature\");\nformatter.feature({\n  \"name\": \"A librarian should be able to add users from users page.\",\n>>>>>>> master\n  \"description\": \"\",\n  \"keyword\": \"Feature\",\n  \"tags\": [\n    {\n      \"name\": \"@login\"\n    }\n  ]\n});\n<<<<<<< HEAD\nformatter.scenario({\n  \"name\": \"A librarian should be able to see book records\",\n  \"description\": \"\",\n  \"keyword\": \"Scenario\",\n  \"tags\": [\n    {\n      \"name\": \"@login\"\n    }\n  ]\n=======\nformatter.background({\n  \"name\": \"\",\n  \"description\": \"\",\n  \"keyword\": \"Background\"\n>>>>>>> master\n});\nformatter.before({\n  \"status\": \"passed\"\n});\nformatter.step({\n  \"name\": \"the user is on the login page\",\n  \"keyword\": \"Given \"\n});\nformatter.match({\n  \"location\": \"com.Library.StepDefinitions.LoginPageStepDef.the_user_is_on_the_login_page()\"\n});\nformatter.result({\n  \"status\": \"passed\"\n});\nformatter.step({\n  \"name\": \"the user enters the \\\"Librarian\\\" information\",\n  \"keyword\": \"When \"\n});\nformatter.match({\n  \"location\": \"com.Library.StepDefinitions.LoginPageStepDef.the_user_enters_the_information(java.lang.String)\"\n});\nformatter.result({\n  \"status\": \"passed\"\n});\nformatter.step({\n  \"name\": \"the Library page should be displayed\",\n  \"keyword\": \"Then \"\n});\nformatter.match({\n  \"location\": \"com.Library.StepDefinitions.LoginPageStepDef.the_Library_page_should_be_displayed()\"\n});\nformatter.result({\n  \"status\": \"passed\"\n});\n<<<<<<< HEAD\n=======\nformatter.scenario({\n  \"name\": \"A librarian should be able to add users with all valid info.\",\n  \"description\": \"\",\n  \"keyword\": \"Scenario\",\n  \"tags\": [\n    {\n      \"name\": \"@login\"\n    }\n  ]\n});\nformatter.step({\n  \"name\": \"the user should see following options\",\n  \"rows\": [\n    {},\n    {},\n    {}\n  ],\n  \"keyword\": \"Then \"\n});\nformatter.match({});\nformatter.result({\n  \"status\": \"undefined\"\n});\n>>>>>>> master\nformatter.step({\n  \"name\": \"the user clicks on \\\"Users\\\" module on the Library page\",\n  \"keyword\": \"When \"\n});\n<<<<<<< HEAD\nformatter.match({\n  \"location\": \"com.Library.StepDefinitions.DashboardPageSepDef.the_user_clicks_on_module_on_the_Dashboard_page(java.lang.String)\"\n});\nformatter.result({\n  \"status\": \"passed\"\n});\nformatter.step({\n  \"name\": \"the Users Management page should be displayed\",\n  \"keyword\": \"Then \"\n});\nformatter.match({\n  \"location\": \"com.Library.StepDefinitions.DashboardPageSepDef.the_Users_Management_page_should_be_displayed()\"\n=======\nformatter.match({});\nformatter.result({\n  \"status\": \"undefined\"\n});\nformatter.step({\n  \"name\": \"the Users page should be displayed\",\n  \"keyword\": \"Then \"\n});\nformatter.match({});\nformatter.result({\n  \"status\": \"undefined\"\n});\nformatter.after({\n  \"status\": \"passed\"\n});\nformatter.background({\n  \"name\": \"\",\n  \"description\": \"\",\n  \"keyword\": \"Background\"\n});\nformatter.before({\n  \"status\": \"passed\"\n});\nformatter.step({\n  \"name\": \"the user is on the login page\",\n  \"keyword\": \"Given \"\n});\nformatter.match({\n  \"location\": \"com.Library.StepDefinitions.LoginPageStepDef.the_user_is_on_the_login_page()\"\n>>>>>>> master\n});\nformatter.result({\n  \"status\": \"passed\"\n});\nformatter.step({\n<<<<<<< HEAD\n  \"name\": \"the user should see 10 records on page\",\n  \"keyword\": \"And \"\n});\nformatter.match({\n  \"location\": \"com.Library.StepDefinitions.UsersPageStepDef.the_user_should_see_10_records_on_page()\"\n=======\n  \"name\": \"the user enters the \\\"Librarian\\\" information\",\n  \"keyword\": \"When \"\n});\nformatter.match({\n  \"location\": \"com.Library.StepDefinitions.LoginPageStepDef.the_user_enters_the_information(java.lang.String)\"\n>>>>>>> master\n});\nformatter.result({\n  \"status\": \"passed\"\n});\nformatter.step({\n<<<<<<< HEAD\n  \"name\": \"the user should click records button\",\n  \"keyword\": \"And \"\n});\nformatter.match({\n  \"location\": \"com.Library.StepDefinitions.UsersPageStepDef.the_user_should_click_records_button()\"\n=======\n  \"name\": \"the Library page should be displayed\",\n  \"keyword\": \"Then \"\n});\nformatter.match({\n  \"location\": \"com.Library.StepDefinitions.LoginPageStepDef.the_Library_page_should_be_displayed()\"\n>>>>>>> master\n});\nformatter.result({\n  \"status\": \"passed\"\n});\n<<<<<<< HEAD\nformatter.step({\n  \"name\": \"the user should see following options\",\n=======\nformatter.scenario({\n  \"name\": \"A librarian should be able to add users with all valid info.\",\n  \"description\": \"\",\n  \"keyword\": \"Scenario\",\n  \"tags\": [\n    {\n      \"name\": \"@login\"\n    }\n  ]\n});\nformatter.step({\n  \"name\": \"the user clicks on \\\"Add User\\\" module on the User page\",\n  \"keyword\": \"When \"\n});\nformatter.match({});\nformatter.result({\n  \"status\": \"undefined\"\n});\nformatter.step({\n  \"name\": \"creates User using following information\",\n>>>>>>> master\n  \"rows\": [\n    {},\n    {},\n    {},\n    {},\n    {},\n    {},\n<<<<<<< HEAD\n=======\n    {},\n>>>>>>> master\n    {}\n  ],\n  \"keyword\": \"And \"\n});\n<<<<<<< HEAD\nformatter.match({\n  \"location\": \"com.Library.StepDefinitions.UsersPageStepDef.the_user_should_select_for_following_options(java.util.List\\u003cjava.lang.String\\u003e)\"\n=======\nformatter.match({});\nformatter.result({\n  \"status\": \"undefined\"\n});\nformatter.step({\n  \"name\": \"message The user has been created. should be displayed\",\n  \"keyword\": \"Then \"\n});\nformatter.match({});\nformatter.result({\n  \"status\": \"undefined\"\n});\nformatter.after({\n  \"status\": \"passed\"\n});\nformatter.background({\n  \"name\": \"\",\n  \"description\": \"\",\n  \"keyword\": \"Background\"\n});\nformatter.before({\n  \"status\": \"passed\"\n});\nformatter.step({\n  \"name\": \"the user is on the login page\",\n  \"keyword\": \"Given \"\n});\nformatter.match({\n  \"location\": \"com.Library.StepDefinitions.LoginPageStepDef.the_user_is_on_the_login_page()\"\n>>>>>>> master\n});\nformatter.result({\n  \"status\": \"passed\"\n});\nformatter.step({\n<<<<<<< HEAD\n  \"name\": \"the user should choose records options and should see records\",\n  \"rows\": [\n    {},\n    {},\n    {},\n    {},\n    {},\n    {},\n    {}\n  ],\n  \"keyword\": \"Then \"\n});\nformatter.match({\n  \"location\": \"com.Library.StepDefinitions.UsersPageStepDef.the_user_should_choose_records_options_and_should_see_records(java.util.List\\u003cjava.lang.String\\u003e)\"\n=======\n  \"name\": \"the user enters the \\\"Librarian\\\" information\",\n  \"keyword\": \"When \"\n});\nformatter.match({\n  \"location\": \"com.Library.StepDefinitions.LoginPageStepDef.the_user_enters_the_information(java.lang.String)\"\n});\nformatter.result({\n  \"status\": \"passed\"\n});\nformatter.step({\n  \"name\": \"the Library page should be displayed\",\n  \"keyword\": \"Then \"\n});\nformatter.match({\n  \"location\": \"com.Library.StepDefinitions.LoginPageStepDef.the_Library_page_should_be_displayed()\"\n>>>>>>> master\n});\nformatter.result({\n  \"status\": \"passed\"\n});\n<<<<<<< HEAD\n=======\nformatter.scenario({\n  \"name\": \"A librarian should be able to close the add user window with \\\"close\\\" button\",\n  \"description\": \"\",\n  \"keyword\": \"Scenario\",\n  \"tags\": [\n    {\n      \"name\": \"@login\"\n    }\n  ]\n});\nformatter.step({\n  \"name\": \"the user clicks on \\\"Add User\\\" module on the User page\",\n  \"keyword\": \"When \"\n});\nformatter.match({});\nformatter.result({\n  \"status\": \"undefined\"\n});\nformatter.step({\n  \"name\": \"the user should be able to close the add user window with \\\"close\\\" button\",\n  \"keyword\": \"And \"\n});\nformatter.match({});\nformatter.result({\n  \"status\": \"undefined\"\n});\nformatter.after({\n  \"status\": \"passed\"\n});\nformatter.background({\n  \"name\": \"\",\n  \"description\": \"\",\n  \"keyword\": \"Background\"\n});\nformatter.before({\n  \"status\": \"passed\"\n});\nformatter.step({\n  \"name\": \"the user is on the login page\",\n  \"keyword\": \"Given \"\n});\nformatter.match({\n  \"location\": \"com.Library.StepDefinitions.LoginPageStepDef.the_user_is_on_the_login_page()\"\n});\nformatter.result({\n  \"status\": \"passed\"\n});\nformatter.step({\n  \"name\": \"the user enters the \\\"Librarian\\\" information\",\n  \"keyword\": \"When \"\n});\nformatter.match({\n  \"location\": \"com.Library.StepDefinitions.LoginPageStepDef.the_user_enters_the_information(java.lang.String)\"\n});\nformatter.result({\n  \"status\": \"passed\"\n});\nformatter.step({\n  \"name\": \"the Library page should be displayed\",\n  \"keyword\": \"Then \"\n});\nformatter.match({\n  \"location\": \"com.Library.StepDefinitions.LoginPageStepDef.the_Library_page_should_be_displayed()\"\n});\nformatter.result({\n  \"status\": \"passed\"\n});\nformatter.scenario({\n  \"name\": \"A librarian should be able to edit user info\",\n  \"description\": \"\",\n  \"keyword\": \"Scenario\",\n  \"tags\": [\n    {\n      \"name\": \"@login\"\n    }\n  ]\n});\nformatter.step({\n  \"name\": \"the user should be able to click an user info in Users Page\",\n  \"keyword\": \"Then \"\n});\nformatter.match({});\nformatter.result({\n  \"status\": \"undefined\"\n});\nformatter.step({\n  \"name\": \"the user should be able to edit info in new window\",\n  \"keyword\": \"Then \"\n});\nformatter.match({});\nformatter.result({\n  \"status\": \"undefined\"\n});\nformatter.step({\n  \"name\": \"the user should be able to click Save changes button\",\n  \"keyword\": \"Then \"\n});\nformatter.match({});\nformatter.result({\n  \"status\": \"undefined\"\n});\nformatter.step({\n  \"name\": \"message The user updated. should be displayed\",\n  \"keyword\": \"Then \"\n});\nformatter.match({});\nformatter.result({\n  \"status\": \"undefined\"\n});\n>>>>>>> master\nformatter.after({\n  \"status\": \"passed\"\n});\n});
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- target/default-html-reports/report.js	(revision da7e245bf97628738e3f081abd0e3ee337956fce)
++++ target/default-html-reports/report.js	(date 1605014693931)
+@@ -1,12 +1,6 @@
+-<<<<<<< HEAD
+ $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/UserStory5_YAVUZ.feature");
+ formatter.feature({
+   "name": "A librarian should be able to see book records on user page",
+-=======
+-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/UserStory4_GULNUR.feature");
+-formatter.feature({
+-  "name": "A librarian should be able to add users from users page.",
+->>>>>>> master
+   "description": "",
+   "keyword": "Feature",
+   "tags": [
+@@ -15,7 +9,6 @@
+     }
+   ]
+ });
+-<<<<<<< HEAD
+ formatter.scenario({
+   "name": "A librarian should be able to see book records",
+   "description": "",
+@@ -25,12 +18,6 @@
+       "name": "@login"
+     }
+   ]
+-=======
+-formatter.background({
+-  "name": "",
+-  "description": "",
+-  "keyword": "Background"
+->>>>>>> master
+ });
+ formatter.before({
+   "status": "passed"
+@@ -65,37 +52,10 @@
+ formatter.result({
+   "status": "passed"
+ });
+-<<<<<<< HEAD
+-=======
+-formatter.scenario({
+-  "name": "A librarian should be able to add users with all valid info.",
+-  "description": "",
+-  "keyword": "Scenario",
+-  "tags": [
+-    {
+-      "name": "@login"
+-    }
+-  ]
+-});
+-formatter.step({
+-  "name": "the user should see following options",
+-  "rows": [
+-    {},
+-    {},
+-    {}
+-  ],
+-  "keyword": "Then "
+-});
+-formatter.match({});
+-formatter.result({
+-  "status": "undefined"
+-});
+->>>>>>> master
+ formatter.step({
+   "name": "the user clicks on \"Users\" module on the Library page",
+   "keyword": "When "
+ });
+-<<<<<<< HEAD
+ formatter.match({
+   "location": "com.Library.StepDefinitions.DashboardPageSepDef.the_user_clicks_on_module_on_the_Dashboard_page(java.lang.String)"
+ });
+@@ -108,102 +68,32 @@
+ });
+ formatter.match({
+   "location": "com.Library.StepDefinitions.DashboardPageSepDef.the_Users_Management_page_should_be_displayed()"
+-=======
+-formatter.match({});
+-formatter.result({
+-  "status": "undefined"
+ });
+-formatter.step({
+-  "name": "the Users page should be displayed",
+-  "keyword": "Then "
+-});
+-formatter.match({});
+ formatter.result({
+-  "status": "undefined"
+-});
+-formatter.after({
+-  "status": "passed"
+-});
+-formatter.background({
+-  "name": "",
+-  "description": "",
+-  "keyword": "Background"
+-});
+-formatter.before({
+   "status": "passed"
+ });
+ formatter.step({
+-  "name": "the user is on the login page",
+-  "keyword": "Given "
+-});
+-formatter.match({
+-  "location": "com.Library.StepDefinitions.LoginPageStepDef.the_user_is_on_the_login_page()"
+->>>>>>> master
+-});
+-formatter.result({
+-  "status": "passed"
+-});
+-formatter.step({
+-<<<<<<< HEAD
+   "name": "the user should see 10 records on page",
+   "keyword": "And "
+ });
+ formatter.match({
+   "location": "com.Library.StepDefinitions.UsersPageStepDef.the_user_should_see_10_records_on_page()"
+-=======
+-  "name": "the user enters the \"Librarian\" information",
+-  "keyword": "When "
+-});
+-formatter.match({
+-  "location": "com.Library.StepDefinitions.LoginPageStepDef.the_user_enters_the_information(java.lang.String)"
+->>>>>>> master
+ });
+ formatter.result({
+   "status": "passed"
+ });
+ formatter.step({
+-<<<<<<< HEAD
+   "name": "the user should click records button",
+   "keyword": "And "
+ });
+ formatter.match({
+   "location": "com.Library.StepDefinitions.UsersPageStepDef.the_user_should_click_records_button()"
+-=======
+-  "name": "the Library page should be displayed",
+-  "keyword": "Then "
+-});
+-formatter.match({
+-  "location": "com.Library.StepDefinitions.LoginPageStepDef.the_Library_page_should_be_displayed()"
+->>>>>>> master
+ });
+ formatter.result({
+   "status": "passed"
+ });
+-<<<<<<< HEAD
+ formatter.step({
+   "name": "the user should see following options",
+-=======
+-formatter.scenario({
+-  "name": "A librarian should be able to add users with all valid info.",
+-  "description": "",
+-  "keyword": "Scenario",
+-  "tags": [
+-    {
+-      "name": "@login"
+-    }
+-  ]
+-});
+-formatter.step({
+-  "name": "the user clicks on \"Add User\" module on the User page",
+-  "keyword": "When "
+-});
+-formatter.match({});
+-formatter.result({
+-  "status": "undefined"
+-});
+-formatter.step({
+-  "name": "creates User using following information",
+->>>>>>> master
+   "rows": [
+     {},
+     {},
+@@ -211,54 +101,17 @@
+     {},
+     {},
+     {},
+-<<<<<<< HEAD
+-=======
+-    {},
+->>>>>>> master
+     {}
+   ],
+   "keyword": "And "
+ });
+-<<<<<<< HEAD
+ formatter.match({
+   "location": "com.Library.StepDefinitions.UsersPageStepDef.the_user_should_select_for_following_options(java.util.List\u003cjava.lang.String\u003e)"
+-=======
+-formatter.match({});
+-formatter.result({
+-  "status": "undefined"
+ });
+-formatter.step({
+-  "name": "message The user has been created. should be displayed",
+-  "keyword": "Then "
+-});
+-formatter.match({});
+ formatter.result({
+-  "status": "undefined"
+-});
+-formatter.after({
+-  "status": "passed"
+-});
+-formatter.background({
+-  "name": "",
+-  "description": "",
+-  "keyword": "Background"
+-});
+-formatter.before({
+   "status": "passed"
+ });
+ formatter.step({
+-  "name": "the user is on the login page",
+-  "keyword": "Given "
+-});
+-formatter.match({
+-  "location": "com.Library.StepDefinitions.LoginPageStepDef.the_user_is_on_the_login_page()"
+->>>>>>> master
+-});
+-formatter.result({
+-  "status": "passed"
+-});
+-formatter.step({
+-<<<<<<< HEAD
+   "name": "the user should choose records options and should see records",
+   "rows": [
+     {},
+@@ -273,139 +126,10 @@
+ });
+ formatter.match({
+   "location": "com.Library.StepDefinitions.UsersPageStepDef.the_user_should_choose_records_options_and_should_see_records(java.util.List\u003cjava.lang.String\u003e)"
+-=======
+-  "name": "the user enters the \"Librarian\" information",
+-  "keyword": "When "
+-});
+-formatter.match({
+-  "location": "com.Library.StepDefinitions.LoginPageStepDef.the_user_enters_the_information(java.lang.String)"
+ });
+ formatter.result({
+   "status": "passed"
+ });
+-formatter.step({
+-  "name": "the Library page should be displayed",
+-  "keyword": "Then "
+-});
+-formatter.match({
+-  "location": "com.Library.StepDefinitions.LoginPageStepDef.the_Library_page_should_be_displayed()"
+->>>>>>> master
+-});
+-formatter.result({
+-  "status": "passed"
+-});
+-<<<<<<< HEAD
+-=======
+-formatter.scenario({
+-  "name": "A librarian should be able to close the add user window with \"close\" button",
+-  "description": "",
+-  "keyword": "Scenario",
+-  "tags": [
+-    {
+-      "name": "@login"
+-    }
+-  ]
+-});
+-formatter.step({
+-  "name": "the user clicks on \"Add User\" module on the User page",
+-  "keyword": "When "
+-});
+-formatter.match({});
+-formatter.result({
+-  "status": "undefined"
+-});
+-formatter.step({
+-  "name": "the user should be able to close the add user window with \"close\" button",
+-  "keyword": "And "
+-});
+-formatter.match({});
+-formatter.result({
+-  "status": "undefined"
+-});
+-formatter.after({
+-  "status": "passed"
+-});
+-formatter.background({
+-  "name": "",
+-  "description": "",
+-  "keyword": "Background"
+-});
+-formatter.before({
+-  "status": "passed"
+-});
+-formatter.step({
+-  "name": "the user is on the login page",
+-  "keyword": "Given "
+-});
+-formatter.match({
+-  "location": "com.Library.StepDefinitions.LoginPageStepDef.the_user_is_on_the_login_page()"
+-});
+-formatter.result({
+-  "status": "passed"
+-});
+-formatter.step({
+-  "name": "the user enters the \"Librarian\" information",
+-  "keyword": "When "
+-});
+-formatter.match({
+-  "location": "com.Library.StepDefinitions.LoginPageStepDef.the_user_enters_the_information(java.lang.String)"
+-});
+-formatter.result({
+-  "status": "passed"
+-});
+-formatter.step({
+-  "name": "the Library page should be displayed",
+-  "keyword": "Then "
+-});
+-formatter.match({
+-  "location": "com.Library.StepDefinitions.LoginPageStepDef.the_Library_page_should_be_displayed()"
+-});
+-formatter.result({
+-  "status": "passed"
+-});
+-formatter.scenario({
+-  "name": "A librarian should be able to edit user info",
+-  "description": "",
+-  "keyword": "Scenario",
+-  "tags": [
+-    {
+-      "name": "@login"
+-    }
+-  ]
+-});
+-formatter.step({
+-  "name": "the user should be able to click an user info in Users Page",
+-  "keyword": "Then "
+-});
+-formatter.match({});
+-formatter.result({
+-  "status": "undefined"
+-});
+-formatter.step({
+-  "name": "the user should be able to edit info in new window",
+-  "keyword": "Then "
+-});
+-formatter.match({});
+-formatter.result({
+-  "status": "undefined"
+-});
+-formatter.step({
+-  "name": "the user should be able to click Save changes button",
+-  "keyword": "Then "
+-});
+-formatter.match({});
+-formatter.result({
+-  "status": "undefined"
+-});
+-formatter.step({
+-  "name": "message The user updated. should be displayed",
+-  "keyword": "Then "
+-});
+-formatter.match({});
+-formatter.result({
+-  "status": "undefined"
+-});
+->>>>>>> master
+ formatter.after({
+   "status": "passed"
+ });
+Index: target/test-classes/features/UserStory5_YAVUZ.feature
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#As a librarian, I should be able to see book records on user page\n#\n#\n#AC:  1. default 10 records\n#2. Show records for <count> options\n#Examples:\n#| count |\n#| 5        |\n#| 10      |\n#| 15      |\n#| 50      |\n<<<<<<< HEAD\n#| 100    |\n\n@login\nFeature: A librarian should be able to see book records on user page\n\n  Scenario:A librarian should be able to see book records\n    Given the user is on the login page\n    When  the user enters the \"Librarian\" information\n    Then  the Library page should be displayed\n    When  the user clicks on \"Users\" module on the Library page\n    Then  the Users Management page should be displayed\n    And   the user should see 10 records on page\n    And   the user should click records button\n    And   the user should see following options\n      | 5   |\n      | 10  |\n      | 15  |\n      | 50  |\n      | 100 |\n      | 200 |\n      | 500 |\n    Then the user should choose records options and should see records\n      | 5   |\n      | 10  |\n      | 15  |\n      | 50  |\n      | 100 |\n      | 200 |\n      | 500 |\n=======\n#| 100    |\n>>>>>>> master\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- target/test-classes/features/UserStory5_YAVUZ.feature	(revision da7e245bf97628738e3f081abd0e3ee337956fce)
++++ target/test-classes/features/UserStory5_YAVUZ.feature	(date 1605014647378)
+@@ -1,16 +1,3 @@
+-#As a librarian, I should be able to see book records on user page
+-#
+-#
+-#AC:  1. default 10 records
+-#2. Show records for <count> options
+-#Examples:
+-#| count |
+-#| 5        |
+-#| 10      |
+-#| 15      |
+-#| 50      |
+-<<<<<<< HEAD
+-#| 100    |
+ 
+ @login
+ Feature: A librarian should be able to see book records on user page
+@@ -39,6 +26,3 @@
+       | 100 |
+       | 200 |
+       | 500 |
+-=======
+-#| 100    |
+->>>>>>> master
+Index: target/test-classes/features/UserStory4_GULNUR.feature
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\n#As a librarian, I should be able to add users from users page.\n\n#AC:  1. add users with all valid info.\n#     2. Librarians able to close the add user window with \"close\" button\n#     3. Librarians able to edit user info.\n<<<<<<< HEAD\n\nFeature: A librarian should be able to add users from users page.\n\n  Scenario:\n=======\n@login\nFeature: A librarian should be able to add users from users page.\n\n  Background:\n>>>>>>> master\n    Given the user is on the login page\n    When  the user enters the \"Librarian\" information\n    Then  the Library page should be displayed\n\n<<<<<<< HEAD\n#\n#  Scenario:A librarian should be able to add users with all valid info.\n#    Then  the user should see following options\n#      |Users|\n#      |Books|\n#      |Borrowed Books|\n#    When  the user clicks on \"Users\" module on the Dashboard page\n#    Then  the Users page should be displayed\n#\n#  Scenario:A librarian should be able to add users with all valid info.\n#    When  the user clicks on \"Add User\" module on the Dashboard page\n#    And   creates User using following information\n#      |Full Name |XYZ Student                              |\n#      |Password  |xyzABC                                   |\n#      |Email     |xyzABC@yahoo.com                         |\n#      |User Group|Students                                 |\n#      |Status    |Active                                   |\n#      |Start Date|2020-11-01                               |\n#      |End Date  |2020-11-29                               |\n#      |Address   |100 November Road,Liverpool,England,L62SH|\n#\n#    Then  message The user has been created. should be displayed\n#\n#  Scenario:A librarian should be able to close the add user window with \"close\" button\n#    When  the user clicks on \"Add User\" module on the Dashboard page\n#    And   the user should be able to close the add user window with \"close\" button\n#\n#  Scenario:A librarian should be able to edit user info\n#    Then the user should be able to click an user info in Users Page\n#    Then the user should be able to edit info in new window\n#    Then the user should be able to click Save changes button\n#    Then message The user updated. should be displayed\n=======\n  Scenario:A librarian should be able to add users with all valid info.\n    Then  the user should see following options\n      |Users|\n      |Books|\n      |Borrowed Books|\n    When  the user clicks on \"Users\" module on the Library page\n    Then  the Users page should be displayed\n\n  Scenario:A librarian should be able to add users with all valid info.\n    When  the user clicks on \"Add User\" module on the User page\n    And   creates User using following information\n      |Full Name |XYZ Student                              |\n      |Password  |xyzABC                                   |\n      |Email     |xyzABC@yahoo.com                         |\n      |User Group|Students                                 |\n      |Status    |Active                                   |\n      |Start Date|2020-11-01                               |\n      |End Date  |2020-11-29                               |\n      |Address   |100 November Road,Liverpool,England,L62SH|\n\n    Then  message The user has been created. should be displayed\n\n  Scenario:A librarian should be able to close the add user window with \"close\" button\n    When  the user clicks on \"Add User\" module on the User page\n    And   the user should be able to close the add user window with \"close\" button\n\n  Scenario:A librarian should be able to edit user info\n    Then the user should be able to click an user info in Users Page\n    Then the user should be able to edit info in new window\n    Then the user should be able to click Save changes button\n    Then message The user updated. should be displayed\n>>>>>>> master\n\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- target/test-classes/features/UserStory4_GULNUR.feature	(revision da7e245bf97628738e3f081abd0e3ee337956fce)
++++ target/test-classes/features/UserStory4_GULNUR.feature	(date 1605014647378)
+@@ -4,65 +4,24 @@
+ #AC:  1. add users with all valid info.
+ #     2. Librarians able to close the add user window with "close" button
+ #     3. Librarians able to edit user info.
+-<<<<<<< HEAD
+ 
+ Feature: A librarian should be able to add users from users page.
+ 
+-  Scenario:
+-=======
+-@login
+-Feature: A librarian should be able to add users from users page.
+-
+   Background:
+->>>>>>> master
+     Given the user is on the login page
+     When  the user enters the "Librarian" information
+     Then  the Library page should be displayed
+ 
+-<<<<<<< HEAD
+-#
+-#  Scenario:A librarian should be able to add users with all valid info.
+-#    Then  the user should see following options
+-#      |Users|
+-#      |Books|
+-#      |Borrowed Books|
+-#    When  the user clicks on "Users" module on the Dashboard page
+-#    Then  the Users page should be displayed
+-#
+-#  Scenario:A librarian should be able to add users with all valid info.
+-#    When  the user clicks on "Add User" module on the Dashboard page
+-#    And   creates User using following information
+-#      |Full Name |XYZ Student                              |
+-#      |Password  |xyzABC                                   |
+-#      |Email     |xyzABC@yahoo.com                         |
+-#      |User Group|Students                                 |
+-#      |Status    |Active                                   |
+-#      |Start Date|2020-11-01                               |
+-#      |End Date  |2020-11-29                               |
+-#      |Address   |100 November Road,Liverpool,England,L62SH|
+-#
+-#    Then  message The user has been created. should be displayed
+-#
+-#  Scenario:A librarian should be able to close the add user window with "close" button
+-#    When  the user clicks on "Add User" module on the Dashboard page
+-#    And   the user should be able to close the add user window with "close" button
+-#
+-#  Scenario:A librarian should be able to edit user info
+-#    Then the user should be able to click an user info in Users Page
+-#    Then the user should be able to edit info in new window
+-#    Then the user should be able to click Save changes button
+-#    Then message The user updated. should be displayed
+-=======
+   Scenario:A librarian should be able to add users with all valid info.
+     Then  the user should see following options
+       |Users|
+       |Books|
+       |Borrowed Books|
+-    When  the user clicks on "Users" module on the Library page
++    When  the user clicks on "Users" module on the Dashboard page
+     Then  the Users page should be displayed
+ 
+   Scenario:A librarian should be able to add users with all valid info.
+-    When  the user clicks on "Add User" module on the User page
++    When  the user clicks on "Add User" module on the Dashboard page
+     And   creates User using following information
+       |Full Name |XYZ Student                              |
+       |Password  |xyzABC                                   |
+@@ -76,7 +35,7 @@
+     Then  message The user has been created. should be displayed
+ 
+   Scenario:A librarian should be able to close the add user window with "close" button
+-    When  the user clicks on "Add User" module on the User page
++    When  the user clicks on "Add User" module on the Dashboard page
+     And   the user should be able to close the add user window with "close" button
+ 
+   Scenario:A librarian should be able to edit user info
+@@ -84,6 +43,5 @@
+     Then the user should be able to edit info in new window
+     Then the user should be able to click Save changes button
+     Then message The user updated. should be displayed
+->>>>>>> master
+ 
+ 
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"BRANCH:master\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </select>\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"1f2e034f-0ff2-4c76-96c8-7f1769a271a7\" name=\"Default Changelist\" comment=\"new Proje\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/LoginPageStepDef.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/LoginPageStepDef.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/test/resources/features/UserStory4_GULNUR.feature\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/resources/features/UserStory4_GULNUR.feature\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/target/test-classes/com/Library/StepDefinitions/LoginPageStepDef.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/test-classes/com/Library/StepDefinitions/LoginPageStepDef.class\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/target/test-classes/features/UserStory4_GULNUR.feature\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/test-classes/features/UserStory4_GULNUR.feature\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"HighlightingSettingsPerFile\">\n    <setting file=\"file://$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/LoginPageStepDef.java\" root0=\"SKIP_INSPECTION\" />\n  </component>\n  <component name=\"MavenImportPreferences\">\n    <option name=\"generalSettings\">\n      <MavenGeneralSettings>\n        <option name=\"mavenHome\" value=\"$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3\" />\n      </MavenGeneralSettings>\n    </option>\n  </component>\n  <component name=\"ProjectId\" id=\"1jejEaOyj7Gl2kNO0aWWtodCccX\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"org.jetbrains.plugins.github.ui.GithubSettingsConfigurable\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\n      <recent name=\"com.Library.Pages\" />\n      <recent name=\"com.Library.Runners\" />\n      <recent name=\"com.Library.StepDefinitions\" />\n      <recent name=\"com.Library.Utilities\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src/test/resources/features\" />\n    </key>\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"CukesRunner\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"LibraryProject\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"com.Library.Runners.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"com.Library.Runners\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.Library.Runners.CukesRunner\" />\n      <option name=\"TEST_OBJECT\" value=\"class\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"JUnit.CukesRunner\" />\n        <item itemvalue=\"JUnit.CukesRunner\" />\n        <item itemvalue=\"JUnit.CukesRunner\" />\n        <item itemvalue=\"JUnit.CukesRunner\" />\n        <item itemvalue=\"JUnit.CukesRunner\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"1f2e034f-0ff2-4c76-96c8-7f1769a271a7\" name=\"Default Changelist\" comment=\"\" />\n      <created>1604171340474</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1604171340474</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"new Proje\">\n      <created>1604185199645</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604185199645</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"new Proje\">\n      <created>1604186817009</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604186817009</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"new Proje\">\n      <created>1604187326556</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604187326556</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"new Proje\">\n      <created>1604188131371</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604188131371</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"new Proje\">\n      <created>1604188304689</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604188304689</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"new Proje\">\n      <created>1604188521601</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604188521601</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"new Proje\">\n      <created>1604188745398</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604188745398</updated>\n    </task>\n    <task id=\"LOCAL-00008\" summary=\"new Proje\">\n      <created>1604190090190</created>\n      <option name=\"number\" value=\"00008\" />\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604190090190</updated>\n    </task>\n    <task id=\"LOCAL-00009\" summary=\"new Proje\">\n      <created>1604193311902</created>\n      <option name=\"number\" value=\"00009\" />\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604193311902</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"10\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State>\n              <option name=\"FILTERS\">\n                <map>\n                  <entry key=\"branch\">\n                    <value>\n                      <list>\n                        <option value=\"master\" />\n                      </list>\n                    </value>\n                  </entry>\n                </map>\n              </option>\n            </State>\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"new Proje\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"new Proje\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"362\" y=\"210\" key=\"#com.intellij.fileTypes.FileTypeChooser\" timestamp=\"1604171552542\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state x=\"362\" y=\"210\" key=\"#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800\" timestamp=\"1604171552542\" />\n    <state x=\"494\" y=\"308\" key=\"Github.ShareDialog\" timestamp=\"1604185452953\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state x=\"494\" y=\"308\" key=\"Github.ShareDialog/0.0.1280.800@0.0.1280.800\" timestamp=\"1604185452953\" />\n    <state width=\"1238\" height=\"212\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1604194603814\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state width=\"1238\" height=\"212\" key=\"GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800\" timestamp=\"1604194603814\" />\n    <state width=\"1238\" height=\"212\" key=\"GridCell.Tab.0.center\" timestamp=\"1604194603813\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state width=\"1238\" height=\"212\" key=\"GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800\" timestamp=\"1604194603813\" />\n    <state width=\"1238\" height=\"212\" key=\"GridCell.Tab.0.left\" timestamp=\"1604194603812\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state width=\"1238\" height=\"212\" key=\"GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800\" timestamp=\"1604194603812\" />\n    <state width=\"1238\" height=\"212\" key=\"GridCell.Tab.0.right\" timestamp=\"1604194603814\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state width=\"1238\" height=\"212\" key=\"GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800\" timestamp=\"1604194603814\" />\n    <state x=\"141\" y=\"39\" key=\"SettingsEditor\" timestamp=\"1604185164763\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state x=\"141\" y=\"39\" key=\"SettingsEditor/0.0.1280.800@0.0.1280.800\" timestamp=\"1604185164763\" />\n    <state x=\"240\" y=\"127\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1604193313470\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state x=\"240\" y=\"127\" key=\"Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800\" timestamp=\"1604193313470\" />\n    <state x=\"339\" y=\"163\" width=\"602\" height=\"474\" key=\"find.popup\" timestamp=\"1604183394410\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state x=\"339\" y=\"163\" width=\"602\" height=\"474\" key=\"find.popup/0.0.1280.800@0.0.1280.800\" timestamp=\"1604183394410\" />\n    <state x=\"393\" y=\"121\" key=\"git4idea.branch.GitSmartOperationDialog\" timestamp=\"1604193061997\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state x=\"393\" y=\"121\" key=\"git4idea.branch.GitSmartOperationDialog/0.0.1280.800@0.0.1280.800\" timestamp=\"1604193061997\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision da7e245bf97628738e3f081abd0e3ee337956fce)
++++ .idea/workspace.xml	(date 1605014644864)
+@@ -22,18 +22,16 @@
+     <select>
+       <path>
+         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="BRANCH:origin/yavuz" type="e8cecc67:BranchNodeDescriptor" />
+       </path>
+     </select>
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="1f2e034f-0ff2-4c76-96c8-7f1769a271a7" name="Default Changelist" comment="new Proje">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/LoginPageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/LoginPageStepDef.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/java/com/Library/Runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Library/Runners/CukesRunner.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/test/resources/features/UserStory4_GULNUR.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UserStory4_GULNUR.feature" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/StepDefinitions/LoginPageStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Library/StepDefinitions/LoginPageStepDef.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/UserStory4_GULNUR.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/UserStory4_GULNUR.feature" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -247,10 +245,11 @@
+       <screen x="0" y="0" width="1280" height="800" />
+     </state>
+     <state x="240" y="127" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1604193313470" />
+-    <state x="339" y="163" width="602" height="474" key="find.popup" timestamp="1604183394410">
+-      <screen x="0" y="0" width="1280" height="800" />
++    <state x="339" y="171" width="602" height="474" key="find.popup" timestamp="1605014639812">
++      <screen x="0" y="23" width="1280" height="727" />
+     </state>
+     <state x="339" y="163" width="602" height="474" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1604183394410" />
++    <state x="339" y="171" width="602" height="474" key="find.popup/0.23.1280.727@0.23.1280.727" timestamp="1605014639812" />
+     <state x="393" y="121" key="git4idea.branch.GitSmartOperationDialog" timestamp="1604193061997">
+       <screen x="0" y="0" width="1280" height="800" />
+     </state>
+Index: target/test-classes/features/UserStory7_ZUHAL.feature
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><<<<<<< HEAD\n@wip\nFeature:As a student, I should be able to search books with different categories\n  @EUG3-154 @EUG3-144\n  Scenario: As a student, I should be able to search books with different categories\n    When a student logs in with valid credentials\n    And clicks the Book Categories dropdown\n    And chooses one of the following categories\n      | Action and Adventure    |\n      | Anthology               |\n      | Classic                 |\n      | Comic and Graphic Novel |\n      | Crime and Detective     |\n      | Drama                   |\n      | Fable                   |\n      | Fairy Tale              |\n      | Fan-Fiction             |\n      | Fantasy                 |\n      | Historical Fiction      |\n      | Horror                  |\n      | Science Fiction         |\n      | Biography/Autobiography |\n      | Humor                   |\n      | Romance                 |\n      | Short Story             |\n      | Essay                   |\n      | Memoir                  |\n\n    Then he should see only the books that belong to the chosen category on the table\n\n=======\n\n#As a students, I should be able to serach books with different categories.\n>>>>>>> master\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- target/test-classes/features/UserStory7_ZUHAL.feature	(revision da7e245bf97628738e3f081abd0e3ee337956fce)
++++ target/test-classes/features/UserStory7_ZUHAL.feature	(date 1605014647377)
+@@ -1,4 +1,3 @@
+-<<<<<<< HEAD
+ @wip
+ Feature:As a student, I should be able to search books with different categories
+   @EUG3-154 @EUG3-144
+@@ -28,7 +27,3 @@
+ 
+     Then he should see only the books that belong to the chosen category on the table
+ 
+-=======
+-
+-#As a students, I should be able to serach books with different categories.
+->>>>>>> master
+Index: target/cucumber.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>[\n  {\n    \"line\": 8,\n    \"elements\": [\n      {\n        \"line\": 10,\n        \"name\": \"\",\n        \"description\": \"\",\n        \"type\": \"background\",\n        \"keyword\": \"Background\",\n        \"steps\": [\n          {\n            \"result\": {\n              \"duration\": 3507689000,\n              \"status\": \"passed\"\n            },\n            \"line\": 11,\n            \"name\": \"the user is on the login page\",\n            \"match\": {\n              \"location\": \"com.Library.StepDefinitions.LoginPageStepDef.the_user_is_on_the_login_page()\"\n            },\n            \"keyword\": \"Given \"\n          },\n          {\n            \"result\": {\n              \"duration\": 1418276000,\n              \"status\": \"passed\"\n            },\n            \"line\": 12,\n            \"name\": \"the user enters the \\\"Librarian\\\" information\",\n            \"match\": {\n              \"arguments\": [\n                {\n                  \"val\": \"\\\"Librarian\\\"\",\n                  \"offset\": 20\n                }\n              ],\n              \"location\": \"com.Library.StepDefinitions.LoginPageStepDef.the_user_enters_the_information(java.lang.String)\"\n            },\n            \"keyword\": \"When \"\n          },\n          {\n            \"result\": {\n              \"duration\": 3015690000,\n              \"status\": \"passed\"\n            },\n            \"line\": 13,\n            \"name\": \"the Library page should be displayed\",\n            \"match\": {\n              \"location\": \"com.Library.StepDefinitions.LoginPageStepDef.the_Library_page_should_be_displayed()\"\n            },\n            \"keyword\": \"Then \"\n          }\n        ]\n      },\n      {\n        \"start_timestamp\": \"2020-11-03T12:03:03.802Z\",\n        \"before\": [\n          {\n            \"result\": {\n              \"duration\": 1892000,\n              \"status\": \"passed\"\n            },\n            \"match\": {\n              \"location\": \"com.Library.StepDefinitions.Hooks.setUp()\"\n            }\n          }\n        ],\n        \"line\": 15,\n        \"name\": \"A librarian should be able to add users with all valid info.\",\n        \"description\": \"\",\n        \"id\": \"a-librarian-should-be-able-to-add-users-from-users-page.;a-librarian-should-be-able-to-add-users-with-all-valid-info.\",\n        \"after\": [\n          {\n            \"result\": {\n              \"duration\": 118182000,\n              \"status\": \"passed\"\n            },\n            \"match\": {\n              \"location\": \"com.Library.StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)\"\n            }\n          }\n        ],\n        \"type\": \"scenario\",\n        \"keyword\": \"Scenario\",\n        \"steps\": [\n          {\n            \"result\": {\n              \"status\": \"undefined\"\n            },\n            \"line\": 16,\n            \"name\": \"the user should see following options\",\n            \"match\": {},\n            \"rows\": [\n              {\n                \"cells\": [\n                  \"Users\"\n                ]\n              },\n              {\n                \"cells\": [\n                  \"Books\"\n                ]\n              },\n              {\n                \"cells\": [\n                  \"Borrowed Books\"\n                ]\n              }\n            ],\n            \"keyword\": \"Then \"\n          },\n          {\n            \"result\": {\n              \"status\": \"undefined\"\n            },\n            \"line\": 20,\n            \"name\": \"the user clicks on \\\"Users\\\" module on the Library page\",\n            \"match\": {},\n            \"keyword\": \"When \"\n          },\n          {\n            \"result\": {\n              \"status\": \"undefined\"\n            },\n            \"line\": 21,\n            \"name\": \"the Users page should be displayed\",\n            \"match\": {},\n            \"keyword\": \"Then \"\n          }\n        ],\n        \"tags\": [\n          {\n            \"name\": \"@login\"\n          }\n        ]\n      },\n      {\n        \"line\": 10,\n        \"name\": \"\",\n        \"description\": \"\",\n        \"type\": \"background\",\n        \"keyword\": \"Background\",\n        \"steps\": [\n          {\n            \"result\": {\n              \"duration\": 2315420000,\n              \"status\": \"passed\"\n            },\n            \"line\": 11,\n            \"name\": \"the user is on the login page\",\n            \"match\": {\n              \"location\": \"com.Library.StepDefinitions.LoginPageStepDef.the_user_is_on_the_login_page()\"\n            },\n            \"keyword\": \"Given \"\n          },\n          {\n            \"result\": {\n              \"duration\": 1261805000,\n              \"status\": \"passed\"\n            },\n            \"line\": 12,\n            \"name\": \"the user enters the \\\"Librarian\\\" information\",\n            \"match\": {\n              \"arguments\": [\n                {\n                  \"val\": \"\\\"Librarian\\\"\",\n                  \"offset\": 20\n                }\n              ],\n              \"location\": \"com.Library.StepDefinitions.LoginPageStepDef.the_user_enters_the_information(java.lang.String)\"\n            },\n            \"keyword\": \"When \"\n          },\n          {\n            \"result\": {\n              \"duration\": 3011045000,\n              \"status\": \"passed\"\n            },\n            \"line\": 13,\n            \"name\": \"the Library page should be displayed\",\n            \"match\": {\n              \"location\": \"com.Library.StepDefinitions.LoginPageStepDef.the_Library_page_should_be_displayed()\"\n            },\n            \"keyword\": \"Then \"\n          }\n        ]\n      },\n      {\n        \"start_timestamp\": \"2020-11-03T12:03:11.982Z\",\n        \"before\": [\n          {\n            \"result\": {\n              \"duration\": 157000,\n              \"status\": \"passed\"\n            },\n            \"match\": {\n              \"location\": \"com.Library.StepDefinitions.Hooks.setUp()\"\n            }\n          }\n        ],\n        \"line\": 23,\n        \"name\": \"A librarian should be able to add users with all valid info.\",\n        \"description\": \"\",\n        \"id\": \"a-librarian-should-be-able-to-add-users-from-users-page.;a-librarian-should-be-able-to-add-users-with-all-valid-info.\",\n        \"after\": [\n          {\n            \"result\": {\n              \"duration\": 120092000,\n              \"status\": \"passed\"\n            },\n            \"match\": {\n              \"location\": \"com.Library.StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)\"\n            }\n          }\n        ],\n        \"type\": \"scenario\",\n        \"keyword\": \"Scenario\",\n        \"steps\": [\n          {\n            \"result\": {\n              \"status\": \"undefined\"\n            },\n            \"line\": 24,\n            \"name\": \"the user clicks on \\\"Add User\\\" module on the User page\",\n            \"match\": {},\n            \"keyword\": \"When \"\n          },\n          {\n            \"result\": {\n              \"status\": \"undefined\"\n            },\n            \"line\": 25,\n            \"name\": \"creates User using following information\",\n            \"match\": {},\n            \"rows\": [\n              {\n                \"cells\": [\n                  \"Full Name\",\n                  \"XYZ Student\"\n                ]\n              },\n              {\n                \"cells\": [\n                  \"Password\",\n                  \"xyzABC\"\n                ]\n              },\n              {\n                \"cells\": [\n                  \"Email\",\n                  \"xyzABC@yahoo.com\"\n                ]\n              },\n              {\n                \"cells\": [\n                  \"User Group\",\n                  \"Students\"\n                ]\n              },\n              {\n                \"cells\": [\n                  \"Status\",\n                  \"Active\"\n                ]\n              },\n              {\n                \"cells\": [\n                  \"Start Date\",\n                  \"2020-11-01\"\n                ]\n              },\n              {\n                \"cells\": [\n                  \"End Date\",\n                  \"2020-11-29\"\n                ]\n              },\n              {\n                \"cells\": [\n                  \"Address\",\n                  \"100 November Road,Liverpool,England,L62SH\"\n                ]\n              }\n            ],\n            \"keyword\": \"And \"\n          },\n          {\n            \"result\": {\n              \"status\": \"undefined\"\n            },\n            \"line\": 35,\n            \"name\": \"message The user has been created. should be displayed\",\n            \"match\": {},\n            \"keyword\": \"Then \"\n          }\n        ],\n        \"tags\": [\n          {\n            \"name\": \"@login\"\n          }\n        ]\n      },\n      {\n        \"line\": 10,\n        \"name\": \"\",\n        \"description\": \"\",\n        \"type\": \"background\",\n        \"keyword\": \"Background\",\n        \"steps\": [\n          {\n            \"result\": {\n              \"duration\": 2189936000,\n              \"status\": \"passed\"\n            },\n            \"line\": 11,\n            \"name\": \"the user is on the login page\",\n            \"match\": {\n              \"location\": \"com.Library.StepDefinitions.LoginPageStepDef.the_user_is_on_the_login_page()\"\n            },\n            \"keyword\": \"Given \"\n          },\n          {\n            \"result\": {\n              \"duration\": 1239358000,\n              \"status\": \"passed\"\n            },\n            \"line\": 12,\n            \"name\": \"the user enters the \\\"Librarian\\\" information\",\n            \"match\": {\n              \"arguments\": [\n                {\n                  \"val\": \"\\\"Librarian\\\"\",\n                  \"offset\": 20\n                }\n              ],\n              \"location\": \"com.Library.StepDefinitions.LoginPageStepDef.the_user_enters_the_information(java.lang.String)\"\n            },\n            \"keyword\": \"When \"\n          },\n          {\n            \"result\": {\n              \"duration\": 3011824000,\n              \"status\": \"passed\"\n            },\n            \"line\": 13,\n            \"name\": \"the Library page should be displayed\",\n            \"match\": {\n              \"location\": \"com.Library.StepDefinitions.LoginPageStepDef.the_Library_page_should_be_displayed()\"\n            },\n            \"keyword\": \"Then \"\n          }\n        ]\n      },\n      {\n        \"start_timestamp\": \"2020-11-03T12:03:18.706Z\",\n        \"before\": [\n          {\n            \"result\": {\n              \"duration\": 462000,\n              \"status\": \"passed\"\n            },\n            \"match\": {\n              \"location\": \"com.Library.StepDefinitions.Hooks.setUp()\"\n            }\n          }\n        ],\n        \"line\": 37,\n        \"name\": \"A librarian should be able to close the add user window with \\\"close\\\" button\",\n        \"description\": \"\",\n        \"id\": \"a-librarian-should-be-able-to-add-users-from-users-page.;a-librarian-should-be-able-to-close-the-add-user-window-with-\\\"close\\\"-button\",\n        \"after\": [\n          {\n            \"result\": {\n              \"duration\": 107814000,\n              \"status\": \"passed\"\n            },\n            \"match\": {\n              \"location\": \"com.Library.StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)\"\n            }\n          }\n        ],\n        \"type\": \"scenario\",\n        \"keyword\": \"Scenario\",\n        \"steps\": [\n          {\n            \"result\": {\n              \"status\": \"undefined\"\n            },\n            \"line\": 38,\n            \"name\": \"the user clicks on \\\"Add User\\\" module on the User page\",\n            \"match\": {},\n            \"keyword\": \"When \"\n          },\n          {\n            \"result\": {\n              \"status\": \"undefined\"\n            },\n            \"line\": 39,\n            \"name\": \"the user should be able to close the add user window with \\\"close\\\" button\",\n            \"match\": {},\n            \"keyword\": \"And \"\n          }\n        ],\n        \"tags\": [\n          {\n            \"name\": \"@login\"\n          }\n        ]\n      },\n      {\n        \"line\": 10,\n        \"name\": \"\",\n        \"description\": \"\",\n        \"type\": \"background\",\n        \"keyword\": \"Background\",\n        \"steps\": [\n          {\n            \"result\": {\n              \"duration\": 2649749000,\n              \"status\": \"passed\"\n            },\n            \"line\": 11,\n            \"name\": \"the user is on the login page\",\n            \"match\": {\n              \"location\": \"com.Library.StepDefinitions.LoginPageStepDef.the_user_is_on_the_login_page()\"\n            },\n            \"keyword\": \"Given \"\n          },\n          {\n            \"result\": {\n              \"duration\": 1259412000,\n              \"status\": \"passed\"\n            },\n            \"line\": 12,\n            \"name\": \"the user enters the \\\"Librarian\\\" information\",\n            \"match\": {\n              \"arguments\": [\n                {\n                  \"val\": \"\\\"Librarian\\\"\",\n                  \"offset\": 20\n                }\n              ],\n              \"location\": \"com.Library.StepDefinitions.LoginPageStepDef.the_user_enters_the_information(java.lang.String)\"\n            },\n            \"keyword\": \"When \"\n          },\n          {\n            \"result\": {\n              \"duration\": 3011225000,\n              \"status\": \"passed\"\n            },\n            \"line\": 13,\n            \"name\": \"the Library page should be displayed\",\n            \"match\": {\n              \"location\": \"com.Library.StepDefinitions.LoginPageStepDef.the_Library_page_should_be_displayed()\"\n            },\n            \"keyword\": \"Then \"\n          }\n        ]\n      },\n      {\n        \"start_timestamp\": \"2020-11-03T12:03:25.276Z\",\n        \"before\": [\n          {\n            \"result\": {\n              \"duration\": 231000,\n              \"status\": \"passed\"\n            },\n            \"match\": {\n              \"location\": \"com.Library.StepDefinitions.Hooks.setUp()\"\n            }\n          }\n        ],\n        \"line\": 41,\n        \"name\": \"A librarian should be able to edit user info\",\n        \"description\": \"\",\n        \"id\": \"a-librarian-should-be-able-to-add-users-from-users-page.;a-librarian-should-be-able-to-edit-user-info\",\n        \"after\": [\n          {\n            \"result\": {\n              \"duration\": 130317000,\n              \"status\": \"passed\"\n            },\n            \"match\": {\n              \"location\": \"com.Library.StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)\"\n            }\n          }\n        ],\n        \"type\": \"scenario\",\n        \"keyword\": \"Scenario\",\n        \"steps\": [\n          {\n            \"result\": {\n              \"status\": \"undefined\"\n            },\n            \"line\": 42,\n            \"name\": \"the user should be able to click an user info in Users Page\",\n            \"match\": {},\n            \"keyword\": \"Then \"\n          },\n          {\n            \"result\": {\n              \"status\": \"undefined\"\n            },\n            \"line\": 43,\n            \"name\": \"the user should be able to edit info in new window\",\n            \"match\": {},\n            \"keyword\": \"Then \"\n          },\n          {\n            \"result\": {\n              \"status\": \"undefined\"\n            },\n            \"line\": 44,\n            \"name\": \"the user should be able to click Save changes button\",\n            \"match\": {},\n            \"keyword\": \"Then \"\n          },\n          {\n            \"result\": {\n              \"status\": \"undefined\"\n            },\n            \"line\": 45,\n            \"name\": \"message The user updated. should be displayed\",\n            \"match\": {},\n            \"keyword\": \"Then \"\n          }\n        ],\n        \"tags\": [\n          {\n            \"name\": \"@login\"\n          }\n        ]\n      }\n    ],\n    \"name\": \"A librarian should be able to add users from users page.\",\n    \"description\": \"\",\n    \"id\": \"a-librarian-should-be-able-to-add-users-from-users-page.\",\n    \"keyword\": \"Feature\",\n    \"uri\": \"file:src/test/resources/features/UserStory4_GULNUR.feature\",\n    \"tags\": [\n      {\n        \"name\": \"@login\",\n        \"type\": \"Tag\",\n        \"location\": {\n          \"line\": 7,\n          \"column\": 1\n        }\n      }\n    ]\n  }\n]
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- target/cucumber.json	(revision da7e245bf97628738e3f081abd0e3ee337956fce)
++++ target/cucumber.json	(date 1605014693931)
+@@ -1,64 +1,13 @@
+ [
+   {
+-    "line": 8,
++    "line": 3,
+     "elements": [
+       {
+-        "line": 10,
+-        "name": "",
+-        "description": "",
+-        "type": "background",
+-        "keyword": "Background",
+-        "steps": [
+-          {
+-            "result": {
+-              "duration": 3507689000,
+-              "status": "passed"
+-            },
+-            "line": 11,
+-            "name": "the user is on the login page",
+-            "match": {
+-              "location": "com.Library.StepDefinitions.LoginPageStepDef.the_user_is_on_the_login_page()"
+-            },
+-            "keyword": "Given "
+-          },
+-          {
+-            "result": {
+-              "duration": 1418276000,
+-              "status": "passed"
+-            },
+-            "line": 12,
+-            "name": "the user enters the \"Librarian\" information",
+-            "match": {
+-              "arguments": [
+-                {
+-                  "val": "\"Librarian\"",
+-                  "offset": 20
+-                }
+-              ],
+-              "location": "com.Library.StepDefinitions.LoginPageStepDef.the_user_enters_the_information(java.lang.String)"
+-            },
+-            "keyword": "When "
+-          },
+-          {
+-            "result": {
+-              "duration": 3015690000,
+-              "status": "passed"
+-            },
+-            "line": 13,
+-            "name": "the Library page should be displayed",
+-            "match": {
+-              "location": "com.Library.StepDefinitions.LoginPageStepDef.the_Library_page_should_be_displayed()"
+-            },
+-            "keyword": "Then "
+-          }
+-        ]
+-      },
+-      {
+-        "start_timestamp": "2020-11-03T12:03:03.802Z",
++        "start_timestamp": "2020-11-10T13:24:12.195Z",
+         "before": [
+           {
+             "result": {
+-              "duration": 1892000,
++              "duration": 1235000,
+               "status": "passed"
+             },
+             "match": {
+@@ -66,14 +15,14 @@
+             }
+           }
+         ],
+-        "line": 15,
+-        "name": "A librarian should be able to add users with all valid info.",
++        "line": 5,
++        "name": "A librarian should be able to see book records",
+         "description": "",
+-        "id": "a-librarian-should-be-able-to-add-users-from-users-page.;a-librarian-should-be-able-to-add-users-with-all-valid-info.",
++        "id": "a-librarian-should-be-able-to-see-book-records-on-user-page;a-librarian-should-be-able-to-see-book-records",
+         "after": [
+           {
+             "result": {
+-              "duration": 118182000,
++              "duration": 144940000,
+               "status": "passed"
+             },
+             "match": {
+@@ -86,68 +35,10 @@
+         "steps": [
+           {
+             "result": {
+-              "status": "undefined"
+-            },
+-            "line": 16,
+-            "name": "the user should see following options",
+-            "match": {},
+-            "rows": [
+-              {
+-                "cells": [
+-                  "Users"
+-                ]
+-              },
+-              {
+-                "cells": [
+-                  "Books"
+-                ]
+-              },
+-              {
+-                "cells": [
+-                  "Borrowed Books"
+-                ]
+-              }
+-            ],
+-            "keyword": "Then "
+-          },
+-          {
+-            "result": {
+-              "status": "undefined"
+-            },
+-            "line": 20,
+-            "name": "the user clicks on \"Users\" module on the Library page",
+-            "match": {},
+-            "keyword": "When "
+-          },
+-          {
+-            "result": {
+-              "status": "undefined"
+-            },
+-            "line": 21,
+-            "name": "the Users page should be displayed",
+-            "match": {},
+-            "keyword": "Then "
+-          }
+-        ],
+-        "tags": [
+-          {
+-            "name": "@login"
+-          }
+-        ]
+-      },
+-      {
+-        "line": 10,
+-        "name": "",
+-        "description": "",
+-        "type": "background",
+-        "keyword": "Background",
+-        "steps": [
+-          {
+-            "result": {
+-              "duration": 2315420000,
++              "duration": 3420317000,
+               "status": "passed"
+             },
+-            "line": 11,
++            "line": 6,
+             "name": "the user is on the login page",
+             "match": {
+               "location": "com.Library.StepDefinitions.LoginPageStepDef.the_user_is_on_the_login_page()"
+@@ -156,10 +47,10 @@
+           },
+           {
+             "result": {
+-              "duration": 1261805000,
++              "duration": 1308802000,
+               "status": "passed"
+             },
+-            "line": 12,
++            "line": 7,
+             "name": "the user enters the \"Librarian\" information",
+             "match": {
+               "arguments": [
+@@ -174,356 +65,166 @@
+           },
+           {
+             "result": {
+-              "duration": 3011045000,
++              "duration": 3013248000,
+               "status": "passed"
+             },
+-            "line": 13,
++            "line": 8,
+             "name": "the Library page should be displayed",
+             "match": {
+               "location": "com.Library.StepDefinitions.LoginPageStepDef.the_Library_page_should_be_displayed()"
+             },
+             "keyword": "Then "
+-          }
+-        ]
+-      },
+-      {
+-        "start_timestamp": "2020-11-03T12:03:11.982Z",
+-        "before": [
+-          {
+-            "result": {
+-              "duration": 157000,
+-              "status": "passed"
+-            },
+-            "match": {
+-              "location": "com.Library.StepDefinitions.Hooks.setUp()"
+-            }
+-          }
+-        ],
+-        "line": 23,
+-        "name": "A librarian should be able to add users with all valid info.",
+-        "description": "",
+-        "id": "a-librarian-should-be-able-to-add-users-from-users-page.;a-librarian-should-be-able-to-add-users-with-all-valid-info.",
+-        "after": [
+-          {
+-            "result": {
+-              "duration": 120092000,
+-              "status": "passed"
+-            },
+-            "match": {
+-              "location": "com.Library.StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+-            }
+-          }
+-        ],
+-        "type": "scenario",
+-        "keyword": "Scenario",
+-        "steps": [
+-          {
+-            "result": {
+-              "status": "undefined"
+-            },
+-            "line": 24,
+-            "name": "the user clicks on \"Add User\" module on the User page",
+-            "match": {},
+-            "keyword": "When "
+-          },
+-          {
+-            "result": {
+-              "status": "undefined"
+-            },
+-            "line": 25,
+-            "name": "creates User using following information",
+-            "match": {},
+-            "rows": [
+-              {
+-                "cells": [
+-                  "Full Name",
+-                  "XYZ Student"
+-                ]
+-              },
+-              {
+-                "cells": [
+-                  "Password",
+-                  "xyzABC"
+-                ]
+-              },
+-              {
+-                "cells": [
+-                  "Email",
+-                  "xyzABC@yahoo.com"
+-                ]
+-              },
+-              {
+-                "cells": [
+-                  "User Group",
+-                  "Students"
+-                ]
+-              },
+-              {
+-                "cells": [
+-                  "Status",
+-                  "Active"
+-                ]
+-              },
+-              {
+-                "cells": [
+-                  "Start Date",
+-                  "2020-11-01"
+-                ]
+-              },
+-              {
+-                "cells": [
+-                  "End Date",
+-                  "2020-11-29"
+-                ]
+-              },
+-              {
+-                "cells": [
+-                  "Address",
+-                  "100 November Road,Liverpool,England,L62SH"
+-                ]
+-              }
+-            ],
+-            "keyword": "And "
+-          },
+-          {
+-            "result": {
+-              "status": "undefined"
+-            },
+-            "line": 35,
+-            "name": "message The user has been created. should be displayed",
+-            "match": {},
+-            "keyword": "Then "
+-          }
+-        ],
+-        "tags": [
+-          {
+-            "name": "@login"
+-          }
+-        ]
+-      },
+-      {
+-        "line": 10,
+-        "name": "",
+-        "description": "",
+-        "type": "background",
+-        "keyword": "Background",
+-        "steps": [
++          },
+           {
+             "result": {
+-              "duration": 2189936000,
++              "duration": 3082605000,
+               "status": "passed"
+             },
+-            "line": 11,
+-            "name": "the user is on the login page",
+-            "match": {
+-              "location": "com.Library.StepDefinitions.LoginPageStepDef.the_user_is_on_the_login_page()"
+-            },
+-            "keyword": "Given "
+-          },
+-          {
+-            "result": {
+-              "duration": 1239358000,
+-              "status": "passed"
+-            },
+-            "line": 12,
+-            "name": "the user enters the \"Librarian\" information",
++            "line": 9,
++            "name": "the user clicks on \"Users\" module on the Library page",
+             "match": {
+               "arguments": [
+                 {
+-                  "val": "\"Librarian\"",
+-                  "offset": 20
++                  "val": "\"Users\"",
++                  "offset": 19
+                 }
+               ],
+-              "location": "com.Library.StepDefinitions.LoginPageStepDef.the_user_enters_the_information(java.lang.String)"
++              "location": "com.Library.StepDefinitions.DashboardPageSepDef.the_user_clicks_on_module_on_the_Dashboard_page(java.lang.String)"
+             },
+             "keyword": "When "
+           },
+           {
+             "result": {
+-              "duration": 3011824000,
++              "duration": 24940000,
+               "status": "passed"
+             },
+-            "line": 13,
+-            "name": "the Library page should be displayed",
++            "line": 10,
++            "name": "the Users Management page should be displayed",
+             "match": {
+-              "location": "com.Library.StepDefinitions.LoginPageStepDef.the_Library_page_should_be_displayed()"
++              "location": "com.Library.StepDefinitions.DashboardPageSepDef.the_Users_Management_page_should_be_displayed()"
+             },
+             "keyword": "Then "
+-          }
+-        ]
+-      },
+-      {
+-        "start_timestamp": "2020-11-03T12:03:18.706Z",
+-        "before": [
+-          {
+-            "result": {
+-              "duration": 462000,
+-              "status": "passed"
+-            },
+-            "match": {
+-              "location": "com.Library.StepDefinitions.Hooks.setUp()"
+-            }
+-          }
+-        ],
+-        "line": 37,
+-        "name": "A librarian should be able to close the add user window with \"close\" button",
+-        "description": "",
+-        "id": "a-librarian-should-be-able-to-add-users-from-users-page.;a-librarian-should-be-able-to-close-the-add-user-window-with-\"close\"-button",
+-        "after": [
+-          {
+-            "result": {
+-              "duration": 107814000,
+-              "status": "passed"
+-            },
+-            "match": {
+-              "location": "com.Library.StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+-            }
+-          }
+-        ],
+-        "type": "scenario",
+-        "keyword": "Scenario",
+-        "steps": [
+-          {
+-            "result": {
+-              "status": "undefined"
+-            },
+-            "line": 38,
+-            "name": "the user clicks on \"Add User\" module on the User page",
+-            "match": {},
+-            "keyword": "When "
+           },
+           {
+             "result": {
+-              "status": "undefined"
+-            },
+-            "line": 39,
+-            "name": "the user should be able to close the add user window with \"close\" button",
+-            "match": {},
+-            "keyword": "And "
+-          }
+-        ],
+-        "tags": [
+-          {
+-            "name": "@login"
+-          }
+-        ]
+-      },
+-      {
+-        "line": 10,
+-        "name": "",
+-        "description": "",
+-        "type": "background",
+-        "keyword": "Background",
+-        "steps": [
+-          {
+-            "result": {
+-              "duration": 2649749000,
++              "duration": 29690000,
+               "status": "passed"
+             },
+             "line": 11,
+-            "name": "the user is on the login page",
++            "name": "the user should see 10 records on page",
+             "match": {
+-              "location": "com.Library.StepDefinitions.LoginPageStepDef.the_user_is_on_the_login_page()"
++              "location": "com.Library.StepDefinitions.UsersPageStepDef.the_user_should_see_10_records_on_page()"
+             },
+-            "keyword": "Given "
++            "keyword": "And "
+           },
+           {
+             "result": {
+-              "duration": 1259412000,
++              "duration": 61481000,
+               "status": "passed"
+             },
+             "line": 12,
+-            "name": "the user enters the \"Librarian\" information",
++            "name": "the user should click records button",
+             "match": {
+-              "arguments": [
+-                {
+-                  "val": "\"Librarian\"",
+-                  "offset": 20
+-                }
+-              ],
+-              "location": "com.Library.StepDefinitions.LoginPageStepDef.the_user_enters_the_information(java.lang.String)"
++              "location": "com.Library.StepDefinitions.UsersPageStepDef.the_user_should_click_records_button()"
+             },
+-            "keyword": "When "
++            "keyword": "And "
+           },
+           {
+             "result": {
+-              "duration": 3011225000,
++              "duration": 108737000,
+               "status": "passed"
+             },
+             "line": 13,
+-            "name": "the Library page should be displayed",
+-            "match": {
+-              "location": "com.Library.StepDefinitions.LoginPageStepDef.the_Library_page_should_be_displayed()"
+-            },
+-            "keyword": "Then "
+-          }
+-        ]
+-      },
+-      {
+-        "start_timestamp": "2020-11-03T12:03:25.276Z",
+-        "before": [
+-          {
+-            "result": {
+-              "duration": 231000,
+-              "status": "passed"
+-            },
++            "name": "the user should see following options",
+             "match": {
+-              "location": "com.Library.StepDefinitions.Hooks.setUp()"
+-            }
+-          }
+-        ],
+-        "line": 41,
+-        "name": "A librarian should be able to edit user info",
+-        "description": "",
+-        "id": "a-librarian-should-be-able-to-add-users-from-users-page.;a-librarian-should-be-able-to-edit-user-info",
+-        "after": [
++              "location": "com.Library.StepDefinitions.UsersPageStepDef.the_user_should_select_for_following_options(java.util.List\u003cjava.lang.String\u003e)"
++            },
++            "rows": [
++              {
++                "cells": [
++                  "5"
++                ]
++              },
++              {
++                "cells": [
++                  "10"
++                ]
++              },
++              {
++                "cells": [
++                  "15"
++                ]
++              },
++              {
++                "cells": [
++                  "50"
++                ]
++              },
++              {
++                "cells": [
++                  "100"
++                ]
++              },
++              {
++                "cells": [
++                  "200"
++                ]
++              },
++              {
++                "cells": [
++                  "500"
++                ]
++              }
++            ],
++            "keyword": "And "
++          },
+           {
+             "result": {
+-              "duration": 130317000,
++              "duration": 30399577000,
+               "status": "passed"
+             },
++            "line": 21,
++            "name": "the user should choose records options and should see records",
+             "match": {
+-              "location": "com.Library.StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+-            }
+-          }
+-        ],
+-        "type": "scenario",
+-        "keyword": "Scenario",
+-        "steps": [
+-          {
+-            "result": {
+-              "status": "undefined"
+-            },
+-            "line": 42,
+-            "name": "the user should be able to click an user info in Users Page",
+-            "match": {},
+-            "keyword": "Then "
+-          },
+-          {
+-            "result": {
+-              "status": "undefined"
+-            },
+-            "line": 43,
+-            "name": "the user should be able to edit info in new window",
+-            "match": {},
+-            "keyword": "Then "
+-          },
+-          {
+-            "result": {
+-              "status": "undefined"
+-            },
+-            "line": 44,
+-            "name": "the user should be able to click Save changes button",
+-            "match": {},
+-            "keyword": "Then "
+-          },
+-          {
+-            "result": {
+-              "status": "undefined"
+-            },
+-            "line": 45,
+-            "name": "message The user updated. should be displayed",
+-            "match": {},
++              "location": "com.Library.StepDefinitions.UsersPageStepDef.the_user_should_choose_records_options_and_should_see_records(java.util.List\u003cjava.lang.String\u003e)"
++            },
++            "rows": [
++              {
++                "cells": [
++                  "5"
++                ]
++              },
++              {
++                "cells": [
++                  "10"
++                ]
++              },
++              {
++                "cells": [
++                  "15"
++                ]
++              },
++              {
++                "cells": [
++                  "50"
++                ]
++              },
++              {
++                "cells": [
++                  "100"
++                ]
++              },
++              {
++                "cells": [
++                  "200"
++                ]
++              },
++              {
++                "cells": [
++                  "500"
++                ]
++              }
++            ],
+             "keyword": "Then "
+           }
+         ],
+@@ -534,17 +235,17 @@
+         ]
+       }
+     ],
+-    "name": "A librarian should be able to add users from users page.",
++    "name": "A librarian should be able to see book records on user page",
+     "description": "",
+-    "id": "a-librarian-should-be-able-to-add-users-from-users-page.",
++    "id": "a-librarian-should-be-able-to-see-book-records-on-user-page",
+     "keyword": "Feature",
+-    "uri": "file:src/test/resources/features/UserStory4_GULNUR.feature",
++    "uri": "file:src/test/resources/features/UserStory5_YAVUZ.feature",
+     "tags": [
+       {
+         "name": "@login",
+         "type": "Tag",
+         "location": {
+-          "line": 7,
++          "line": 2,
+           "column": 1
+         }
+       }

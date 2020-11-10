@@ -94,7 +94,7 @@ public class UsersPageStepDef {
         }
         Assert.assertEquals(records,actualrecordsCategories);
 
-        }
+    }
     @Then("the user should choose records options and should see records")
     public void the_user_should_choose_records_options_and_should_see_records(List<String> records) {
 
@@ -113,3 +113,4 @@ public class UsersPageStepDef {
 
 
 }
+

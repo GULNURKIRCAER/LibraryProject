@@ -1,11 +1,15 @@
-<<<<<<< HEAD
 @wip
 Feature:As a student, I should be able to search books with different categories
+
   @EUG3-154 @EUG3-144
   Scenario: As a student, I should be able to search books with different categories
-    When a student logs in with valid credentials
+
+    Given the user is on the login page
+    When  the user enters the "Student" information
+    Then  the Library page should be displayed
     And clicks the Book Categories dropdown
-    And chooses one of the following categories
+    And the user should see following categories
+      | ALL                     |
       | Action and Adventure    |
       | Anthology               |
       | Classic                 |
@@ -25,10 +29,27 @@ Feature:As a student, I should be able to search books with different categories
       | Short Story             |
       | Essay                   |
       | Memoir                  |
+      | Poetry                  |
+    And the user should choose one category and should see the chosen category books
+      | Action and Adventure    |
+      | Anthology               |
+      | Classic                 |
+      | Comic and Graphic Novel |
+      | Crime and Detective     |
+      | Drama                   |
+      | Fable                   |
+      | Fairy Tale              |
+      | Fan-Fiction             |
+      | Fantasy                 |
+      | Historical Fiction      |
+      | Horror                  |
+      | Science Fiction         |
+      | Biography/Autobiography |
+      | Humor                   |
+      | Romance                 |
+      | Short Story             |
+      | Essay                   |
+      | Memoir                  |
+      | Poetry                  |
 
-    Then he should see only the books that belong to the chosen category on the table
-
-=======
-
-#As a students, I should be able to serach books with different categories.
->>>>>>> master
+    And the user can see total number of books
