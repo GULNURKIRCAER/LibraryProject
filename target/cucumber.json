@@ -1,9 +1,9 @@
 [
   {
-    "line": 2,
+    "line": 8,
     "elements": [
       {
-        "line": 4,
+        "line": 10,
         "name": "",
         "description": "",
         "type": "background",
@@ -11,10 +11,10 @@
         "steps": [
           {
             "result": {
-              "duration": 3752951000,
+              "duration": 3605252000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 11,
             "name": "the user is on the login page",
             "match": {
               "location": "com.Library.StepDefinitions.LoginPageStepDef.the_user_is_on_the_login_page()"
@@ -23,10 +23,10 @@
           },
           {
             "result": {
-              "duration": 2376017000,
+              "duration": 1324523000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 12,
             "name": "the user enters the \"Librarian\" information",
             "match": {
               "arguments": [
@@ -41,10 +41,10 @@
           },
           {
             "result": {
-              "duration": 3010766000,
+              "duration": 3017290000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 13,
             "name": "the Library page should be displayed",
             "match": {
               "location": "com.Library.StepDefinitions.LoginPageStepDef.the_Library_page_should_be_displayed()"
@@ -54,11 +54,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-10T20:15:43.209Z",
+        "start_timestamp": "2020-11-01T01:46:12.567Z",
         "before": [
           {
             "result": {
-              "duration": 907000,
+              "duration": 1380000,
               "status": "passed"
             },
             "match": {
@@ -66,14 +66,14 @@
             }
           }
         ],
-        "line": 9,
-        "name": "A librarian should be able to login with valid info.",
+        "line": 15,
+        "name": "A librarian should be able to add users with all valid info.",
         "description": "",
-        "id": "a-librarian-should-be-able-to-add-users-from-users-page.;a-librarian-should-be-able-to-login-with-valid-info.",
+        "id": "a-librarian-should-be-able-to-add-users-from-users-page.;a-librarian-should-be-able-to-add-users-with-all-valid-info.",
         "after": [
           {
             "result": {
-              "duration": 115027000,
+              "duration": 104750000,
               "status": "passed"
             },
             "match": {
@@ -86,14 +86,11 @@
         "steps": [
           {
             "result": {
-              "duration": 2058764000,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 10,
-            "name": "the following information are displayed",
-            "match": {
-              "location": "com.Library.StepDefinitions.DashboardPageSepDef.the_following_information_are_displayed(java.util.List\u003cjava.lang.String\u003e)"
-            },
+            "line": 16,
+            "name": "the user should see following options",
+            "match": {},
             "rows": [
               {
                 "cells": [
@@ -115,31 +112,20 @@
           },
           {
             "result": {
-              "duration": 2055764000,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 14,
-            "name": "the user should see following options",
-            "match": {
-              "location": "com.Library.StepDefinitions.DashboardPageSepDef.the_user_should_see_following_options(java.util.List\u003cjava.lang.String\u003e)"
+            "line": 20,
+            "name": "the user clicks on \"Users\" module on the Dashboard page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
             },
-            "rows": [
-              {
-                "cells": [
-                  "Dashboard"
-                ]
-              },
-              {
-                "cells": [
-                  "Users"
-                ]
-              },
-              {
-                "cells": [
-                  "Books"
-                ]
-              }
-            ],
+            "line": 21,
+            "name": "the Users page should be displayed",
+            "match": {},
             "keyword": "Then "
           }
         ],
@@ -150,7 +136,7 @@
         ]
       },
       {
-        "line": 4,
+        "line": 10,
         "name": "",
         "description": "",
         "type": "background",
@@ -158,10 +144,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2343944000,
+              "duration": 2114022000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 11,
             "name": "the user is on the login page",
             "match": {
               "location": "com.Library.StepDefinitions.LoginPageStepDef.the_user_is_on_the_login_page()"
@@ -170,10 +156,10 @@
           },
           {
             "result": {
-              "duration": 2338654000,
+              "duration": 1249097000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 12,
             "name": "the user enters the \"Librarian\" information",
             "match": {
               "arguments": [
@@ -188,10 +174,10 @@
           },
           {
             "result": {
-              "duration": 3011702000,
+              "duration": 3013162000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 13,
             "name": "the Library page should be displayed",
             "match": {
               "location": "com.Library.StepDefinitions.LoginPageStepDef.the_Library_page_should_be_displayed()"
@@ -201,11 +187,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-10T20:15:56.706Z",
+        "start_timestamp": "2020-11-01T01:46:20.740Z",
         "before": [
           {
             "result": {
-              "duration": 146000,
+              "duration": 87000,
               "status": "passed"
             },
             "match": {
@@ -213,14 +199,14 @@
             }
           }
         ],
-        "line": 19,
-        "name": "A librarian should be able to create user.",
+        "line": 23,
+        "name": "A librarian should be able to add users with all valid info.",
         "description": "",
-        "id": "a-librarian-should-be-able-to-add-users-from-users-page.;a-librarian-should-be-able-to-create-user.",
+        "id": "a-librarian-should-be-able-to-add-users-from-users-page.;a-librarian-should-be-able-to-add-users-with-all-valid-info.",
         "after": [
           {
             "result": {
-              "duration": 119865000,
+              "duration": 107627000,
               "status": "passed"
             },
             "match": {
@@ -233,62 +219,20 @@
         "steps": [
           {
             "result": {
-              "duration": 3064993000,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 20,
-            "name": "the user clicks on \"Users\" module on the Library page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Users\"",
-                  "offset": 19
-                }
-              ],
-              "location": "com.Library.StepDefinitions.DashboardPageSepDef.the_user_clicks_on_module_on_the_Dashboard_page(java.lang.String)"
-            },
+            "line": 24,
+            "name": "the user clicks on \"Add User\" module on the Dashboard page",
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 27224000,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 21,
-            "name": "the Users Management page should be displayed",
-            "match": {
-              "location": "com.Library.StepDefinitions.DashboardPageSepDef.the_Users_Management_page_should_be_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 54558000,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "the user clicks on \"Add User\" module on the User page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Add User\"",
-                  "offset": 19
-                }
-              ],
-              "location": "com.Library.StepDefinitions.UsersPageStepDef.the_user_clicks_on_module_on_the_Dashboard_page(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 6945952000,
-              "status": "passed"
-            },
-            "line": 23,
+            "line": 25,
             "name": "creates User using following information",
-            "match": {
-              "location": "com.Library.StepDefinitions.UsersPageStepDef.creates_User_using_following_information(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
-            },
+            "match": {},
             "rows": [
               {
                 "cells": [
@@ -299,13 +243,13 @@
               {
                 "cells": [
                   "Password",
-                  "xyzBC"
+                  "xyzABC"
                 ]
               },
               {
                 "cells": [
                   "Email",
-                  "xyzAl7695@yahoo.com"
+                  "xyzABC@yahoo.com"
                 ]
               },
               {
@@ -323,7 +267,7 @@
               {
                 "cells": [
                   "Start Date",
-                  "2020-11-11"
+                  "2020-11-01"
                 ]
               },
               {
@@ -343,14 +287,11 @@
           },
           {
             "result": {
-              "duration": 32055000,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 32,
+            "line": 35,
             "name": "message The user has been created. should be displayed",
-            "match": {
-              "location": "com.Library.StepDefinitions.UsersPageStepDef.message_The_user_has_been_created_should_be_displayed()"
-            },
+            "match": {},
             "keyword": "Then "
           }
         ],
@@ -361,7 +302,7 @@
         ]
       },
       {
-        "line": 4,
+        "line": 10,
         "name": "",
         "description": "",
         "type": "background",
@@ -369,10 +310,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1954836000,
+              "duration": 1948475000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 11,
             "name": "the user is on the login page",
             "match": {
               "location": "com.Library.StepDefinitions.LoginPageStepDef.the_user_is_on_the_login_page()"
@@ -381,10 +322,10 @@
           },
           {
             "result": {
-              "duration": 2338817000,
+              "duration": 1245706000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 12,
             "name": "the user enters the \"Librarian\" information",
             "match": {
               "arguments": [
@@ -399,10 +340,10 @@
           },
           {
             "result": {
-              "duration": 3011703000,
+              "duration": 3012271000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 13,
             "name": "the Library page should be displayed",
             "match": {
               "location": "com.Library.StepDefinitions.LoginPageStepDef.the_Library_page_should_be_displayed()"
@@ -412,11 +353,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-10T20:16:14.658Z",
+        "start_timestamp": "2020-11-01T01:46:27.236Z",
         "before": [
           {
             "result": {
-              "duration": 158000,
+              "duration": 138000,
               "status": "passed"
             },
             "match": {
@@ -424,14 +365,14 @@
             }
           }
         ],
-        "line": 34,
+        "line": 37,
         "name": "A librarian should be able to close the add user window with \"close\" button",
         "description": "",
         "id": "a-librarian-should-be-able-to-add-users-from-users-page.;a-librarian-should-be-able-to-close-the-add-user-window-with-\"close\"-button",
         "after": [
           {
             "result": {
-              "duration": 147071000,
+              "duration": 113687000,
               "status": "passed"
             },
             "match": {
@@ -444,62 +385,20 @@
         "steps": [
           {
             "result": {
-              "duration": 3066435000,
-              "status": "passed"
-            },
-            "line": 35,
-            "name": "the user clicks on \"Users\" module on the Library page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Users\"",
-                  "offset": 19
-                }
-              ],
-              "location": "com.Library.StepDefinitions.DashboardPageSepDef.the_user_clicks_on_module_on_the_Dashboard_page(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 24149000,
-              "status": "passed"
-            },
-            "line": 36,
-            "name": "the Users Management page should be displayed",
-            "match": {
-              "location": "com.Library.StepDefinitions.DashboardPageSepDef.the_Users_Management_page_should_be_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 50945000,
-              "status": "passed"
-            },
-            "line": 37,
-            "name": "the user clicks on \"Add User\" module on the User page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Add User\"",
-                  "offset": 19
-                }
-              ],
-              "location": "com.Library.StepDefinitions.UsersPageStepDef.the_user_clicks_on_module_on_the_Dashboard_page(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1053736000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 38,
-            "name": "the user should be able to close the add user window with close button",
-            "match": {
-              "location": "com.Library.StepDefinitions.UsersPageStepDef.the_user_should_be_able_to_close_the_add_user_window_with_close_button()"
+            "name": "the user clicks on \"Add User\" module on the Dashboard page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
             },
+            "line": 39,
+            "name": "the user should be able to close the add user window with \"close\" button",
+            "match": {},
             "keyword": "And "
           }
         ],
@@ -510,7 +409,7 @@
         ]
       },
       {
-        "line": 4,
+        "line": 10,
         "name": "",
         "description": "",
         "type": "background",
@@ -518,10 +417,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2081683000,
+              "duration": 2064511000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 11,
             "name": "the user is on the login page",
             "match": {
               "location": "com.Library.StepDefinitions.LoginPageStepDef.the_user_is_on_the_login_page()"
@@ -530,10 +429,10 @@
           },
           {
             "result": {
-              "duration": 2358850000,
+              "duration": 1235360000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 12,
             "name": "the user enters the \"Librarian\" information",
             "match": {
               "arguments": [
@@ -548,10 +447,10 @@
           },
           {
             "result": {
-              "duration": 3014313000,
+              "duration": 3010584000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 13,
             "name": "the Library page should be displayed",
             "match": {
               "location": "com.Library.StepDefinitions.LoginPageStepDef.the_Library_page_should_be_displayed()"
@@ -561,11 +460,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-10T20:16:26.321Z",
+        "start_timestamp": "2020-11-01T01:46:33.568Z",
         "before": [
           {
             "result": {
-              "duration": 148000,
+              "duration": 109000,
               "status": "passed"
             },
             "match": {
@@ -573,14 +472,14 @@
             }
           }
         ],
-        "line": 40,
+        "line": 41,
         "name": "A librarian should be able to edit user info",
         "description": "",
         "id": "a-librarian-should-be-able-to-add-users-from-users-page.;a-librarian-should-be-able-to-edit-user-info",
         "after": [
           {
             "result": {
-              "duration": 118156000,
+              "duration": 116623000,
               "status": "passed"
             },
             "match": {
@@ -593,80 +492,38 @@
         "steps": [
           {
             "result": {
-              "duration": 3062341000,
-              "status": "passed"
-            },
-            "line": 41,
-            "name": "the user clicks on \"Users\" module on the Library page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Users\"",
-                  "offset": 19
-                }
-              ],
-              "location": "com.Library.StepDefinitions.DashboardPageSepDef.the_user_clicks_on_module_on_the_Dashboard_page(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 28516000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 42,
-            "name": "the Users Management page should be displayed",
-            "match": {
-              "location": "com.Library.StepDefinitions.DashboardPageSepDef.the_Users_Management_page_should_be_displayed()"
-            },
+            "name": "the user should be able to click an user info in Users Page",
+            "match": {},
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 62221000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 43,
-            "name": "the user should be able to click an user info in Users Page",
-            "match": {
-              "location": "com.Library.StepDefinitions.UsersPageStepDef.the_user_should_be_able_to_click_an_user_info_in_Users_Page()"
-            },
+            "name": "the user should be able to edit info in new window",
+            "match": {},
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 2209854000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 44,
-            "name": "the user should be able to edit info in new window",
-            "match": {
-              "location": "com.Library.StepDefinitions.UsersPageStepDef.the_user_should_be_able_to_edit_info_in_new_window()"
-            },
+            "name": "the user should be able to click Save changes button",
+            "match": {},
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1070876000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 45,
-            "name": "the user should be able to click Save changes button",
-            "match": {
-              "location": "com.Library.StepDefinitions.UsersPageStepDef.the_user_should_be_able_to_click_Save_changes_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2035162000,
-              "status": "passed"
-            },
-            "line": 46,
             "name": "message The user updated. should be displayed",
-            "match": {
-              "location": "com.Library.StepDefinitions.UsersPageStepDef.message_The_user_updated_should_be_displayed()"
-            },
+            "match": {},
             "keyword": "Then "
           }
         ],
@@ -687,7 +544,7 @@
         "name": "@login",
         "type": "Tag",
         "location": {
-          "line": 1,
+          "line": 7,
           "column": 1
         }
       }
