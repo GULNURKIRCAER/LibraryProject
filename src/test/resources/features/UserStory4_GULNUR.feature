@@ -11,7 +11,7 @@ Feature: A librarian should be able to add users from users page.
       | Users          |
       | Books          |
       | Borrowed Books |
-    Then the user should see following options
+    Then the user should see following options in dashboardpage
       | Dashboard |
       | Users     |
       | Books     |

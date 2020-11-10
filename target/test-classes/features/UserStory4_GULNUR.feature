@@ -1,4 +1,3 @@
-
 @login
 Feature: A librarian should be able to add users from users page.
 
@@ -12,7 +11,7 @@ Feature: A librarian should be able to add users from users page.
       | Users          |
       | Books          |
       | Borrowed Books |
-    Then the user should see following options
+    Then the user should see following options in dashboardpage
       | Dashboard |
       | Users     |
       | Books     |
@@ -45,3 +44,6 @@ Feature: A librarian should be able to add users from users page.
     Then the user should be able to edit info in new window
     Then the user should be able to click Save changes button
     Then message The user updated. should be displayed
+
+
+

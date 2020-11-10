@@ -25,8 +25,8 @@ public class DashboardPageSepDef {
         }
         Assert.assertEquals(info, columnsValues);
     }
-    @Then("the user should see following options")
-    public void the_user_should_see_following_options(List<String> menuOptions) {
+    @Then("the user should see following options in dashboardpage")
+    public void the_user_should_see_following_options_in_dashboardpage(List<String> menuOptions) {
         BrowserUtils.waitFor(2);
 
         List<WebElement> actualOptions = Driver.get().findElements(By.xpath("//span[@class='title']"));

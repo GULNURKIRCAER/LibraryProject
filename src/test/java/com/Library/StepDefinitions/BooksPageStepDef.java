@@ -50,7 +50,6 @@ public class BooksPageStepDef {
                     counter++;
                 }
             }
-            System.out.println("there are "+counter+" books on "+categoryText+"category");
         }
     }
     @And("the user can see total number of books")
