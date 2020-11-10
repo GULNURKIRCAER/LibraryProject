@@ -1,5 +1,5 @@
 
-@login
+@wip
 Feature: A librarian should be able to see book records on user page
 
   Scenario:A librarian should be able to see book records

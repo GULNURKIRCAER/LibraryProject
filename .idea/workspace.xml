@@ -24,12 +24,15 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/zuhalsBranch" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/yavuz" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dae3d2b7-9a87-43c0-9751-ea77216b73c4" name="Default Changelist" comment="new Proje" />
+    <list default="true" id="dae3d2b7-9a87-43c0-9751-ea77216b73c4" name="Default Changelist" comment="new Proje">
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UserStory5_YAVUZ.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UserStory5_YAVUZ.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UserStory7_ZUHAL.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UserStory7_ZUHAL.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -206,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604936201043</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="new Proje">
+      <created>1605041862480</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1605041862480</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,7 +230,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/zuhalsBranch" />
+                        <option value="origin/yavuz" />
                       </list>
                     </value>
                   </entry>
@@ -234,10 +244,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new Proje" />
     <MESSAGE value="my codes" />
     <MESSAGE value="zuhal new" />
-    <option name="LAST_COMMIT_MESSAGE" value="zuhal new" />
+    <MESSAGE value="new Proje" />
+    <option name="LAST_COMMIT_MESSAGE" value="new Proje" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1604787088378">
@@ -301,10 +311,11 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1604185164763" />
-    <state x="240" y="138" key="Vcs.Push.Dialog.v2" timestamp="1604936202783">
-      <screen x="0" y="23" width="1280" height="729" />
+    <state x="240" y="138" key="Vcs.Push.Dialog.v2" timestamp="1605041902702">
+      <screen x="0" y="23" width="1280" height="727" />
     </state>
     <state x="240" y="127" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1604195643606" />
+    <state x="240" y="138" key="Vcs.Push.Dialog.v2/0.23.1280.727@0.23.1280.727" timestamp="1605041902702" />
     <state x="240" y="138" key="Vcs.Push.Dialog.v2/0.23.1280.729@0.23.1280.729" timestamp="1604936202783" />
     <state x="240" y="139" key="Vcs.Push.Dialog.v2/0.23.1280.733@0.23.1280.733" timestamp="1604405173212" />
     <state x="339" y="171" width="602" height="474" key="find.popup" timestamp="1604928129267">

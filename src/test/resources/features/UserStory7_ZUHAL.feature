@@ -1,4 +1,4 @@
-@wip
+@EUG3-154
 Feature:As a student, I should be able to search books with different categories
 
   @EUG3-154 @EUG3-144
