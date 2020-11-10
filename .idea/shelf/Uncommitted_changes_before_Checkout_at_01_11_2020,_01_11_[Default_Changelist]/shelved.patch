@@ -6,7 +6,7 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
 <+>UTF-8
 ===================================================================
 --- src/test/java/com/Library/Runners/CukesRunner.java	(revision ef1b9d6daa05d45be2f067e0032c33b5ab21b18f)
-+++ src/test/java/com/Library/Runners/CukesRunner.java	(date 1604193026683)
++++ src/test/java/com/Library/Runners/CukesRunner.java	(date 1604193035101)
 @@ -11,7 +11,7 @@
                   "html:target/default-html-reports",
                  "rerun:target/rerun.txt"},
@@ -24,7 +24,7 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
 <+>UTF-8
 ===================================================================
 --- src/test/java/com/Library/StepDefinitions/LoginPageStepDef.java	(revision ef1b9d6daa05d45be2f067e0032c33b5ab21b18f)
-+++ src/test/java/com/Library/StepDefinitions/LoginPageStepDef.java	(date 1604192771912)
++++ src/test/java/com/Library/StepDefinitions/LoginPageStepDef.java	(date 1604193035105)
 @@ -16,18 +16,19 @@
      @Given("the user is on the login page")
      public void the_user_is_on_the_login_page() {
@@ -59,7 +59,7 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
 <+>UTF-8
 ===================================================================
 --- src/test/java/com/Library/Pages/LoginPage.java	(revision ef1b9d6daa05d45be2f067e0032c33b5ab21b18f)
-+++ src/test/java/com/Library/Pages/LoginPage.java	(date 1604192944839)
++++ src/test/java/com/Library/Pages/LoginPage.java	(date 1604193035108)
 @@ -11,10 +11,10 @@
          PageFactory.initElements(Driver.get(), this);
      }
@@ -81,7 +81,7 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
 <+>UTF-8
 ===================================================================
 --- .idea/workspace.xml	(revision ef1b9d6daa05d45be2f067e0032c33b5ab21b18f)
-+++ .idea/workspace.xml	(date 1604192787546)
++++ .idea/workspace.xml	(date 1604193035113)
 @@ -30,10 +30,7 @@
    <component name="ChangeListManager">
      <list default="true" id="1f2e034f-0ff2-4c76-96c8-7f1769a271a7" name="Default Changelist" comment="new Proje">

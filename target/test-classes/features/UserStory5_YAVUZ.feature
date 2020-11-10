@@ -9,6 +9,7 @@
 #| 10      |
 #| 15      |
 #| 50      |
+<<<<<<< HEAD
 #| 100    |
 
 @login
@@ -38,3 +39,6 @@ Feature: A librarian should be able to see book records on user page
       | 100 |
       | 200 |
       | 500 |
+=======
+#| 100    |
+>>>>>>> master

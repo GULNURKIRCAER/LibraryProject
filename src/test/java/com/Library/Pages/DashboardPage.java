@@ -6,7 +6,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class DashboardPage extends BasePage {
-
     @FindBy(xpath = "(//span[@class='title'])[2]")
     public WebElement usersBtn;
 

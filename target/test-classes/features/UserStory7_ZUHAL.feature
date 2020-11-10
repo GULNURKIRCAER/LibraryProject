@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @wip
 Feature:As a student, I should be able to search books with different categories
   @EUG3-154 @EUG3-144
@@ -27,3 +28,7 @@ Feature:As a student, I should be able to search books with different categories
 
     Then he should see only the books that belong to the chosen category on the table
 
+=======
+
+#As a students, I should be able to serach books with different categories.
+>>>>>>> master

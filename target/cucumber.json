@@ -1,44 +1,20 @@
 [
   {
-    "line": 15,
+    "line": 8,
     "elements": [
       {
-        "start_timestamp": "2020-11-09T17:00:34.321Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1246000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.Library.StepDefinitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 17,
-        "name": "A librarian should be able to see book records",
+        "line": 10,
+        "name": "",
         "description": "",
-        "id": "a-librarian-should-be-able-to-see-book-records-on-user-page;a-librarian-should-be-able-to-see-book-records",
-        "after": [
-          {
-            "result": {
-              "duration": 168441000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.Library.StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
+        "type": "background",
+        "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 4074618000,
+              "duration": 3507689000,
               "status": "passed"
             },
-            "line": 18,
+            "line": 11,
             "name": "the user is on the login page",
             "match": {
               "location": "com.Library.StepDefinitions.LoginPageStepDef.the_user_is_on_the_login_page()"
@@ -47,10 +23,10 @@
           },
           {
             "result": {
-              "duration": 1272633000,
+              "duration": 1418276000,
               "status": "passed"
             },
-            "line": 19,
+            "line": 12,
             "name": "the user enters the \"Librarian\" information",
             "match": {
               "arguments": [
@@ -65,166 +41,489 @@
           },
           {
             "result": {
-              "duration": 3016698000,
+              "duration": 3015690000,
               "status": "passed"
             },
-            "line": 20,
+            "line": 13,
             "name": "the Library page should be displayed",
             "match": {
               "location": "com.Library.StepDefinitions.LoginPageStepDef.the_Library_page_should_be_displayed()"
             },
             "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-03T12:03:03.802Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1892000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Library.StepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "A librarian should be able to add users with all valid info.",
+        "description": "",
+        "id": "a-librarian-should-be-able-to-add-users-from-users-page.;a-librarian-should-be-able-to-add-users-with-all-valid-info.",
+        "after": [
+          {
+            "result": {
+              "duration": 118182000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Library.StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "the user should see following options",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "Users"
+                ]
+              },
+              {
+                "cells": [
+                  "Books"
+                ]
+              },
+              {
+                "cells": [
+                  "Borrowed Books"
+                ]
+              }
+            ],
+            "keyword": "Then "
           },
           {
             "result": {
-              "duration": 3072282000,
-              "status": "passed"
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "the user clicks on \"Users\" module on the Library page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
             },
             "line": 21,
-            "name": "the user clicks on \"Users\" module on the Library page",
+            "name": "the Users page should be displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2315420000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.Library.StepDefinitions.LoginPageStepDef.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1261805000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user enters the \"Librarian\" information",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Users\"",
-                  "offset": 19
+                  "val": "\"Librarian\"",
+                  "offset": 20
                 }
               ],
-              "location": "com.Library.StepDefinitions.DashboardPageSepDef.the_user_clicks_on_module_on_the_Dashboard_page(java.lang.String)"
+              "location": "com.Library.StepDefinitions.LoginPageStepDef.the_user_enters_the_information(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 25792000,
+              "duration": 3011045000,
               "status": "passed"
             },
-            "line": 22,
-            "name": "the Users Management page should be displayed",
+            "line": 13,
+            "name": "the Library page should be displayed",
             "match": {
-              "location": "com.Library.StepDefinitions.DashboardPageSepDef.the_Users_Management_page_should_be_displayed()"
+              "location": "com.Library.StepDefinitions.LoginPageStepDef.the_Library_page_should_be_displayed()"
             },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-03T12:03:11.982Z",
+        "before": [
+          {
+            "result": {
+              "duration": 157000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Library.StepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "A librarian should be able to add users with all valid info.",
+        "description": "",
+        "id": "a-librarian-should-be-able-to-add-users-from-users-page.;a-librarian-should-be-able-to-add-users-with-all-valid-info.",
+        "after": [
+          {
+            "result": {
+              "duration": 120092000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Library.StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "the user clicks on \"Add User\" module on the User page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "creates User using following information",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "Full Name",
+                  "XYZ Student"
+                ]
+              },
+              {
+                "cells": [
+                  "Password",
+                  "xyzABC"
+                ]
+              },
+              {
+                "cells": [
+                  "Email",
+                  "xyzABC@yahoo.com"
+                ]
+              },
+              {
+                "cells": [
+                  "User Group",
+                  "Students"
+                ]
+              },
+              {
+                "cells": [
+                  "Status",
+                  "Active"
+                ]
+              },
+              {
+                "cells": [
+                  "Start Date",
+                  "2020-11-01"
+                ]
+              },
+              {
+                "cells": [
+                  "End Date",
+                  "2020-11-29"
+                ]
+              },
+              {
+                "cells": [
+                  "Address",
+                  "100 November Road,Liverpool,England,L62SH"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 35,
+            "name": "message The user has been created. should be displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2189936000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.Library.StepDefinitions.LoginPageStepDef.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1239358000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user enters the \"Librarian\" information",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Librarian\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.Library.StepDefinitions.LoginPageStepDef.the_user_enters_the_information(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3011824000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the Library page should be displayed",
+            "match": {
+              "location": "com.Library.StepDefinitions.LoginPageStepDef.the_Library_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-03T12:03:18.706Z",
+        "before": [
+          {
+            "result": {
+              "duration": 462000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Library.StepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "A librarian should be able to close the add user window with \"close\" button",
+        "description": "",
+        "id": "a-librarian-should-be-able-to-add-users-from-users-page.;a-librarian-should-be-able-to-close-the-add-user-window-with-\"close\"-button",
+        "after": [
+          {
+            "result": {
+              "duration": 107814000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Library.StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 38,
+            "name": "the user clicks on \"Add User\" module on the User page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 39,
+            "name": "the user should be able to close the add user window with \"close\" button",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2649749000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.Library.StepDefinitions.LoginPageStepDef.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1259412000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user enters the \"Librarian\" information",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Librarian\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.Library.StepDefinitions.LoginPageStepDef.the_user_enters_the_information(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3011225000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the Library page should be displayed",
+            "match": {
+              "location": "com.Library.StepDefinitions.LoginPageStepDef.the_Library_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-03T12:03:25.276Z",
+        "before": [
+          {
+            "result": {
+              "duration": 231000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Library.StepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "A librarian should be able to edit user info",
+        "description": "",
+        "id": "a-librarian-should-be-able-to-add-users-from-users-page.;a-librarian-should-be-able-to-edit-user-info",
+        "after": [
+          {
+            "result": {
+              "duration": 130317000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Library.StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 42,
+            "name": "the user should be able to click an user info in Users Page",
+            "match": {},
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 25168000,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 23,
-            "name": "the user should see 10 records on page",
-            "match": {
-              "location": "com.Library.StepDefinitions.UsersPageStepDef.the_user_should_see_10_records_on_page()"
-            },
-            "keyword": "And "
+            "line": 43,
+            "name": "the user should be able to edit info in new window",
+            "match": {},
+            "keyword": "Then "
           },
           {
             "result": {
-              "duration": 71266000,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 24,
-            "name": "the user should click records button",
-            "match": {
-              "location": "com.Library.StepDefinitions.UsersPageStepDef.the_user_should_click_records_button()"
-            },
-            "keyword": "And "
+            "line": 44,
+            "name": "the user should be able to click Save changes button",
+            "match": {},
+            "keyword": "Then "
           },
           {
             "result": {
-              "duration": 111909000,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 25,
-            "name": "the user should see following options",
-            "match": {
-              "location": "com.Library.StepDefinitions.UsersPageStepDef.the_user_should_select_for_following_options(java.util.List\u003cjava.lang.String\u003e)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "5"
-                ]
-              },
-              {
-                "cells": [
-                  "10"
-                ]
-              },
-              {
-                "cells": [
-                  "15"
-                ]
-              },
-              {
-                "cells": [
-                  "50"
-                ]
-              },
-              {
-                "cells": [
-                  "100"
-                ]
-              },
-              {
-                "cells": [
-                  "200"
-                ]
-              },
-              {
-                "cells": [
-                  "500"
-                ]
-              }
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 30397801000,
-              "status": "passed"
-            },
-            "line": 33,
-            "name": "the user should choose records options and should see records",
-            "match": {
-              "location": "com.Library.StepDefinitions.UsersPageStepDef.the_user_should_choose_records_options_and_should_see_records(java.util.List\u003cjava.lang.String\u003e)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "5"
-                ]
-              },
-              {
-                "cells": [
-                  "10"
-                ]
-              },
-              {
-                "cells": [
-                  "15"
-                ]
-              },
-              {
-                "cells": [
-                  "50"
-                ]
-              },
-              {
-                "cells": [
-                  "100"
-                ]
-              },
-              {
-                "cells": [
-                  "200"
-                ]
-              },
-              {
-                "cells": [
-                  "500"
-                ]
-              }
-            ],
+            "line": 45,
+            "name": "message The user updated. should be displayed",
+            "match": {},
             "keyword": "Then "
           }
         ],
@@ -235,17 +534,17 @@
         ]
       }
     ],
-    "name": "A librarian should be able to see book records on user page",
+    "name": "A librarian should be able to add users from users page.",
     "description": "",
-    "id": "a-librarian-should-be-able-to-see-book-records-on-user-page",
+    "id": "a-librarian-should-be-able-to-add-users-from-users-page.",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/UserStory5_YAVUZ.feature",
+    "uri": "file:src/test/resources/features/UserStory4_GULNUR.feature",
     "tags": [
       {
         "name": "@login",
         "type": "Tag",
         "location": {
-          "line": 14,
+          "line": 7,
           "column": 1
         }
       }
