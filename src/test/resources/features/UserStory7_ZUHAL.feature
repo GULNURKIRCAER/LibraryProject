@@ -1,7 +1,6 @@
-@EUG3-154
+@login
 Feature:As a student, I should be able to search books with different categories
 
-  @EUG3-144
   Scenario: As a student, I should be able to search books with different categories
 
     Given the user is on the login page
