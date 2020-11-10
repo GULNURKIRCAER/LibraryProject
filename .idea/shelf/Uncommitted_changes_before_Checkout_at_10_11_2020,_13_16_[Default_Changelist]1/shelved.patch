@@ -1,0 +1,178 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"BRANCH:GULNUR\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </select>\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"1f2e034f-0ff2-4c76-96c8-7f1769a271a7\" name=\"Default Changelist\" comment=\"my codes\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/com/Library/Runners/FailedTestRunner.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/com/Library/Runners/FailedTestRunner.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"HighlightingSettingsPerFile\">\n    <setting file=\"file://$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/LoginPageStepDef.java\" root0=\"SKIP_INSPECTION\" />\n  </component>\n  <component name=\"MavenImportPreferences\">\n    <option name=\"generalSettings\">\n      <MavenGeneralSettings>\n        <option name=\"mavenHome\" value=\"$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3\" />\n      </MavenGeneralSettings>\n    </option>\n  </component>\n  <component name=\"ProjectId\" id=\"1jejEaOyj7Gl2kNO0aWWtodCccX\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"org.jetbrains.plugins.github.ui.GithubSettingsConfigurable\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\n      <recent name=\"com.Library.Pages\" />\n      <recent name=\"com.Library.Runners\" />\n      <recent name=\"com.Library.StepDefinitions\" />\n      <recent name=\"com.Library.Utilities\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src/test/resources/features\" />\n    </key>\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"CukesRunner\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"LibraryProject\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"com.Library.Runners.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"com.Library.Runners\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.Library.Runners.CukesRunner\" />\n      <option name=\"TEST_OBJECT\" value=\"class\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"JUnit.CukesRunner\" />\n        <item itemvalue=\"JUnit.CukesRunner\" />\n        <item itemvalue=\"JUnit.CukesRunner\" />\n        <item itemvalue=\"JUnit.CukesRunner\" />\n        <item itemvalue=\"JUnit.CukesRunner\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"1f2e034f-0ff2-4c76-96c8-7f1769a271a7\" name=\"Default Changelist\" comment=\"\" />\n      <created>1604171340474</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1604171340474</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"new Proje\">\n      <created>1604185199645</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604185199645</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"new Proje\">\n      <created>1604186817009</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604186817009</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"new Proje\">\n      <created>1604187326556</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604187326556</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"new Proje\">\n      <created>1604188131371</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604188131371</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"new Proje\">\n      <created>1604188304689</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604188304689</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"new Proje\">\n      <created>1604188521601</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604188521601</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"new Proje\">\n      <created>1604188745398</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604188745398</updated>\n    </task>\n    <task id=\"LOCAL-00008\" summary=\"new Proje\">\n      <created>1604190090190</created>\n      <option name=\"number\" value=\"00008\" />\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604190090190</updated>\n    </task>\n    <task id=\"LOCAL-00009\" summary=\"new Proje\">\n      <created>1604193311902</created>\n      <option name=\"number\" value=\"00009\" />\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604193311902</updated>\n    </task>\n    <task id=\"LOCAL-00010\" summary=\"new Proje\">\n      <created>1604195071313</created>\n      <option name=\"number\" value=\"00010\" />\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604195071313</updated>\n    </task>\n    <task id=\"LOCAL-00011\" summary=\"my codes\">\n      <created>1604195642171</created>\n      <option name=\"number\" value=\"00011\" />\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604195642171</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"12\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State>\n              <option name=\"FILTERS\">\n                <map>\n                  <entry key=\"branch\">\n                    <value>\n                      <list>\n                        <option value=\"GULNUR\" />\n                      </list>\n                    </value>\n                  </entry>\n                </map>\n              </option>\n            </State>\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"new Proje\" />\n    <MESSAGE value=\"my codes\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"my codes\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"362\" y=\"210\" key=\"#com.intellij.fileTypes.FileTypeChooser\" timestamp=\"1604171552542\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state x=\"362\" y=\"210\" key=\"#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800\" timestamp=\"1604171552542\" />\n    <state x=\"494\" y=\"308\" key=\"Github.ShareDialog\" timestamp=\"1604185452953\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state x=\"494\" y=\"308\" key=\"Github.ShareDialog/0.0.1280.800@0.0.1280.800\" timestamp=\"1604185452953\" />\n    <state width=\"1238\" height=\"212\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1604195693025\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state width=\"1238\" height=\"212\" key=\"GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800\" timestamp=\"1604195693025\" />\n    <state width=\"1238\" height=\"212\" key=\"GridCell.Tab.0.center\" timestamp=\"1604195693024\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state width=\"1238\" height=\"212\" key=\"GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800\" timestamp=\"1604195693024\" />\n    <state width=\"1238\" height=\"212\" key=\"GridCell.Tab.0.left\" timestamp=\"1604195693024\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state width=\"1238\" height=\"212\" key=\"GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800\" timestamp=\"1604195693024\" />\n    <state width=\"1238\" height=\"212\" key=\"GridCell.Tab.0.right\" timestamp=\"1604195693025\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state width=\"1238\" height=\"212\" key=\"GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800\" timestamp=\"1604195693025\" />\n    <state x=\"141\" y=\"39\" key=\"SettingsEditor\" timestamp=\"1604185164763\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state x=\"141\" y=\"39\" key=\"SettingsEditor/0.0.1280.800@0.0.1280.800\" timestamp=\"1604185164763\" />\n    <state x=\"240\" y=\"127\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1604195643606\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state x=\"240\" y=\"127\" key=\"Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800\" timestamp=\"1604195643606\" />\n    <state x=\"339\" y=\"163\" width=\"602\" height=\"474\" key=\"find.popup\" timestamp=\"1604183394410\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state x=\"339\" y=\"163\" width=\"602\" height=\"474\" key=\"find.popup/0.0.1280.800@0.0.1280.800\" timestamp=\"1604183394410\" />\n    <state x=\"393\" y=\"121\" key=\"git4idea.branch.GitSmartOperationDialog\" timestamp=\"1604193061997\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state x=\"393\" y=\"121\" key=\"git4idea.branch.GitSmartOperationDialog/0.0.1280.800@0.0.1280.800\" timestamp=\"1604193061997\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 89459ca5c994d5b10208f9afea681545bbf230fc)
++++ .idea/workspace.xml	(date 1605014169102)
+@@ -23,14 +23,13 @@
+       <path>
+         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+-        <item name="BRANCH:GULNUR" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+       </path>
+     </select>
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="1f2e034f-0ff2-4c76-96c8-7f1769a271a7" name="Default Changelist" comment="my codes">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Library/Runners/FailedTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Library/Runners/FailedTestRunner.java" afterDir="false" />
++    <list default="true" id="1f2e034f-0ff2-4c76-96c8-7f1769a271a7" name="Default Changelist" comment="new Proje">
++      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UserStory4_GULNUR.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UserStory4_GULNUR.feature" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -47,6 +46,7 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
++        <entry key="$PROJECT_DIR$" value="zuhalsBranch" />
+         <entry key="$PROJECT_DIR$" value="master" />
+       </map>
+     </option>
+@@ -69,6 +69,9 @@
+   </component>
+   <component name="PropertiesComponent">
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
++    <property name="project.structure.last.edited" value="Project" />
++    <property name="project.structure.proportion" value="0.0" />
++    <property name="project.structure.side.proportion" value="0.0" />
+     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+   </component>
+   <component name="RecentsManager">
+@@ -79,6 +82,7 @@
+       <recent name="com.Library.Utilities" />
+     </key>
+     <key name="MoveFile.RECENT_KEYS">
++      <recent name="C:\Users\Admin\IdeaProjects\LibraryProject\src\test\resources\features" />
+       <recent name="$PROJECT_DIR$/src/test/resources/features" />
+     </key>
+   </component>
+@@ -194,7 +198,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1604195642171</updated>
+     </task>
+-    <option name="localTasksCounter" value="12" />
++    <task id="LOCAL-00012" summary="new Proje">
++      <created>1604915957603</created>
++      <option name="number" value="00012" />
++      <option name="presentableId" value="LOCAL-00012" />
++      <option name="project" value="LOCAL" />
++      <updated>1604915957603</updated>
++    </task>
++    <option name="localTasksCounter" value="13" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -208,7 +219,7 @@
+                   <entry key="branch">
+                     <value>
+                       <list>
+-                        <option value="GULNUR" />
++                        <option value="origin/GULNUR" />
+                       </list>
+                     </value>
+                   </entry>
+@@ -222,50 +233,82 @@
+     <option name="oldMeFiltersMigrated" value="true" />
+   </component>
+   <component name="VcsManagerConfiguration">
+-    <MESSAGE value="new Proje" />
+     <MESSAGE value="my codes" />
+-    <option name="LAST_COMMIT_MESSAGE" value="my codes" />
++    <MESSAGE value="new Proje" />
++    <option name="LAST_COMMIT_MESSAGE" value="new Proje" />
+   </component>
+   <component name="WindowStateProjectService">
+-    <state x="362" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604171552542">
+-      <screen x="0" y="0" width="1280" height="800" />
++    <state x="163" y="0" key="#Project_Structure" timestamp="1604787088378">
++      <screen x="0" y="0" width="1366" height="728" />
++    </state>
++    <state x="163" y="0" key="#Project_Structure/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604787088378" />
++    <state x="386" y="191" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604785726918">
++      <screen x="0" y="0" width="1366" height="728" />
+     </state>
+     <state x="362" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1604171552542" />
++    <state x="386" y="191" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604785726918" />
++    <state x="310" y="106" key="FileChooserDialogImpl" timestamp="1604785803362">
++      <screen x="0" y="0" width="1366" height="728" />
++    </state>
++    <state x="310" y="106" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604785803362" />
+     <state x="494" y="308" key="Github.ShareDialog" timestamp="1604185452953">
+       <screen x="0" y="0" width="1280" height="800" />
+     </state>
+     <state x="494" y="308" key="Github.ShareDialog/0.0.1280.800@0.0.1280.800" timestamp="1604185452953" />
+-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1604195693025">
+-      <screen x="0" y="0" width="1280" height="800" />
++    <state width="1238" height="207" key="GridCell.Tab.0.bottom" timestamp="1604917149884">
++      <screen x="0" y="23" width="1280" height="727" />
+     </state>
+     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1604195693025" />
+-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1604195693024">
+-      <screen x="0" y="0" width="1280" height="800" />
++    <state width="1238" height="207" key="GridCell.Tab.0.bottom/0.23.1280.727@0.23.1280.727" timestamp="1604917149884" />
++    <state width="1238" height="181" key="GridCell.Tab.0.bottom/0.23.1280.729@0.23.1280.729" timestamp="1604313662021" />
++    <state width="1238" height="207" key="GridCell.Tab.0.center" timestamp="1604917149880">
++      <screen x="0" y="23" width="1280" height="727" />
+     </state>
+     <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1604195693024" />
+-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1604195693024">
+-      <screen x="0" y="0" width="1280" height="800" />
++    <state width="1238" height="207" key="GridCell.Tab.0.center/0.23.1280.727@0.23.1280.727" timestamp="1604917149880" />
++    <state width="1238" height="181" key="GridCell.Tab.0.center/0.23.1280.729@0.23.1280.729" timestamp="1604313662019" />
++    <state width="1238" height="207" key="GridCell.Tab.0.left" timestamp="1604917149879">
++      <screen x="0" y="23" width="1280" height="727" />
+     </state>
+     <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1604195693024" />
+-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1604195693025">
+-      <screen x="0" y="0" width="1280" height="800" />
++    <state width="1238" height="207" key="GridCell.Tab.0.left/0.23.1280.727@0.23.1280.727" timestamp="1604917149879" />
++    <state width="1238" height="181" key="GridCell.Tab.0.left/0.23.1280.729@0.23.1280.729" timestamp="1604313662019" />
++    <state width="1238" height="207" key="GridCell.Tab.0.right" timestamp="1604917149881">
++      <screen x="0" y="23" width="1280" height="727" />
+     </state>
+     <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1604195693025" />
++    <state width="1238" height="207" key="GridCell.Tab.0.right/0.23.1280.727@0.23.1280.727" timestamp="1604917149881" />
++    <state width="1238" height="181" key="GridCell.Tab.0.right/0.23.1280.729@0.23.1280.729" timestamp="1604313662020" />
++    <state x="128" y="85" key="MergeDialog" timestamp="1604915937315">
++      <screen x="0" y="23" width="1280" height="727" />
++    </state>
++    <state x="128" y="85" key="MergeDialog/0.23.1280.727@0.23.1280.727" timestamp="1604915937315" />
+     <state x="141" y="39" key="SettingsEditor" timestamp="1604185164763">
+       <screen x="0" y="0" width="1280" height="800" />
+     </state>
+     <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1604185164763" />
+-    <state x="240" y="127" key="Vcs.Push.Dialog.v2" timestamp="1604195643606">
+-      <screen x="0" y="0" width="1280" height="800" />
++    <state x="240" y="138" key="Vcs.Push.Dialog.v2" timestamp="1604915959010">
++      <screen x="0" y="23" width="1280" height="727" />
+     </state>
+     <state x="240" y="127" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1604195643606" />
++    <state x="240" y="138" key="Vcs.Push.Dialog.v2/0.23.1280.727@0.23.1280.727" timestamp="1604915959010" />
++    <state x="240" y="139" key="Vcs.Push.Dialog.v2/0.23.1280.733@0.23.1280.733" timestamp="1604405173212" />
++    <state x="437" y="309" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604915916863">
++      <screen x="0" y="23" width="1280" height="727" />
++    </state>
++    <state x="437" y="309" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.727@0.23.1280.727" timestamp="1604915916863" />
+     <state x="339" y="163" width="602" height="474" key="find.popup" timestamp="1604183394410">
+       <screen x="0" y="0" width="1280" height="800" />
+     </state>
+     <state x="339" y="163" width="602" height="474" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1604183394410" />
+-    <state x="393" y="121" key="git4idea.branch.GitSmartOperationDialog" timestamp="1604193061997">
+-      <screen x="0" y="0" width="1280" height="800" />
++    <state x="393" y="133" key="git4idea.branch.GitSmartOperationDialog" timestamp="1604915866002">
++      <screen x="0" y="23" width="1280" height="727" />
+     </state>
+     <state x="393" y="121" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.800@0.0.1280.800" timestamp="1604193061997" />
++    <state x="393" y="133" key="git4idea.branch.GitSmartOperationDialog/0.23.1280.727@0.23.1280.727" timestamp="1604915866002" />
++    <state x="426" y="285" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1604787805466">
++      <screen x="0" y="0" width="1366" height="728" />
++    </state>
++    <state x="426" y="285" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604787805466" />
+   </component>
+ </project>
+\ No newline at end of file

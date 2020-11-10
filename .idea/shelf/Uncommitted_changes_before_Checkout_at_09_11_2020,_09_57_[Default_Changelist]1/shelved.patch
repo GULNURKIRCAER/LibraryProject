@@ -1,0 +1,365 @@
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_01_11_2020__01_10__Default_Changelist_.xml
+===================================================================
+--- .idea/shelf/Uncommitted_changes_before_Checkout_at_01_11_2020__01_10__Default_Changelist_.xml	(revision 8023ccc5f67e7001fcd7471a83f2170f1d81487f)
++++ .idea/shelf/Uncommitted_changes_before_Checkout_at_01_11_2020__01_10__Default_Changelist_.xml	(revision 8023ccc5f67e7001fcd7471a83f2170f1d81487f)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Checkout_at_01_11_2020,_01_10_[Default_Changelist]" date="1604193035231" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_11_2020,_01_10_[Default_Changelist]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 01/11/2020, 01:10 [Default Changelist]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Merge_at_31_10_2020,_23_59_[Default_Changelist]/shelved.patch
+===================================================================
+--- .idea/shelf/Uncommitted_changes_before_Merge_at_31_10_2020,_23_59_[Default_Changelist]/shelved.patch	(revision 8023ccc5f67e7001fcd7471a83f2170f1d81487f)
++++ .idea/shelf/Uncommitted_changes_before_Merge_at_31_10_2020,_23_59_[Default_Changelist]/shelved.patch	(revision 8023ccc5f67e7001fcd7471a83f2170f1d81487f)
+@@ -1,16 +0,0 @@
+-Index: src/test/resources/features/UserStory6_MUSTAFA.feature
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>\nAs a students, I should be able to see tables with default info\n\n\n#Scenario: Table columns names\n#Then table should have following column names:\n#| Actions     |\n#| ISBN        |\n#| Name       |\n#| Author      |\n#| Category  |\n#|Year          |\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+---- src/test/resources/features/UserStory6_MUSTAFA.feature	(revision 8ff9e01ac488b84080c9abf7924b2a2b7cf72a5b)
+-+++ src/test/resources/features/UserStory6_MUSTAFA.feature	(date 1604188785862)
+-@@ -1,5 +1,5 @@
+- 
+--As a students, I should be able to see tables with default info
+-+#As a students, I should be able to see tables with default info
+- 
+- 
+- #Scenario: Table columns names
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_01_11_2020__01_11__Default_Changelist_.xml
+===================================================================
+--- .idea/shelf/Uncommitted_changes_before_Checkout_at_01_11_2020__01_11__Default_Changelist_.xml	(revision 8023ccc5f67e7001fcd7471a83f2170f1d81487f)
++++ .idea/shelf/Uncommitted_changes_before_Checkout_at_01_11_2020__01_11__Default_Changelist_.xml	(revision 8023ccc5f67e7001fcd7471a83f2170f1d81487f)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Checkout_at_01_11_2020,_01_11_[Default_Changelist]" date="1604193062721" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_11_2020,_01_11_[Default_Changelist]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 01/11/2020, 01:11 [Default Changelist]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Merge_at_31_10_2020__23_59__Default_Changelist_.xml
+===================================================================
+--- .idea/shelf/Uncommitted_changes_before_Merge_at_31_10_2020__23_59__Default_Changelist_.xml	(revision 8023ccc5f67e7001fcd7471a83f2170f1d81487f)
++++ .idea/shelf/Uncommitted_changes_before_Merge_at_31_10_2020__23_59__Default_Changelist_.xml	(revision 8023ccc5f67e7001fcd7471a83f2170f1d81487f)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Merge_at_31_10_2020,_23_59_[Default_Changelist]" date="1604188788705" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_31_10_2020,_23_59_[Default_Changelist]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Merge at 31/10/2020, 23:59 [Default Changelist]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_01_11_2020,_01_11_[Default_Changelist]/shelved.patch
+===================================================================
+--- .idea/shelf/Uncommitted_changes_before_Checkout_at_01_11_2020,_01_11_[Default_Changelist]/shelved.patch	(revision 8023ccc5f67e7001fcd7471a83f2170f1d81487f)
++++ .idea/shelf/Uncommitted_changes_before_Checkout_at_01_11_2020,_01_11_[Default_Changelist]/shelved.patch	(revision 8023ccc5f67e7001fcd7471a83f2170f1d81487f)
+@@ -1,152 +0,0 @@
+-Index: src/test/java/com/Library/Runners/CukesRunner.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package com.Library.Runners;\n\n\nimport io.cucumber.junit.Cucumber;\nimport io.cucumber.junit.CucumberOptions;\nimport org.junit.runner.RunWith;\n\n@RunWith(Cucumber.class)\n@CucumberOptions(\n        plugin = {\"json:target/cucumber.json\",\n                 \"html:target/default-html-reports\",\n                \"rerun:target/rerun.txt\"},\n        features = \"src/test/resources/features\",\n        glue = \"com/vytrack/step_definitions\",\n        dryRun = false,\n        tags=\"@login\"\n)\npublic class CukesRunner {\n}\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+---- src/test/java/com/Library/Runners/CukesRunner.java	(revision ef1b9d6daa05d45be2f067e0032c33b5ab21b18f)
+-+++ src/test/java/com/Library/Runners/CukesRunner.java	(date 1604193035101)
+-@@ -11,7 +11,7 @@
+-                  "html:target/default-html-reports",
+-                 "rerun:target/rerun.txt"},
+-         features = "src/test/resources/features",
+--        glue = "com/vytrack/step_definitions",
+-+        glue = "com/Library/step_definitions",
+-         dryRun = false,
+-         tags="@login"
+- )
+-Index: src/test/java/com/Library/StepDefinitions/LoginPageStepDef.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package com.Library.StepDefinitions;\n\nimport com.Library.Pages.LoginPage;\nimport com.Library.Utilities.BrowserUtils;\nimport com.Library.Utilities.ConfigurationReader;\nimport com.Library.Utilities.Driver;\nimport io.cucumber.java.en.Given;\nimport io.cucumber.java.en.Then;\nimport io.cucumber.java.en.When;\nimport org.junit.Assert;\nimport org.junit.Ignore;\nimport org.openqa.selenium.By;\n\npublic class LoginPageStepDef {\n\n    @Given(\"the user is on the login page\")\n    public void the_user_is_on_the_login_page() {\n\n        String url = ConfigurationReader.get(\"url\");\n\n        Driver.get().get(url);\n\n    }\n    @When(\"the user enters the Librarian information\")\n    public void the_user_enters_the_Librarian_information()  {\n\n        Driver.get().findElement(By.xpath(\"//label[@for='inputEmail']\")).sendKeys(\"librarian22@library\");\n        Driver.get().findElement(By.xpath(\"//label[@for='inputPassword']\")).sendKeys(\"bJRnAAyp\");\n\n        Driver.get().findElement(By.name(\"submit\")).click();\n    }\n    @Then(\"the Library page should be displayed\")\n    public void the_Library_page_should_be_displayed() {\n\n        BrowserUtils.waitFor(3);\n\n        String actualTitle = Driver.get().getTitle();\n\n        Assert.assertEquals(\"Library\",actualTitle);\n\n    }\n    @When(\"the user enters the Student information\")\n    public void the_user_enters_the_Student_information()  {\n\n        String username = ConfigurationReader.get(\"student1_username\");\n        String password = ConfigurationReader.get(\"student1_password\");\n\n//        String username = ConfigurationReader.get(\"student2_username\");\n//        String password = ConfigurationReader.get(\"student2_password\");\n\n//        String username = ConfigurationReader.get(\"student3_username\");\n//        String password = ConfigurationReader.get(\"student3_password\");\n\n        LoginPage loginPage = new LoginPage();\n\n        loginPage.login(username,password);\n\n    }\n    @When(\"the user enters the {string} information\")\n    public void the_user_enters_the_information(String userType) {\n\n        Driver.get().get(ConfigurationReader.get(\"url\"));\n\n        switch (userType.toLowerCase()){\n            case \"Librarian\":\n                the_user_enters_the_Librarian_information();\n                break;\n            case \"Student\":\n                the_user_enters_the_Student_information();\n                break;\n            default:\n                System.out.println(\"There is not any user in system such as \"+userType);\n\n        }\n    }\n}
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+---- src/test/java/com/Library/StepDefinitions/LoginPageStepDef.java	(revision ef1b9d6daa05d45be2f067e0032c33b5ab21b18f)
+-+++ src/test/java/com/Library/StepDefinitions/LoginPageStepDef.java	(date 1604193035105)
+-@@ -16,18 +16,19 @@
+-     @Given("the user is on the login page")
+-     public void the_user_is_on_the_login_page() {
+- 
+--        String url = ConfigurationReader.get("url");
+--
+--        Driver.get().get(url);
+-+        Driver.get().get(ConfigurationReader.get("url"));
+- 
+-     }
+-     @When("the user enters the Librarian information")
+-     public void the_user_enters_the_Librarian_information()  {
+- 
+--        Driver.get().findElement(By.xpath("//label[@for='inputEmail']")).sendKeys("librarian22@library");
+--        Driver.get().findElement(By.xpath("//label[@for='inputPassword']")).sendKeys("bJRnAAyp");
+-+        String username = ConfigurationReader.get("library_username");
+-+        String password = ConfigurationReader.get("library_password");
+-+
+-+        LoginPage loginPage = new LoginPage();
+- 
+--        Driver.get().findElement(By.name("submit")).click();
+-+        loginPage.login(username,password);
+-+
+-     }
+-     @Then("the Library page should be displayed")
+-     public void the_Library_page_should_be_displayed() {
+-Index: src/test/java/com/Library/Pages/LoginPage.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package com.Library.Pages;\n\nimport com.Library.Utilities.Driver;\nimport org.openqa.selenium.WebElement;\nimport org.openqa.selenium.support.FindBy;\nimport org.openqa.selenium.support.PageFactory;\n\npublic class LoginPage {\n\n    public LoginPage(){\n        PageFactory.initElements(Driver.get(), this);\n    }\n\n    @FindBy(xpath=\"//label[@for='inputEmail']\")\n    public WebElement inputEmail;\n\n    @FindBy(xpath=\"//label[@for='inputPassword']\")\n    public WebElement password;\n\n    @FindBy(xpath= \"//button[@type='submit']\")\n    public WebElement submit;\n\n    public void login(String userNameStr, String passwordStr) {\n        this.inputEmail.sendKeys(userNameStr);\n        this.password.sendKeys(passwordStr);\n        this.submit.click();\n\n    }\n}
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+---- src/test/java/com/Library/Pages/LoginPage.java	(revision ef1b9d6daa05d45be2f067e0032c33b5ab21b18f)
+-+++ src/test/java/com/Library/Pages/LoginPage.java	(date 1604193035108)
+-@@ -11,10 +11,10 @@
+-         PageFactory.initElements(Driver.get(), this);
+-     }
+- 
+--    @FindBy(xpath="//label[@for='inputEmail']")
+-+    @FindBy(id="inputEmail")
+-     public WebElement inputEmail;
+- 
+--    @FindBy(xpath="//label[@for='inputPassword']")
+-+    @FindBy(id="inputPassword")
+-     public WebElement password;
+- 
+-     @FindBy(xpath= "//button[@type='submit']")
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"BRANCH:master\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </select>\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"1f2e034f-0ff2-4c76-96c8-7f1769a271a7\" name=\"Default Changelist\" comment=\"new Proje\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/configuration.properties\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/configuration.properties\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/LoginPageStepDef.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/LoginPageStepDef.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/test/resources/features/UserStory4_GULNUR.feature\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/resources/features/UserStory4_GULNUR.feature\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/target/test-classes/features/UserStory6_MUSTAFA.feature\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/test-classes/features/UserStory6_MUSTAFA.feature\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MavenImportPreferences\">\n    <option name=\"generalSettings\">\n      <MavenGeneralSettings>\n        <option name=\"mavenHome\" value=\"$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3\" />\n      </MavenGeneralSettings>\n    </option>\n  </component>\n  <component name=\"ProjectId\" id=\"1jejEaOyj7Gl2kNO0aWWtodCccX\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"org.jetbrains.plugins.github.ui.GithubSettingsConfigurable\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\n      <recent name=\"com.Library.Pages\" />\n      <recent name=\"com.Library.Runners\" />\n      <recent name=\"com.Library.StepDefinitions\" />\n      <recent name=\"com.Library.Utilities\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src/test/resources/features\" />\n    </key>\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"CukesRunner\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"LibraryProject\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"com.Library.Runners.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"com.Library.Runners\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.Library.Runners.CukesRunner\" />\n      <option name=\"TEST_OBJECT\" value=\"class\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"JUnit.CukesRunner\" />\n        <item itemvalue=\"JUnit.CukesRunner\" />\n        <item itemvalue=\"JUnit.CukesRunner\" />\n        <item itemvalue=\"JUnit.CukesRunner\" />\n        <item itemvalue=\"JUnit.CukesRunner\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"1f2e034f-0ff2-4c76-96c8-7f1769a271a7\" name=\"Default Changelist\" comment=\"\" />\n      <created>1604171340474</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1604171340474</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"new Proje\">\n      <created>1604185199645</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604185199645</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"new Proje\">\n      <created>1604186817009</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604186817009</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"new Proje\">\n      <created>1604187326556</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604187326556</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"new Proje\">\n      <created>1604188131371</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604188131371</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"new Proje\">\n      <created>1604188304689</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604188304689</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"new Proje\">\n      <created>1604188521601</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604188521601</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"new Proje\">\n      <created>1604188745398</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604188745398</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"8\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State>\n              <option name=\"FILTERS\">\n                <map>\n                  <entry key=\"branch\">\n                    <value>\n                      <list>\n                        <option value=\"master\" />\n                      </list>\n                    </value>\n                  </entry>\n                </map>\n              </option>\n            </State>\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"new Proje\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"new Proje\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"362\" y=\"210\" key=\"#com.intellij.fileTypes.FileTypeChooser\" timestamp=\"1604171552542\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state x=\"362\" y=\"210\" key=\"#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800\" timestamp=\"1604171552542\" />\n    <state x=\"494\" y=\"308\" key=\"Github.ShareDialog\" timestamp=\"1604185452953\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state x=\"494\" y=\"308\" key=\"Github.ShareDialog/0.0.1280.800@0.0.1280.800\" timestamp=\"1604185452953\" />\n    <state width=\"1238\" height=\"212\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1604189412176\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state width=\"1238\" height=\"212\" key=\"GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800\" timestamp=\"1604189412176\" />\n    <state width=\"1238\" height=\"212\" key=\"GridCell.Tab.0.center\" timestamp=\"1604189412172\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state width=\"1238\" height=\"212\" key=\"GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800\" timestamp=\"1604189412172\" />\n    <state width=\"1238\" height=\"212\" key=\"GridCell.Tab.0.left\" timestamp=\"1604189412171\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state width=\"1238\" height=\"212\" key=\"GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800\" timestamp=\"1604189412171\" />\n    <state width=\"1238\" height=\"212\" key=\"GridCell.Tab.0.right\" timestamp=\"1604189412174\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state width=\"1238\" height=\"212\" key=\"GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800\" timestamp=\"1604189412174\" />\n    <state x=\"141\" y=\"39\" key=\"SettingsEditor\" timestamp=\"1604185164763\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state x=\"141\" y=\"39\" key=\"SettingsEditor/0.0.1280.800@0.0.1280.800\" timestamp=\"1604185164763\" />\n    <state x=\"240\" y=\"127\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1604188748822\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state x=\"240\" y=\"127\" key=\"Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800\" timestamp=\"1604188748822\" />\n    <state x=\"339\" y=\"163\" width=\"602\" height=\"474\" key=\"find.popup\" timestamp=\"1604183394410\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state x=\"339\" y=\"163\" width=\"602\" height=\"474\" key=\"find.popup/0.0.1280.800@0.0.1280.800\" timestamp=\"1604183394410\" />\n    <state x=\"393\" y=\"121\" key=\"git4idea.branch.GitSmartOperationDialog\" timestamp=\"1604188787850\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state x=\"393\" y=\"121\" key=\"git4idea.branch.GitSmartOperationDialog/0.0.1280.800@0.0.1280.800\" timestamp=\"1604188787850\" />\n  </component>\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+---- .idea/workspace.xml	(revision ef1b9d6daa05d45be2f067e0032c33b5ab21b18f)
+-+++ .idea/workspace.xml	(date 1604193035113)
+-@@ -30,10 +30,7 @@
+-   <component name="ChangeListManager">
+-     <list default="true" id="1f2e034f-0ff2-4c76-96c8-7f1769a271a7" name="Default Changelist" comment="new Proje">
+-       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+-       <change beforePath="$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/LoginPageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/LoginPageStepDef.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UserStory4_GULNUR.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UserStory4_GULNUR.feature" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/target/test-classes/features/UserStory6_MUSTAFA.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/UserStory6_MUSTAFA.feature" afterDir="false" />
+-     </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-@@ -54,6 +51,9 @@
+-       </map>
+-     </option>
+-     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-+  </component>
+-+  <component name="HighlightingSettingsPerFile">
+-+    <setting file="file://$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/LoginPageStepDef.java" root0="SKIP_INSPECTION" />
+-   </component>
+-   <component name="MavenImportPreferences">
+-     <option name="generalSettings">
+-@@ -166,7 +166,14 @@
+-       <option name="project" value="LOCAL" />
+-       <updated>1604188745398</updated>
+-     </task>
+--    <option name="localTasksCounter" value="8" />
+-+    <task id="LOCAL-00008" summary="new Proje">
+-+      <created>1604190090190</created>
+-+      <option name="number" value="00008" />
+-+      <option name="presentableId" value="LOCAL-00008" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1604190090190</updated>
+-+    </task>
+-+    <option name="localTasksCounter" value="9" />
+-     <servers />
+-   </component>
+-   <component name="Vcs.Log.Tabs.Properties">
+-@@ -205,22 +212,22 @@
+-       <screen x="0" y="0" width="1280" height="800" />
+-     </state>
+-     <state x="494" y="308" key="Github.ShareDialog/0.0.1280.800@0.0.1280.800" timestamp="1604185452953" />
+--    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1604189412176">
+-+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1604192571578">
+-       <screen x="0" y="0" width="1280" height="800" />
+-     </state>
+--    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1604189412176" />
+--    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1604189412172">
+-+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1604192571578" />
+-+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1604192571575">
+-       <screen x="0" y="0" width="1280" height="800" />
+-     </state>
+--    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1604189412172" />
+--    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1604189412171">
+-+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1604192571575" />
+-+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1604192571574">
+-       <screen x="0" y="0" width="1280" height="800" />
+-     </state>
+--    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1604189412171" />
+--    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1604189412174">
+-+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1604192571574" />
+-+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1604192571577">
+-       <screen x="0" y="0" width="1280" height="800" />
+-     </state>
+--    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1604189412174" />
+-+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1604192571577" />
+-     <state x="141" y="39" key="SettingsEditor" timestamp="1604185164763">
+-       <screen x="0" y="0" width="1280" height="800" />
+-     </state>
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_01_11_2020,_01_10_[Default_Changelist]/shelved.patch
+===================================================================
+--- .idea/shelf/Uncommitted_changes_before_Checkout_at_01_11_2020,_01_10_[Default_Changelist]/shelved.patch	(revision 8023ccc5f67e7001fcd7471a83f2170f1d81487f)
++++ .idea/shelf/Uncommitted_changes_before_Checkout_at_01_11_2020,_01_10_[Default_Changelist]/shelved.patch	(revision 8023ccc5f67e7001fcd7471a83f2170f1d81487f)
+@@ -1,152 +0,0 @@
+-Index: src/test/java/com/Library/Runners/CukesRunner.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package com.Library.Runners;\n\n\nimport io.cucumber.junit.Cucumber;\nimport io.cucumber.junit.CucumberOptions;\nimport org.junit.runner.RunWith;\n\n@RunWith(Cucumber.class)\n@CucumberOptions(\n        plugin = {\"json:target/cucumber.json\",\n                 \"html:target/default-html-reports\",\n                \"rerun:target/rerun.txt\"},\n        features = \"src/test/resources/features\",\n        glue = \"com/vytrack/step_definitions\",\n        dryRun = false,\n        tags=\"@login\"\n)\npublic class CukesRunner {\n}\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+---- src/test/java/com/Library/Runners/CukesRunner.java	(revision ef1b9d6daa05d45be2f067e0032c33b5ab21b18f)
+-+++ src/test/java/com/Library/Runners/CukesRunner.java	(date 1604193026683)
+-@@ -11,7 +11,7 @@
+-                  "html:target/default-html-reports",
+-                 "rerun:target/rerun.txt"},
+-         features = "src/test/resources/features",
+--        glue = "com/vytrack/step_definitions",
+-+        glue = "com/Library/step_definitions",
+-         dryRun = false,
+-         tags="@login"
+- )
+-Index: src/test/java/com/Library/StepDefinitions/LoginPageStepDef.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package com.Library.StepDefinitions;\n\nimport com.Library.Pages.LoginPage;\nimport com.Library.Utilities.BrowserUtils;\nimport com.Library.Utilities.ConfigurationReader;\nimport com.Library.Utilities.Driver;\nimport io.cucumber.java.en.Given;\nimport io.cucumber.java.en.Then;\nimport io.cucumber.java.en.When;\nimport org.junit.Assert;\nimport org.junit.Ignore;\nimport org.openqa.selenium.By;\n\npublic class LoginPageStepDef {\n\n    @Given(\"the user is on the login page\")\n    public void the_user_is_on_the_login_page() {\n\n        String url = ConfigurationReader.get(\"url\");\n\n        Driver.get().get(url);\n\n    }\n    @When(\"the user enters the Librarian information\")\n    public void the_user_enters_the_Librarian_information()  {\n\n        Driver.get().findElement(By.xpath(\"//label[@for='inputEmail']\")).sendKeys(\"librarian22@library\");\n        Driver.get().findElement(By.xpath(\"//label[@for='inputPassword']\")).sendKeys(\"bJRnAAyp\");\n\n        Driver.get().findElement(By.name(\"submit\")).click();\n    }\n    @Then(\"the Library page should be displayed\")\n    public void the_Library_page_should_be_displayed() {\n\n        BrowserUtils.waitFor(3);\n\n        String actualTitle = Driver.get().getTitle();\n\n        Assert.assertEquals(\"Library\",actualTitle);\n\n    }\n    @When(\"the user enters the Student information\")\n    public void the_user_enters_the_Student_information()  {\n\n        String username = ConfigurationReader.get(\"student1_username\");\n        String password = ConfigurationReader.get(\"student1_password\");\n\n//        String username = ConfigurationReader.get(\"student2_username\");\n//        String password = ConfigurationReader.get(\"student2_password\");\n\n//        String username = ConfigurationReader.get(\"student3_username\");\n//        String password = ConfigurationReader.get(\"student3_password\");\n\n        LoginPage loginPage = new LoginPage();\n\n        loginPage.login(username,password);\n\n    }\n    @When(\"the user enters the {string} information\")\n    public void the_user_enters_the_information(String userType) {\n\n        Driver.get().get(ConfigurationReader.get(\"url\"));\n\n        switch (userType.toLowerCase()){\n            case \"Librarian\":\n                the_user_enters_the_Librarian_information();\n                break;\n            case \"Student\":\n                the_user_enters_the_Student_information();\n                break;\n            default:\n                System.out.println(\"There is not any user in system such as \"+userType);\n\n        }\n    }\n}
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+---- src/test/java/com/Library/StepDefinitions/LoginPageStepDef.java	(revision ef1b9d6daa05d45be2f067e0032c33b5ab21b18f)
+-+++ src/test/java/com/Library/StepDefinitions/LoginPageStepDef.java	(date 1604192771912)
+-@@ -16,18 +16,19 @@
+-     @Given("the user is on the login page")
+-     public void the_user_is_on_the_login_page() {
+- 
+--        String url = ConfigurationReader.get("url");
+--
+--        Driver.get().get(url);
+-+        Driver.get().get(ConfigurationReader.get("url"));
+- 
+-     }
+-     @When("the user enters the Librarian information")
+-     public void the_user_enters_the_Librarian_information()  {
+- 
+--        Driver.get().findElement(By.xpath("//label[@for='inputEmail']")).sendKeys("librarian22@library");
+--        Driver.get().findElement(By.xpath("//label[@for='inputPassword']")).sendKeys("bJRnAAyp");
+-+        String username = ConfigurationReader.get("library_username");
+-+        String password = ConfigurationReader.get("library_password");
+-+
+-+        LoginPage loginPage = new LoginPage();
+- 
+--        Driver.get().findElement(By.name("submit")).click();
+-+        loginPage.login(username,password);
+-+
+-     }
+-     @Then("the Library page should be displayed")
+-     public void the_Library_page_should_be_displayed() {
+-Index: src/test/java/com/Library/Pages/LoginPage.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package com.Library.Pages;\n\nimport com.Library.Utilities.Driver;\nimport org.openqa.selenium.WebElement;\nimport org.openqa.selenium.support.FindBy;\nimport org.openqa.selenium.support.PageFactory;\n\npublic class LoginPage {\n\n    public LoginPage(){\n        PageFactory.initElements(Driver.get(), this);\n    }\n\n    @FindBy(xpath=\"//label[@for='inputEmail']\")\n    public WebElement inputEmail;\n\n    @FindBy(xpath=\"//label[@for='inputPassword']\")\n    public WebElement password;\n\n    @FindBy(xpath= \"//button[@type='submit']\")\n    public WebElement submit;\n\n    public void login(String userNameStr, String passwordStr) {\n        this.inputEmail.sendKeys(userNameStr);\n        this.password.sendKeys(passwordStr);\n        this.submit.click();\n\n    }\n}
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+---- src/test/java/com/Library/Pages/LoginPage.java	(revision ef1b9d6daa05d45be2f067e0032c33b5ab21b18f)
+-+++ src/test/java/com/Library/Pages/LoginPage.java	(date 1604192944839)
+-@@ -11,10 +11,10 @@
+-         PageFactory.initElements(Driver.get(), this);
+-     }
+- 
+--    @FindBy(xpath="//label[@for='inputEmail']")
+-+    @FindBy(id="inputEmail")
+-     public WebElement inputEmail;
+- 
+--    @FindBy(xpath="//label[@for='inputPassword']")
+-+    @FindBy(id="inputPassword")
+-     public WebElement password;
+- 
+-     @FindBy(xpath= "//button[@type='submit']")
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"BRANCH:master\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </select>\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"1f2e034f-0ff2-4c76-96c8-7f1769a271a7\" name=\"Default Changelist\" comment=\"new Proje\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/configuration.properties\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/configuration.properties\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/LoginPageStepDef.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/LoginPageStepDef.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/test/resources/features/UserStory4_GULNUR.feature\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/resources/features/UserStory4_GULNUR.feature\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/target/test-classes/features/UserStory6_MUSTAFA.feature\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/test-classes/features/UserStory6_MUSTAFA.feature\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MavenImportPreferences\">\n    <option name=\"generalSettings\">\n      <MavenGeneralSettings>\n        <option name=\"mavenHome\" value=\"$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3\" />\n      </MavenGeneralSettings>\n    </option>\n  </component>\n  <component name=\"ProjectId\" id=\"1jejEaOyj7Gl2kNO0aWWtodCccX\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"org.jetbrains.plugins.github.ui.GithubSettingsConfigurable\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\n      <recent name=\"com.Library.Pages\" />\n      <recent name=\"com.Library.Runners\" />\n      <recent name=\"com.Library.StepDefinitions\" />\n      <recent name=\"com.Library.Utilities\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src/test/resources/features\" />\n    </key>\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"CukesRunner\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"LibraryProject\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"com.Library.Runners.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"com.Library.Runners\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.Library.Runners.CukesRunner\" />\n      <option name=\"TEST_OBJECT\" value=\"class\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"JUnit.CukesRunner\" />\n        <item itemvalue=\"JUnit.CukesRunner\" />\n        <item itemvalue=\"JUnit.CukesRunner\" />\n        <item itemvalue=\"JUnit.CukesRunner\" />\n        <item itemvalue=\"JUnit.CukesRunner\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"1f2e034f-0ff2-4c76-96c8-7f1769a271a7\" name=\"Default Changelist\" comment=\"\" />\n      <created>1604171340474</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1604171340474</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"new Proje\">\n      <created>1604185199645</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604185199645</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"new Proje\">\n      <created>1604186817009</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604186817009</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"new Proje\">\n      <created>1604187326556</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604187326556</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"new Proje\">\n      <created>1604188131371</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604188131371</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"new Proje\">\n      <created>1604188304689</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604188304689</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"new Proje\">\n      <created>1604188521601</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604188521601</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"new Proje\">\n      <created>1604188745398</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604188745398</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"8\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State>\n              <option name=\"FILTERS\">\n                <map>\n                  <entry key=\"branch\">\n                    <value>\n                      <list>\n                        <option value=\"master\" />\n                      </list>\n                    </value>\n                  </entry>\n                </map>\n              </option>\n            </State>\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"new Proje\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"new Proje\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"362\" y=\"210\" key=\"#com.intellij.fileTypes.FileTypeChooser\" timestamp=\"1604171552542\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state x=\"362\" y=\"210\" key=\"#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800\" timestamp=\"1604171552542\" />\n    <state x=\"494\" y=\"308\" key=\"Github.ShareDialog\" timestamp=\"1604185452953\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state x=\"494\" y=\"308\" key=\"Github.ShareDialog/0.0.1280.800@0.0.1280.800\" timestamp=\"1604185452953\" />\n    <state width=\"1238\" height=\"212\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1604189412176\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state width=\"1238\" height=\"212\" key=\"GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800\" timestamp=\"1604189412176\" />\n    <state width=\"1238\" height=\"212\" key=\"GridCell.Tab.0.center\" timestamp=\"1604189412172\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state width=\"1238\" height=\"212\" key=\"GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800\" timestamp=\"1604189412172\" />\n    <state width=\"1238\" height=\"212\" key=\"GridCell.Tab.0.left\" timestamp=\"1604189412171\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state width=\"1238\" height=\"212\" key=\"GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800\" timestamp=\"1604189412171\" />\n    <state width=\"1238\" height=\"212\" key=\"GridCell.Tab.0.right\" timestamp=\"1604189412174\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state width=\"1238\" height=\"212\" key=\"GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800\" timestamp=\"1604189412174\" />\n    <state x=\"141\" y=\"39\" key=\"SettingsEditor\" timestamp=\"1604185164763\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state x=\"141\" y=\"39\" key=\"SettingsEditor/0.0.1280.800@0.0.1280.800\" timestamp=\"1604185164763\" />\n    <state x=\"240\" y=\"127\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1604188748822\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state x=\"240\" y=\"127\" key=\"Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800\" timestamp=\"1604188748822\" />\n    <state x=\"339\" y=\"163\" width=\"602\" height=\"474\" key=\"find.popup\" timestamp=\"1604183394410\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state x=\"339\" y=\"163\" width=\"602\" height=\"474\" key=\"find.popup/0.0.1280.800@0.0.1280.800\" timestamp=\"1604183394410\" />\n    <state x=\"393\" y=\"121\" key=\"git4idea.branch.GitSmartOperationDialog\" timestamp=\"1604188787850\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state x=\"393\" y=\"121\" key=\"git4idea.branch.GitSmartOperationDialog/0.0.1280.800@0.0.1280.800\" timestamp=\"1604188787850\" />\n  </component>\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+---- .idea/workspace.xml	(revision ef1b9d6daa05d45be2f067e0032c33b5ab21b18f)
+-+++ .idea/workspace.xml	(date 1604192787546)
+-@@ -30,10 +30,7 @@
+-   <component name="ChangeListManager">
+-     <list default="true" id="1f2e034f-0ff2-4c76-96c8-7f1769a271a7" name="Default Changelist" comment="new Proje">
+-       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+-       <change beforePath="$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/LoginPageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/LoginPageStepDef.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UserStory4_GULNUR.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UserStory4_GULNUR.feature" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/target/test-classes/features/UserStory6_MUSTAFA.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/UserStory6_MUSTAFA.feature" afterDir="false" />
+-     </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-@@ -54,6 +51,9 @@
+-       </map>
+-     </option>
+-     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-+  </component>
+-+  <component name="HighlightingSettingsPerFile">
+-+    <setting file="file://$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/LoginPageStepDef.java" root0="SKIP_INSPECTION" />
+-   </component>
+-   <component name="MavenImportPreferences">
+-     <option name="generalSettings">
+-@@ -166,7 +166,14 @@
+-       <option name="project" value="LOCAL" />
+-       <updated>1604188745398</updated>
+-     </task>
+--    <option name="localTasksCounter" value="8" />
+-+    <task id="LOCAL-00008" summary="new Proje">
+-+      <created>1604190090190</created>
+-+      <option name="number" value="00008" />
+-+      <option name="presentableId" value="LOCAL-00008" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1604190090190</updated>
+-+    </task>
+-+    <option name="localTasksCounter" value="9" />
+-     <servers />
+-   </component>
+-   <component name="Vcs.Log.Tabs.Properties">
+-@@ -205,22 +212,22 @@
+-       <screen x="0" y="0" width="1280" height="800" />
+-     </state>
+-     <state x="494" y="308" key="Github.ShareDialog/0.0.1280.800@0.0.1280.800" timestamp="1604185452953" />
+--    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1604189412176">
+-+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1604192571578">
+-       <screen x="0" y="0" width="1280" height="800" />
+-     </state>
+--    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1604189412176" />
+--    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1604189412172">
+-+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1604192571578" />
+-+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1604192571575">
+-       <screen x="0" y="0" width="1280" height="800" />
+-     </state>
+--    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1604189412172" />
+--    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1604189412171">
+-+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1604192571575" />
+-+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1604192571574">
+-       <screen x="0" y="0" width="1280" height="800" />
+-     </state>
+--    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1604189412171" />
+--    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1604189412174">
+-+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1604192571574" />
+-+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1604192571577">
+-       <screen x="0" y="0" width="1280" height="800" />
+-     </state>
+--    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1604189412174" />
+-+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1604192571577" />
+-     <state x="141" y="39" key="SettingsEditor" timestamp="1604185164763">
+-       <screen x="0" y="0" width="1280" height="800" />
+-     </state>

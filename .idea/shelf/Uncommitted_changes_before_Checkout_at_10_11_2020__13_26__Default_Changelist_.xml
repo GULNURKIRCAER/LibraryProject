@@ -1,0 +1,14 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_10_11_2020,_13_26_[Default_Changelist]" date="1605014881549" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_11_2020,_13_26_[Default_Changelist]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 10/11/2020, 13:26 [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/com/Library/StepDefinitions/DashboardPageSepDef.class" />
+    <option name="AFTER_PATH" value="target/test-classes/com/Library/StepDefinitions/DashboardPageSepDef.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_11_2020,_13_26_[Default_Changelist]/DashboardPageSepDef.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/com/Library/Pages/DashboardPage.class" />
+    <option name="AFTER_PATH" value="target/test-classes/com/Library/Pages/DashboardPage.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_11_2020,_13_26_[Default_Changelist]/DashboardPage.class" />
+  </binary>
+</changelist>
