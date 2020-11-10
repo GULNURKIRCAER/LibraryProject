@@ -22,13 +22,14 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/zuhalsBranch" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f2e034f-0ff2-4c76-96c8-7f1769a271a7" name="Default Changelist" comment="zuhal new" />
+    <list default="true" id="dae3d2b7-9a87-43c0-9751-ea77216b73c4" name="Default Changelist" comment="new Proje" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -219,7 +220,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/zuhalsBranch" />
                       </list>
                     </value>
                   </entry>
@@ -288,6 +289,14 @@
     <state width="1238" height="196" key="GridCell.Tab.0.right/0.23.1280.727@0.23.1280.727" timestamp="1604924864910" />
     <state width="1238" height="196" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1604933474446" />
     <state width="1238" height="196" key="GridCell.Tab.0.right/0.23.1280.729@0.23.1280.729" timestamp="1604936162081" />
+    <state x="128" y="85" key="MergeDialog" timestamp="1605040470700">
+      <screen x="0" y="23" width="1280" height="727" />
+    </state>
+    <state x="128" y="85" key="MergeDialog/0.23.1280.727@0.23.1280.727" timestamp="1605040470700" />
+    <state x="278" y="156" key="MultipleFileMergeDialog" timestamp="1605040478697">
+      <screen x="0" y="23" width="1280" height="727" />
+    </state>
+    <state x="278" y="156" key="MultipleFileMergeDialog/0.23.1280.727@0.23.1280.727" timestamp="1605040478697" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1604185164763">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
