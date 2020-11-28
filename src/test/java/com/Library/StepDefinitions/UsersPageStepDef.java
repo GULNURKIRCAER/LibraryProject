@@ -39,6 +39,7 @@ public class UsersPageStepDef {
         new UsersPage().endDate.clear();
         new UsersPage().endDate.sendKeys(table.get("End Date"));
         new UsersPage().address.sendKeys(table.get("Address"));
+        BrowserUtils.waitFor(1);
         new UsersPage().saveBtn.click();
 
         BrowserUtils.waitFor(3);

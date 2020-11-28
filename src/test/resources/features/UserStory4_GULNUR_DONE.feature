@@ -15,7 +15,7 @@ Feature: A librarian should be able to add users from users page.
       | Dashboard |
       | Users     |
       | Books     |
-  @login
+
   Scenario:A librarian should be able to create user.
     When  the user clicks on "Users" module on the Library page
     Then  the Users Management page should be displayed
@@ -23,7 +23,7 @@ Feature: A librarian should be able to add users from users page.
     And   creates User using following information
       | Full Name  | XYZ Student                               |
       | Password   | xyzBC                                    |
-      | Email      | xyzSON@yahoo.com                         |
+      | Email      | xyzSONf@yahoo.com                         |
       | User Group | Students                                  |
       | Status     | Active                                    |
       | Start Date | 2020-11-11                                |

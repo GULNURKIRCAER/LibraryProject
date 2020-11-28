@@ -23,40 +23,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bef2325e-99e1-4d33-90b9-3f450238d5e6" name="Default Changelist" comment="new Proje">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09_11_2020,_09_57_[Default_Changelist]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09_11_2020,_15_43_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09_11_2020,_15_45_[Default_Changelist]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09_11_2020,_15_47_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09_11_2020,_15_57_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09_11_2020,_16_00_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09_11_2020,_16_01_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09_11_2020__09_57__Default_Changelist_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09_11_2020__15_43__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09_11_2020__15_45__Default_Changelist_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09_11_2020__15_47__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09_11_2020__15_57__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09_11_2020__16_00__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09_11_2020__16_01__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_11_2020,_13_09_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_11_2020,_13_12_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_11_2020,_13_15_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_11_2020,_13_16_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_11_2020,_13_16_[Default_Changelist]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_11_2020,_13_26_[Default_Changelist]/DashboardPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_11_2020,_13_26_[Default_Changelist]/DashboardPageSepDef.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_11_2020,_13_26_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_11_2020,_17_58_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_11_2020,_19_35_[Default_Changelist]/DashboardPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_11_2020,_19_35_[Default_Changelist]/DashboardPageSepDef.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_11_2020,_19_35_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_11_2020,_20_56_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_11_2020__13_09__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_11_2020__13_12__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_11_2020__13_15__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_11_2020__13_16__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_11_2020__13_16__Default_Changelist_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_11_2020__13_26__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_11_2020__17_58__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_11_2020__19_35__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_11_2020__20_56__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_10_11_2020,_12_25_[Default_Changelist]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_10_11_2020,_13_09_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_10_11_2020,_18_12_[Default_Changelist]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_10_11_2020,_20_10_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_10_11_2020,_20_57_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_10_11_2020__12_25__Default_Changelist_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_10_11_2020__13_09__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_10_11_2020__18_12__Default_Changelist_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_10_11_2020__20_10__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_10_11_2020__20_57__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_11_2020_20_52_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_11_2020_20_52__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_09_11_2020,_09_58_[Default_Changelist]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_09_11_2020__09_58__Default_Changelist_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UserStory4_GULNUR.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UserStory4_GULNUR.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/UsersPageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Library/StepDefinitions/UsersPageStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UserStory4_GULNUR.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UserStory4_GULNUR_DONE.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UserStory5_YAVUZ.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UserStory5_YAVUZ_DONE.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/UserStory7_ZUHAL.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UserStory7_ZUHAL.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-html-reports/embedded0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-html-reports/formatter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-html-reports/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-html-reports/jquery-3.4.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-html-reports/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-html-reports/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rerun.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ZuhalsStepDefs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/Pages/BasePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/Pages/BooksPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/Pages/BorrowingBooksPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/Pages/DashboardPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/Pages/LoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/Pages/UsersPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/Runners/CukesRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/Runners/FailedTestRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/StepDefinitions/BooksPageStepDef.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/StepDefinitions/BorrowingBooksPageStepDef.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/StepDefinitions/DashboardPageSepDef.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/StepDefinitions/Hooks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/StepDefinitions/LoginPageStepDef.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/StepDefinitions/UsersPageStepDef.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/Utilities/BrowserUtils$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/Utilities/BrowserUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/Utilities/ConfigurationReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Library/Utilities/Driver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/UserStory4_GULNUR.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/UserStory5_YAVUZ.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/UserStory7_ZUHAL.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605049622136</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="new Proje">
+      <created>1605050616299</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605050616299</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,39 +292,47 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="494" y="308" key="Github.ShareDialog/0.0.1280.800@0.0.1280.800" timestamp="1604185452953" />
-    <state width="1238" height="196" key="GridCell.Tab.0.bottom" timestamp="1605050605419">
-      <screen x="0" y="23" width="1280" height="728" />
+    <state width="1238" height="229" key="GridCell.Tab.0.bottom" timestamp="1606592561108">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="196" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1605050605419" />
+    <state width="1238" height="229" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1606592561108" />
+    <state width="1238" height="196" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1605050633970" />
     <state width="1238" height="186" key="GridCell.Tab.0.bottom/0.23.1280.730@0.23.1280.730" timestamp="1605050067149" />
-    <state width="1238" height="196" key="GridCell.Tab.0.center" timestamp="1605050605418">
-      <screen x="0" y="23" width="1280" height="728" />
+    <state width="1238" height="229" key="GridCell.Tab.0.center" timestamp="1606592561107">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="196" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1605050605418" />
+    <state width="1238" height="229" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1606592561107" />
+    <state width="1238" height="196" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1605050633970" />
     <state width="1238" height="186" key="GridCell.Tab.0.center/0.23.1280.730@0.23.1280.730" timestamp="1605050067149" />
-    <state width="1238" height="196" key="GridCell.Tab.0.left" timestamp="1605050605418">
-      <screen x="0" y="23" width="1280" height="728" />
+    <state width="1238" height="229" key="GridCell.Tab.0.left" timestamp="1606592561107">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="196" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1605050605418" />
+    <state width="1238" height="229" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1606592561107" />
+    <state width="1238" height="196" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1605050633969" />
     <state width="1238" height="186" key="GridCell.Tab.0.left/0.23.1280.730@0.23.1280.730" timestamp="1605050067148" />
-    <state width="1238" height="196" key="GridCell.Tab.0.right" timestamp="1605050605419">
-      <screen x="0" y="23" width="1280" height="728" />
+    <state width="1238" height="229" key="GridCell.Tab.0.right" timestamp="1606592561108">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="196" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1605050605419" />
+    <state width="1238" height="229" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1606592561108" />
+    <state width="1238" height="196" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1605050633970" />
     <state width="1238" height="186" key="GridCell.Tab.0.right/0.23.1280.730@0.23.1280.730" timestamp="1605050067149" />
-    <state x="240" y="128" key="Vcs.Push.Dialog.v2" timestamp="1605049623646">
+    <state x="240" y="128" key="Vcs.Push.Dialog.v2" timestamp="1605050617823">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state x="240" y="128" key="Vcs.Push.Dialog.v2/0.23.1280.728@0.23.1280.728" timestamp="1605049623646" />
-    <state x="339" y="150" width="602" height="474" key="find.popup" timestamp="1605050092498">
-      <screen x="0" y="23" width="1280" height="728" />
+    <state x="240" y="128" key="Vcs.Push.Dialog.v2/0.23.1280.728@0.23.1280.728" timestamp="1605050617823" />
+    <state x="339" y="163" width="602" height="474" key="find.popup" timestamp="1606592514054">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="339" y="163" width="602" height="474" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1604183394410" />
+    <state x="339" y="163" width="602" height="474" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1606592514054" />
     <state x="339" y="171" width="602" height="474" key="find.popup/0.23.1280.727@0.23.1280.727" timestamp="1605014905437" />
     <state x="339" y="150" width="602" height="474" key="find.popup/0.23.1280.728@0.23.1280.728" timestamp="1605050092498" />
     <state x="393" y="133" key="git4idea.branch.GitSmartOperationDialog" timestamp="1605014785589">
       <screen x="0" y="23" width="1280" height="727" />
     </state>
     <state x="393" y="121" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.800@0.0.1280.800" timestamp="1604193061997" />
+    <state x="239" y="65" key="new project wizard" timestamp="1606395651454">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="239" y="65" key="new project wizard/0.0.1280.800@0.0.1280.800" timestamp="1606395651454" />
   </component>
 </project>

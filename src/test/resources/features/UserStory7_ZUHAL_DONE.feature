@@ -1,6 +1,6 @@
-
+@login
 Feature:As a student, I should be able to search books with different categories
-  @login
+
   Scenario: As a student, I should be able to search books with different categories
 
     Given the user is on the login page
