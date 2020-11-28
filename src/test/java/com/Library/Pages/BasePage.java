@@ -23,7 +23,7 @@ public abstract class BasePage {
     @FindBy(id = "navbarDropdown")
     public WebElement userName;
 
-    @FindBy(linkText = "Log out")
+    @FindBy(xpath = "//div/a[@class='dropdown-item']")
     public WebElement logOutLink;
 
     public BasePage() {

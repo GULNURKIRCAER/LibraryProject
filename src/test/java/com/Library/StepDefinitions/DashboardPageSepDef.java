@@ -36,14 +36,42 @@ public class DashboardPageSepDef {
         }
         Assert.assertEquals(menuOptions, columnsValues);
     }
-    @When("the user clicks on {string} module on the Library page")
+    @When("the user clicks on {string} module on the Dashboard page")
     public void the_user_clicks_on_module_on_the_Dashboard_page(String string) {
-        new DashboardPage().usersBtn.click();
+       if(string.equals("Users")) {
+           new DashboardPage().usersBtn.click();
+       }else  if(string.equals("Books")) {
+           new DashboardPage().booksBtn.click();
+       }else
         BrowserUtils.waitFor(3);
     }
     @Then("the Users Management page should be displayed")
     public void the_Users_Management_page_should_be_displayed() {
         Assert.assertTrue(new DashboardPage().subTitle.getText().equals("User Management"));
     }
+    @Then("the user should see following modules in Library page")
+    public void the_user_should_see_following_modules_in_Library_page(List<String> menuOptions) {
+        BrowserUtils.waitFor(2);
+
+        List<WebElement> actualOptions = Driver.get().findElements(By.xpath("//span[@class='title']"));
+        List<String> columnsValues = new ArrayList<>();
+        for (int i = 0; i < actualOptions.size(); ++i) {
+            columnsValues.add(actualOptions.get(i).getText());
+        }
+        Assert.assertEquals(menuOptions, columnsValues);
+    }
+    @Then("table should have following column names:")
+    public void table_should_have_following_column_names(List<String> menuOptions) {
+        BrowserUtils.waitFor(2);
+
+        List<WebElement> actualOptions = Driver.get().findElements(By.xpath("//thead/tr[@role='row']/th"));
+        List<String> columnsValues = new ArrayList<>();
+        for (int i = 0; i < actualOptions.size(); ++i) {
+            columnsValues.add(actualOptions.get(i).getText());
+        }
+        Assert.assertEquals(menuOptions, columnsValues);
+    }
+
+
 
 }

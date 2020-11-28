@@ -1,5 +1,6 @@
 package com.Library.StepDefinitions;
 
+import com.Library.Pages.DashboardPage;
 import com.Library.Pages.LoginPage;
 import com.Library.Utilities.BrowserUtils;
 import com.Library.Utilities.ConfigurationReader;
@@ -11,6 +12,8 @@ import org.junit.Assert;
 import org.junit.Ignore;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+
+import java.util.Map;
 
 public class LoginPageStepDef {
 
@@ -47,4 +50,45 @@ public class LoginPageStepDef {
             Assert.assertTrue(loginPage.alert.isDisplayed());
         }
     }
+    @When("the user logs in using following credentials")
+    public void the_user_logs_in_using_following_credentials(Map<String,String> userInfo) {
+
+        new LoginPage().login(userInfo.get("username"),userInfo.get("password"));//log in icin gerekli olanlar sadece
+
+        BrowserUtils.waitFor(3);
+        String actualPage = Driver.get().getCurrentUrl();//artik dashboard sayfasindayiz
+
+        String expectedPage = userInfo.get("title");
+
+        Assert.assertTrue(actualPage.contains(expectedPage));
+
+//        System.out.println("expectedPage = " + expectedPage);
+//        System.out.println("actualPage = " + actualPage);
+    }
+
+    @Then("the user should be able to login")
+    public void the_user_should_be_able_to_login() {
+        BrowserUtils.waitFor(3);
+
+        String actualTitle = Driver.get().getTitle();
+        Assert.assertEquals("Library",actualTitle);
+    }
+    @Then("the user should be able to logout")
+    public void the_user_should_be_able_to_logout() {
+
+        new DashboardPage().userName.click();
+        new DashboardPage().logOutLink.click();
+    }
+
+    @Then("the Login - Library page should be displayed")
+    public void the_Login_Library_page_should_be_displayed() {
+        BrowserUtils.waitFor(3);
+
+        String actualTitle = Driver.get().getTitle();
+        Assert.assertEquals("Login - Library",actualTitle);
+
+    }
+
+
+
 }

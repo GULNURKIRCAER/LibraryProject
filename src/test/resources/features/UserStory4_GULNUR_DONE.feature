@@ -17,7 +17,7 @@ Feature: A librarian should be able to add users from users page.
       | Books     |
 
   Scenario:A librarian should be able to create user.
-    When  the user clicks on "Users" module on the Library page
+    When  the user clicks on "Users" module on the Dashboard page
     Then  the Users Management page should be displayed
     When  the user clicks on "Add User" module on the User page
     And   creates User using following information
@@ -32,13 +32,13 @@ Feature: A librarian should be able to add users from users page.
     Then  message The user has been created. should be displayed
 
   Scenario:A librarian should be able to close the add user window with "close" button
-    When  the user clicks on "Users" module on the Library page
+    When  the user clicks on "Users" module on the Dashboard page
     Then  the Users Management page should be displayed
     When  the user clicks on "Add User" module on the User page
     And   the user should be able to close the add user window with close button
 
   Scenario:A librarian should be able to edit user info
-    When  the user clicks on "Users" module on the Library page
+    When  the user clicks on "Users" module on the Dashboard page
     Then  the Users Management page should be displayed
     Then the user should be able to click an user info in Users Page
     Then the user should be able to edit info in new window

@@ -5,7 +5,7 @@ Feature: A librarian should be able to see book records on user page
     Given the user is on the login page
     When  the user enters the "Librarian" information
     Then  the Library page should be displayed
-    When  the user clicks on "Users" module on the Library page
+    When  the user clicks on "Users" module on the Dashboard page
     Then  the Users Management page should be displayed
     And   the user should see 10 records on page
     And   the user should click records button

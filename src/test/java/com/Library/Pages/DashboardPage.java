@@ -9,6 +9,9 @@ public class DashboardPage extends BasePage {
     @FindBy(xpath = "(//span[@class='title'])[2]")
     public WebElement usersBtn;
 
+    @FindBy(xpath = "//span[text()='Books']")
+    public WebElement booksBtn;
+
     @FindBy(xpath = "//div[@class='portlet-title']/h3")
     public  WebElement subTitle;
 
