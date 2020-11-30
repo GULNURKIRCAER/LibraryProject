@@ -1,5 +1,6 @@
-Feature:As a user, I should be able to see tables with default info
 @login
+Feature:As a user, I should be able to see tables with default info
+
   Scenario Outline: login as a given user <role>
     Given the user is on the login page
     When the user logs in using following credentials

@@ -210,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606599931382</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="last version">
+      <created>1606759503092</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1606759503092</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -282,10 +289,10 @@
     <state width="1238" height="229" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1606599944553" />
     <state width="1238" height="196" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1605050633970" />
     <state width="1238" height="186" key="GridCell.Tab.0.right/0.23.1280.730@0.23.1280.730" timestamp="1605050067149" />
-    <state x="240" y="115" key="Vcs.Push.Dialog.v2" timestamp="1606599937159">
+    <state x="240" y="115" key="Vcs.Push.Dialog.v2" timestamp="1606759504445">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="115" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1606599937159" />
+    <state x="240" y="115" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1606759504445" />
     <state x="240" y="128" key="Vcs.Push.Dialog.v2/0.23.1280.728@0.23.1280.728" timestamp="1605050617823" />
     <state x="339" y="163" width="602" height="474" key="find.popup" timestamp="1606599492780">
       <screen x="0" y="0" width="1280" height="800" />

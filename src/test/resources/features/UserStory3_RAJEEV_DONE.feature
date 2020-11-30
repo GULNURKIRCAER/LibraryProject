@@ -1,6 +1,6 @@
-
-Feature: A Student should be able to see several modules once login.
 @login
+Feature: A Student should be able to see several modules once login.
+
   Background:
     Given the user is on the login page
     When  the user enters the "Student" information
