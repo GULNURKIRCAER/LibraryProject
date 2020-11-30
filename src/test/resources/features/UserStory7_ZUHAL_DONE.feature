@@ -1,4 +1,4 @@
-
+@login
 Feature:As a student, I should be able to search books with different categories
 
   Scenario: As a student, I should be able to search books with different categories
