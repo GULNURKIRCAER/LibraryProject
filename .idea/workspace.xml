@@ -22,7 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bef2325e-99e1-4d33-90b9-3f450238d5e6" name="Default Changelist" comment="last version">
+    <list default="true" id="bef2325e-99e1-4d33-90b9-3f450238d5e6" name="Default Changelist" comment="read me">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,12 +62,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.Library.Pages" />
       <recent name="com.Library.Runners" />
@@ -226,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606759663559</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="read me">
+      <created>1611659002521</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1611659002521</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -254,7 +265,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new Proje" />
     <MESSAGE value="last version" />
-    <option name="LAST_COMMIT_MESSAGE" value="last version" />
+    <MESSAGE value="read me" />
+    <option name="LAST_COMMIT_MESSAGE" value="read me" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1604787088378">
@@ -298,10 +310,10 @@
     <state width="1238" height="229" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1606599944553" />
     <state width="1238" height="196" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1605050633970" />
     <state width="1238" height="186" key="GridCell.Tab.0.right/0.23.1280.730@0.23.1280.730" timestamp="1605050067149" />
-    <state x="240" y="115" key="Vcs.Push.Dialog.v2" timestamp="1606759664852">
+    <state x="240" y="115" key="Vcs.Push.Dialog.v2" timestamp="1611659004707">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="115" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1606759664852" />
+    <state x="240" y="115" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1611659004707" />
     <state x="240" y="128" key="Vcs.Push.Dialog.v2/0.23.1280.728@0.23.1280.728" timestamp="1605050617823" />
     <state x="339" y="171" width="602" height="474" key="find.popup" timestamp="1610485152278">
       <screen x="0" y="23" width="1280" height="726" />
