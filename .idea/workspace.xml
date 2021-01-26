@@ -22,7 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bef2325e-99e1-4d33-90b9-3f450238d5e6" name="Default Changelist" comment="last version" />
+    <list default="true" id="bef2325e-99e1-4d33-90b9-3f450238d5e6" name="Default Changelist" comment="last version">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -217,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606759503092</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="last version">
+      <created>1606759663559</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1606759663559</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -289,15 +298,16 @@
     <state width="1238" height="229" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1606599944553" />
     <state width="1238" height="196" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1605050633970" />
     <state width="1238" height="186" key="GridCell.Tab.0.right/0.23.1280.730@0.23.1280.730" timestamp="1605050067149" />
-    <state x="240" y="115" key="Vcs.Push.Dialog.v2" timestamp="1606759504445">
+    <state x="240" y="115" key="Vcs.Push.Dialog.v2" timestamp="1606759664852">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="115" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1606759504445" />
+    <state x="240" y="115" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1606759664852" />
     <state x="240" y="128" key="Vcs.Push.Dialog.v2/0.23.1280.728@0.23.1280.728" timestamp="1605050617823" />
-    <state x="339" y="163" width="602" height="474" key="find.popup" timestamp="1606599492780">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="339" y="171" width="602" height="474" key="find.popup" timestamp="1610485152278">
+      <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state x="339" y="163" width="602" height="474" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1606599492780" />
+    <state x="339" y="163" width="602" height="474" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1608635218993" />
+    <state x="339" y="171" width="602" height="474" key="find.popup/0.23.1280.726@0.23.1280.726" timestamp="1610485152278" />
     <state x="339" y="171" width="602" height="474" key="find.popup/0.23.1280.727@0.23.1280.727" timestamp="1605014905437" />
     <state x="339" y="150" width="602" height="474" key="find.popup/0.23.1280.728@0.23.1280.728" timestamp="1605050092498" />
     <state x="393" y="133" key="git4idea.branch.GitSmartOperationDialog" timestamp="1605014785589">
